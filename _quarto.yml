@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "xxx' Project Lab"
+  navbar:
+    search: true
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Team Members
+        href: team.qmd
+      - text: Assignments
+        href: assignments.qmd
+      - text: Project
+        href: project.qmd
+
+
+            
+    tools:
+      - icon: github
+        href: https://github.com
+
+  sidebar:
+    - title: "Assignments"
+      style: "docked"
+      search: true
+      contents:
+        - assignments.qmd
+        - assignments/assignment-1.qmd
+        - assignments/assignment-2.qmd  
+        
+    - title: "Team"
+      style: "docked"
+      search: true
+      contents:
+        - team.qmd
+        - team/dusantadic.qmd
+        - team/edindzeko.qmd
+        - team/fred.qmd  
+        - team/szymanski.qmd  
+        
+        
+  page-navigation: true
+  back-to-top-navigation: true
+  page-footer:
+    center: "EMU Hacettepe MUY665 - 2023-2024 Bahar" 
+    border: true
+format:
+  html:
+    toc: true
+    toc-location: left
+    theme: 
+      light: simplex 
+      dark: cyborg
+    css: styles.css
+
+
+editor: visual
+

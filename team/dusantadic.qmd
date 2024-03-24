@@ -1,0 +1,9 @@
+---
+title: "Dusan Tadic"
+---
+
+# Assignment 2
+
+```{r}
+1 + 1
+```

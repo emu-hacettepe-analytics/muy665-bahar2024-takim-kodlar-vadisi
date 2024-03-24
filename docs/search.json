@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Team XXX",
+    "section": "",
+    "text": "This is our project webpage.\nPlease stay tuned to follow our project activities.\n\nTeam Members\n\nEdin_Džeko\nDušan Tadić\nFrederico Rodrigues de Paula Santos\nSebastian Szymański\n\n\n\nProject Overview and Scope\n\n\nKey Takeaways\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "teammembers/volkansonmez.html",
+    "href": "teammembers/volkansonmez.html",
+    "title": "Assignment 2",
+    "section": "",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Team Members",
+    "section": "",
+    "text": "Use left menu to see the detailed CVs of our Team Members.\n\nTeam Members\n\nEdin_Džeko\nDušan Tadić\nFrederico Rodrigues de Paula Santos\nSebastian Szymański\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Team Members"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-2.html",
+    "href": "assignments/assignment-2.html",
+    "title": "Assignment 2",
+    "section": "",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Assignment 2"
+    ]
+  },
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Analysis",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "assignments/assignment-1.html",
+    "href": "assignments/assignment-1.html",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts.",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "Data source: xxx\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "teammembers/erdidasdemir.html",
+    "href": "teammembers/erdidasdemir.html",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts."
+  },
+  {
+    "objectID": "team/volkansonmez.html",
+    "href": "team/volkansonmez.html",
+    "title": "Assignment 2",
+    "section": "",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Project Team",
+      "Assignment 2"
+    ]
+  },
+  {
+    "objectID": "team/erdidasdemir.html",
+    "href": "team/erdidasdemir.html",
+    "title": "Erdi Dasdemir",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts.",
+    "crumbs": [
+      "Team Members",
+      "Erdi Dasdemir"
+    ]
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "My Assignments",
+    "section": "",
+    "text": "On this page, I showcase the assignment I conducted for the [term and year, e.g. Spring 2024] EMU660 Decision Making with Analytics course.\nPlease use left menu to navigate through my assignments.\n\n\n\n Back to top",
+    "crumbs": [
+      "Assignments",
+      "My Assignments"
+    ]
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Project X",
+    "section": "",
+    "text": "Welcome to my project page.\nKeep an eye on this space to stay updated with my project activities.\n(The titles below are provided as examples; please feel free to adjust them as necessary.)"
+  },
+  {
+    "objectID": "project.html#data-source",
+    "href": "project.html#data-source",
+    "title": "Project X",
+    "section": "2.1 Data Source",
+    "text": "2.1 Data Source\nxxxxxx"
+  },
+  {
+    "objectID": "project.html#general-information-about-data",
+    "href": "project.html#general-information-about-data",
+    "title": "Project X",
+    "section": "2.2 General Information About Data",
+    "text": "2.2 General Information About Data\nxxxxxx"
+  },
+  {
+    "objectID": "project.html#reason-of-choice",
+    "href": "project.html#reason-of-choice",
+    "title": "Project X",
+    "section": "2.3 Reason of Choice",
+    "text": "2.3 Reason of Choice\nxxxxxx"
+  },
+  {
+    "objectID": "project.html#preprocessing",
+    "href": "project.html#preprocessing",
+    "title": "Project X",
+    "section": "2.4 Preprocessing",
+    "text": "2.4 Preprocessing\nxxxxxx"
+  },
+  {
+    "objectID": "project.html#exploratory-data-analysis",
+    "href": "project.html#exploratory-data-analysis",
+    "title": "Project X",
+    "section": "3.1 Exploratory Data Analysis",
+    "text": "3.1 Exploratory Data Analysis\nxxxxxx"
+  },
+  {
+    "objectID": "project.html#trend-analysis",
+    "href": "project.html#trend-analysis",
+    "title": "Project X",
+    "section": "3.2 Trend Analysis",
+    "text": "3.2 Trend Analysis\nxxxxxx"
+  },
+  {
+    "objectID": "project.html#model-fitting",
+    "href": "project.html#model-fitting",
+    "title": "Project X",
+    "section": "3.3 Model Fitting",
+    "text": "3.3 Model Fitting\nxxxxxx"
+  },
+  {
+    "objectID": "project.html#results",
+    "href": "project.html#results",
+    "title": "Project X",
+    "section": "3.4 Results",
+    "text": "3.4 Results\nxxxxxx"
+  },
+  {
+    "objectID": "team/szymanski.html",
+    "href": "team/szymanski.html",
+    "title": "Sebastian Szymański",
+    "section": "",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "team/edindzeko.html",
+    "href": "team/edindzeko.html",
+    "title": "Edin_Džeko",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts."
+  },
+  {
+    "objectID": "team/dusantadic.html",
+    "href": "team/dusantadic.html",
+    "title": "Dusan Tadic",
+    "section": "",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "team/fred.html",
+    "href": "team/fred.html",
+    "title": "Frederico Rodrigues",
+    "section": "",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top"
+  }
+]

@@ -1,0 +1,9 @@
+---
+title: "Sebastian Szymański"
+---
+
+# Assignment 2
+
+```{r}
+1 + 1
+```

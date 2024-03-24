@@ -1,0 +1,9 @@
+---
+title: "Frederico Rodrigues"
+---
+
+# Assignment 2
+
+```{r}
+1 + 1
+```
