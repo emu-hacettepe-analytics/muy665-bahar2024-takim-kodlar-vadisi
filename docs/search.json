@@ -1,0 +1,554 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Takım: XXX",
+    "section": "",
+    "text": "MUY660-İş Analitiği dersi takım sayfamıza hoş geldiniz.\nBu analitik çalışmalarımızı paylaşıyoruz.\nLütfen faaliyetlerimizi görmek için için bizi takipte kalın."
+  },
+  {
+    "objectID": "teammembers/volkansonmez.html",
+    "href": "teammembers/volkansonmez.html",
+    "title": "Assignment 2",
+    "section": "",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Takım Üyeleri",
+    "section": "",
+    "text": "Use left menu to see the detailed CVs of our Team Members.\n\nTeam Members\n\nEdin_Džeko\nDušan Tadić\nFrederico Rodrigues de Paula Santos\nSebastian Szymański\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Team Members",
+      "Takım Üyeleri"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-2.html",
+    "href": "assignments/assignment-2.html",
+    "title": "Assignment 2",
+    "section": "",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Assignment 2"
+    ]
+  },
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Analysis",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "assignments/assignment-1.html",
+    "href": "assignments/assignment-1.html",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts.",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "Data source: xxx\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "teammembers/erdidasdemir.html",
+    "href": "teammembers/erdidasdemir.html",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts."
+  },
+  {
+    "objectID": "team/volkansonmez.html",
+    "href": "team/volkansonmez.html",
+    "title": "Assignment 2",
+    "section": "",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Project Team",
+      "Assignment 2"
+    ]
+  },
+  {
+    "objectID": "team/erdidasdemir.html",
+    "href": "team/erdidasdemir.html",
+    "title": "Erdi Dasdemir",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts.",
+    "crumbs": [
+      "Team Members",
+      "Erdi Dasdemir"
+    ]
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "My Assignments",
+    "section": "",
+    "text": "On this page, I showcase the assignment I conducted for the [term and year, e.g. Spring 2024] EMU660 Decision Making with Analytics course.\nPlease use left menu to navigate through my assignments.\n\n\n\n Back to top",
+    "crumbs": [
+      "Assignments",
+      "My Assignments"
+    ]
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Project X",
+    "section": "",
+    "text": "Welcome to my project page.\nKeep an eye on this space to stay updated with my project activities.\n(The titles below are provided as examples; please feel free to adjust them as necessary.)"
+  },
+  {
+    "objectID": "project.html#data-source",
+    "href": "project.html#data-source",
+    "title": "Project X",
+    "section": "2.1 Data Source",
+    "text": "2.1 Data Source\nxxxxxx"
+  },
+  {
+    "objectID": "project.html#general-information-about-data",
+    "href": "project.html#general-information-about-data",
+    "title": "Project X",
+    "section": "2.2 General Information About Data",
+    "text": "2.2 General Information About Data\nxxxxxx"
+  },
+  {
+    "objectID": "project.html#reason-of-choice",
+    "href": "project.html#reason-of-choice",
+    "title": "Project X",
+    "section": "2.3 Reason of Choice",
+    "text": "2.3 Reason of Choice\nxxxxxx"
+  },
+  {
+    "objectID": "project.html#preprocessing",
+    "href": "project.html#preprocessing",
+    "title": "Project X",
+    "section": "2.4 Preprocessing",
+    "text": "2.4 Preprocessing\nxxxxxx"
+  },
+  {
+    "objectID": "project.html#exploratory-data-analysis",
+    "href": "project.html#exploratory-data-analysis",
+    "title": "Project X",
+    "section": "3.1 Exploratory Data Analysis",
+    "text": "3.1 Exploratory Data Analysis\nxxxxxx"
+  },
+  {
+    "objectID": "project.html#trend-analysis",
+    "href": "project.html#trend-analysis",
+    "title": "Project X",
+    "section": "3.2 Trend Analysis",
+    "text": "3.2 Trend Analysis\nxxxxxx"
+  },
+  {
+    "objectID": "project.html#model-fitting",
+    "href": "project.html#model-fitting",
+    "title": "Project X",
+    "section": "3.3 Model Fitting",
+    "text": "3.3 Model Fitting\nxxxxxx"
+  },
+  {
+    "objectID": "project.html#results",
+    "href": "project.html#results",
+    "title": "Project X",
+    "section": "3.4 Results",
+    "text": "3.4 Results\nxxxxxx"
+  },
+  {
+    "objectID": "team/szymanski.html",
+    "href": "team/szymanski.html",
+    "title": "Sebastian Szymański",
+    "section": "",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "team/edindzeko.html",
+    "href": "team/edindzeko.html",
+    "title": "Edin_Džeko",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts."
+  },
+  {
+    "objectID": "team/dusantadic.html",
+    "href": "team/dusantadic.html",
+    "title": "Dusan Tadic",
+    "section": "",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "team/fred.html",
+    "href": "team/fred.html",
+    "title": "Frederico Rodrigues",
+    "section": "",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html#proje-adı",
+    "href": "index.html#proje-adı",
+    "title": "Takım: XXX",
+    "section": "Proje Adı",
+    "text": "Proje Adı\nMUY660-İş Analitiği iyileştirme çalışmaları (örnek)"
+  },
+  {
+    "objectID": "index.html#proje-konusu",
+    "href": "index.html#proje-konusu",
+    "title": "Takım: XXX",
+    "section": "Proje Konusu",
+    "text": "Proje Konusu\nÖrnek: Bu projede MUY660-İş Analitiği ders içeriğinin analitik yaklaşımlarla iyileştirilmesini hedefledik. Bu doğrultuda tüm üniversitelerdeki benzer derslerin verisini toplayarak bir veri seti oluşturduk Analiz için …….. yöntemleri kullanarak, ……. çalışmaları yaptık Sonuç olarak, MUY660-İş Analitiği dersinin dünyadaki tüm derslerden daha iyi olduğunu ve bu dersi aldığımız için çok mutlu olduğumuzu tespit ettik."
+  },
+  {
+    "objectID": "index.html#veri-seti-hakkında-özet-bilgi",
+    "href": "index.html#veri-seti-hakkında-özet-bilgi",
+    "title": "Takım: XXX",
+    "section": "Veri Seti Hakkında Özet Bilgi",
+    "text": "Veri Seti Hakkında Özet Bilgi"
+  },
+  {
+    "objectID": "index.html#sonuçlar",
+    "href": "index.html#sonuçlar",
+    "title": "Takım: XXX",
+    "section": "Sonuçlar",
+    "text": "Sonuçlar\nBurada key takeways verilmelidir. En az 3 en fazla 5 madde ile çarpıcı sonuçlar sunulmalıdır."
+  },
+  {
+    "objectID": "index.html#takım-üyeleri",
+    "href": "index.html#takım-üyeleri",
+    "title": "Takım: XXX",
+    "section": "Takım Üyeleri",
+    "text": "Takım Üyeleri\n\nEdin_Džeko\nDušan Tadić\nFrederico Rodrigues de Paula Santos\nSebastian Szymański"
+  },
+  {
+    "objectID": "portfolyo.html",
+    "href": "portfolyo.html",
+    "title": "Portfolyo",
+    "section": "",
+    "text": "Bu sayfada, MUY665 İş Analitiği dersi 2023-2024 bahar dönemi boyunca yaptığımız analitik çalışmalarını sunmaktayız. Çalışmalarımıza sol menüden ulaşabilirsiniz.\n\n\n\n Back to top",
+    "crumbs": [
+      "Porfolyo",
+      "Portfolyo"
+    ]
+  },
+  {
+    "objectID": "takim.html",
+    "href": "takim.html",
+    "title": "Takım Üyeleri",
+    "section": "",
+    "text": "Takım Üyelerimizin detaylı özgemişlerinin yer aldığı kişisel sayfalarına gitmek için sol menüyü veya aşağıdaki linkleri kullanabilirsiniz.\n\nTakım Üyeleri\n\nEdin_Džeko\nDušan Tadić\nFrederico Rodrigues de Paula Santos\nSebastian Szymański\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Takım Üyeleri"
+    ]
+  },
+  {
+    "objectID": "proje.html",
+    "href": "proje.html",
+    "title": "Proje X (proje adını yazınız)",
+    "section": "",
+    "text": "Proje sayfamıza hoş geldiniz.\nProjemizle ilgili güncellemelerden haberdar olmak için bu alanı takip edin.\n(Aşağıdaki başlıklar örnek olarak verilmiştir; lütfen gerektiği şekilde düzenlemekten çekinmeyin.)"
+  },
+  {
+    "objectID": "proje.html#data-source",
+    "href": "proje.html#data-source",
+    "title": "Proje X",
+    "section": "2.1 Data Source",
+    "text": "2.1 Data Source\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#general-information-about-data",
+    "href": "proje.html#general-information-about-data",
+    "title": "Proje X",
+    "section": "2.2 General Information About Data",
+    "text": "2.2 General Information About Data\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#reason-of-choice",
+    "href": "proje.html#reason-of-choice",
+    "title": "Proje X",
+    "section": "2.3 Reason of Choice",
+    "text": "2.3 Reason of Choice\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#preprocessing",
+    "href": "proje.html#preprocessing",
+    "title": "Proje X",
+    "section": "2.4 Preprocessing",
+    "text": "2.4 Preprocessing\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#exploratory-data-analysis",
+    "href": "proje.html#exploratory-data-analysis",
+    "title": "Proje X",
+    "section": "3.1 Exploratory Data Analysis",
+    "text": "3.1 Exploratory Data Analysis\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#trend-analysis",
+    "href": "proje.html#trend-analysis",
+    "title": "Proje X",
+    "section": "3.2 Trend Analysis",
+    "text": "3.2 Trend Analysis\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#model-fitting",
+    "href": "proje.html#model-fitting",
+    "title": "Proje X",
+    "section": "3.3 Model Fitting",
+    "text": "3.3 Model Fitting\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#results",
+    "href": "proje.html#results",
+    "title": "Proje X",
+    "section": "3.4 Results",
+    "text": "3.4 Results\nxxxxxx"
+  },
+  {
+    "objectID": "portfolyo/calisma2.html",
+    "href": "portfolyo/calisma2.html",
+    "title": "Çalışma 2",
+    "section": "",
+    "text": "(Aşağıdakiler örnek olarak verilmiştir.)\nBu çalışmada 3 görevimiz var. Bu görevler….. Bunlara sırayla aşağıda cevap arıyoruz.",
+    "crumbs": [
+      "Porfolyo",
+      "Çalışma 2"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma1.html",
+    "href": "portfolyo/calisma1.html",
+    "title": "Çalışma 1",
+    "section": "",
+    "text": "(Aşağıdakiler örnek olarak verilmiştir.)\nBu çalışmada 3 görevimiz var. Bu görevler….. Bunlara sırayla aşağıda cevap arıyoruz.",
+    "crumbs": [
+      "Porfolyo",
+      "Çalışma 1"
+    ]
+  },
+  {
+    "objectID": "proje.html#veri-kaynağı",
+    "href": "proje.html#veri-kaynağı",
+    "title": "Proje X (proje adını yazınız)",
+    "section": "2.1 Veri Kaynağı",
+    "text": "2.1 Veri Kaynağı\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#veri-hakkında-genel-bilgiler",
+    "href": "proje.html#veri-hakkında-genel-bilgiler",
+    "title": "Proje X (proje adını yazınız)",
+    "section": "2.2 Veri Hakkında Genel Bilgiler",
+    "text": "2.2 Veri Hakkında Genel Bilgiler\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#tercih-sebebi",
+    "href": "proje.html#tercih-sebebi",
+    "title": "Proje X (proje adını yazınız)",
+    "section": "2.3 Tercih Sebebi",
+    "text": "2.3 Tercih Sebebi\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#ön-işleme",
+    "href": "proje.html#ön-işleme",
+    "title": "Proje X (proje adını yazınız)",
+    "section": "2.4 Ön İşleme",
+    "text": "2.4 Ön İşleme\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#keşifsel-veri-analizi",
+    "href": "proje.html#keşifsel-veri-analizi",
+    "title": "Proje X (proje adını yazınız)",
+    "section": "3.1 Keşifsel Veri Analizi",
+    "text": "3.1 Keşifsel Veri Analizi\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#trend-analizi",
+    "href": "proje.html#trend-analizi",
+    "title": "Proje X (proje adını yazınız)",
+    "section": "3.2 Trend Analizi",
+    "text": "3.2 Trend Analizi\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#model-uydurma",
+    "href": "proje.html#model-uydurma",
+    "title": "Proje X (proje adını yazınız)",
+    "section": "3.3 Model Uydurma",
+    "text": "3.3 Model Uydurma\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#sonuçlar",
+    "href": "proje.html#sonuçlar",
+    "title": "Proje X (proje adını yazınız)",
+    "section": "3.4 Sonuçlar",
+    "text": "3.4 Sonuçlar\nxxxxxx"
+  },
+  {
+    "objectID": "portfolyo/calisma1.html#a",
+    "href": "portfolyo/calisma1.html#a",
+    "title": "Çalışma 1",
+    "section": "(a)",
+    "text": "(a)\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Porfolyo",
+      "Çalışma 1"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma2.html#a",
+    "href": "portfolyo/calisma2.html#a",
+    "title": "Çalışma 2",
+    "section": "(a)",
+    "text": "(a)\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Porfolyo",
+      "Çalışma 2"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma2.html#b",
+    "href": "portfolyo/calisma2.html#b",
+    "title": "Çalışma 2",
+    "section": "(b)",
+    "text": "(b)",
+    "crumbs": [
+      "Porfolyo",
+      "Çalışma 2"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma1.html#b",
+    "href": "portfolyo/calisma1.html#b",
+    "title": "Çalışma 1",
+    "section": "(b)",
+    "text": "(b)",
+    "crumbs": [
+      "Porfolyo",
+      "Çalışma 1"
+    ]
+  },
+  {
+    "objectID": "takim/dusantadic.html",
+    "href": "takim/dusantadic.html",
+    "title": "Dusan Tadic",
+    "section": "",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Dusan Tadic"
+    ]
+  },
+  {
+    "objectID": "takim/szymanski.html#employements",
+    "href": "takim/szymanski.html#employements",
+    "title": "Sebastian Szymański",
+    "section": "Employements",
+    "text": "Employements\n\nFirm xxx, position xx, year xxx\nFirm yyy, position yyy, year yyy",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Sebastian Szymański"
+    ]
+  },
+  {
+    "objectID": "takim/szymanski.html#internships",
+    "href": "takim/szymanski.html#internships",
+    "title": "Sebastian Szymański",
+    "section": "Internships",
+    "text": "Internships\n\nFirm aaa, position xx, year xxx\nFirm bbb, position yyy, year yyy",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Sebastian Szymański"
+    ]
+  },
+  {
+    "objectID": "takim/szymanski.html#işler",
+    "href": "takim/szymanski.html#işler",
+    "title": "Sebastian Szymański",
+    "section": "İşler",
+    "text": "İşler\n\nFirma xxx, pozisyon xx, yıl xxx\nFirma yyy, pozisyon yyy, yıl yyy",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Sebastian Szymański"
+    ]
+  },
+  {
+    "objectID": "takim/szymanski.html#stajlar",
+    "href": "takim/szymanski.html#stajlar",
+    "title": "Sebastian Szymański",
+    "section": "Stajlar",
+    "text": "Stajlar\n\nFirma aaa, pozisyon xx, yıl xxx\nFirma bbb, pozisyon yyy, yıl yyy",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Sebastian Szymański"
+    ]
+  },
+  {
+    "objectID": "takim/edindzeko.html#işler",
+    "href": "takim/edindzeko.html#işler",
+    "title": "Edin_Džeko",
+    "section": "İşler",
+    "text": "İşler\n\nFirma xxx, pozisyon xx, yıl xxx\nFirma yyy, pozisyon yyy, yıl yyy",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Edin_Džeko"
+    ]
+  },
+  {
+    "objectID": "takim/edindzeko.html#stajlar",
+    "href": "takim/edindzeko.html#stajlar",
+    "title": "Edin_Džeko",
+    "section": "Stajlar",
+    "text": "Stajlar\n\nFirma aaa, pozisyon xx, yıl xxx\nFirma bbb, pozisyon yyy, yıl yyy",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Edin_Džeko"
+    ]
+  },
+  {
+    "objectID": "takim/fred.html#işler",
+    "href": "takim/fred.html#işler",
+    "title": "Frederico Rodrigues",
+    "section": "İşler",
+    "text": "İşler\n\nFirma xxx, pozisyon xx, yıl xxx\nFirma yyy, pozisyon yyy, yıl yyy",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Frederico Rodrigues"
+    ]
+  },
+  {
+    "objectID": "takim/fred.html#stajlar",
+    "href": "takim/fred.html#stajlar",
+    "title": "Frederico Rodrigues",
+    "section": "Stajlar",
+    "text": "Stajlar\n\nFirma aaa, pozisyon xx, yıl xxx\nFirma bbb, pozisyon yyy, yıl yyy",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Frederico Rodrigues"
+    ]
+  },
+  {
+    "objectID": "takim/dusantadic.html#işler",
+    "href": "takim/dusantadic.html#işler",
+    "title": "Dusan Tadic",
+    "section": "İşler",
+    "text": "İşler\n\nFirma xxx, pozisyon xx, yıl xxx\nFirma yyy, pozisyon yyy, yıl yyy",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Dusan Tadic"
+    ]
+  },
+  {
+    "objectID": "takim/dusantadic.html#stajlar",
+    "href": "takim/dusantadic.html#stajlar",
+    "title": "Dusan Tadic",
+    "section": "Stajlar",
+    "text": "Stajlar\n\nFirma aaa, pozisyon xx, yıl xxx\nFirma bbb, pozisyon yyy, yıl yyy",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Dusan Tadic"
+    ]
+  }
+]

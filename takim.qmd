@@ -1,0 +1,15 @@
+---
+title: "Takım Üyeleri"
+---
+
+Takım Üyelerimizin detaylı özgemişlerinin yer aldığı kişisel sayfalarına gitmek için sol menüyü veya aşağıdaki linkleri kullanabilirsiniz.
+
+# Takım Üyeleri
+
+1.  [Edin_Džeko](/takim/edindzeko.qmd)
+
+2.  [Dušan Tadić](/takim/dusantadic.qmd)
+
+3.  [Frederico Rodrigues de Paula Santos](/takim/fred.qmd)
+
+4.  [Sebastian Szymański](/takim/szymanski.qmd)

@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "XX Takımı Analitik Labı"
+  navbar:
+    search: true
+    left:
+      - text: Ana Sayfa
+        href: index.qmd
+      - text: Takım Üyeleri
+        href: takim.qmd
+      - text: Porfolyo
+        href: portfolyo.qmd
+      - text: Proje
+        href: proje.qmd
+
+
+            
+    tools:
+      - icon: github
+        href: https://github.com
+
+  sidebar:
+    - title: "Çalışmalar"
+      style: "docked"
+      search: true
+      contents:
+        - portfolyo.qmd
+        - portfolyo/calisma1.qmd
+        - portfolyo/calisma2.qmd  
+        
+    - title: "Takım"
+      style: "docked"
+      search: true
+      contents:
+        - takim.qmd
+        - takim/dusantadic.qmd
+        - takim/edindzeko.qmd
+        - takim/fred.qmd  
+        - takim/szymanski.qmd  
+        
+        
+  page-navigation: true
+  back-to-top-navigation: true
+  page-footer:
+    center: "EMU Hacettepe MUY665 - 2023-2024 Bahar" 
+    border: true
+format:
+  html:
+    toc: true
+    toc-location: left
+    theme: 
+      light: simplex 
+      dark: cyborg
+    css: styles.css
+
+
+editor: visual
+

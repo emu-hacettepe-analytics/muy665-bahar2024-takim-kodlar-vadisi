@@ -1,0 +1,59 @@
+---
+title: "Proje X (proje adını yazınız)"
+number-sections: true
+---
+
+**Proje sayfamıza hoş geldiniz.**
+
+_Projemizle ilgili güncellemelerden haberdar olmak için bu alanı takip edin._
+
+(Aşağıdaki başlıklar örnek olarak verilmiştir; lütfen gerektiği şekilde düzenlemekten çekinmeyin.)
+
+
+# Proje Genel Bakış ve Kapsamı
+
+xxxxxx
+
+# Veri
+
+xxxxxx
+
+## Veri Kaynağı
+
+xxxxxx
+
+## Veri Hakkında Genel Bilgiler
+
+xxxxxx
+
+## Tercih Sebebi
+
+xxxxxx
+
+## Ön İşleme
+
+xxxxxx
+
+# Analiz
+
+xxxxxx
+
+## Keşifsel Veri Analizi
+
+xxxxxx
+
+## Trend Analizi
+
+xxxxxx
+
+## Model Uydurma
+
+xxxxxx
+
+## Sonuçlar
+
+xxxxxx
+
+# Sonuçlar ve Ana Çıkarımlar
+
+xxxxxx
