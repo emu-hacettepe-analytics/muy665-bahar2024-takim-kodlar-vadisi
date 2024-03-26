@@ -6,36 +6,51 @@ title: "Yasin ULUÇAM"
 
 # Eğitim
 
--   Lisans, Makine Mühendisliği, Gazi Üniversitesi, Türkiye, 2009 - 2013.
--   Yüksek Lisans, Kalite ve Uygunluk Değerlendirme Mühendisliği, Hacettepe Üniversitesi, Türkiye, 2024 - Devam ediyor.
+- Yüksek Lisans, Kalite ve Uygunluk Değerlendirme Mühendisliği, Hacettepe Üniversitesi, Ankara, 2024 - Devam ediyor.
+
+-Lisans, Makine Mühendisliği, Gazi Üniversitesi, Ankara, 2009 - 2013
+
+-Lise, Fen Bilimleri, Ümitköy Anadolu Lisesi, Ankara, 2004-2008
+
+
 
 # İş Deneyimi
 
 ## İşler
 
 1.  Savunma Sanayii Başkanlığı, Proje Mühendisi, 14.07.2017- Halen
+
 Alçak ve çok alçak irtifa nokta hava savunma sistemi projelerinde proje sorumlusu/üyesi olarak görev yapmaktayım. Sözleşme yönetimi ve proje yönetimi faaliyetlerini yürütmekteyim.
 
 2.  Makine ve Kimya Endüstrisi A.Ş, Kalite Güvence Mühendisi, 25.01.2015-12.07.2017,
+
 Montaj ve son kontrol kalite birimlerinden sorumlu olarak görev yaptım. Ayrıca atışlı/atışsız saha testlerinin planlanması ve icra edilmesi faaliyetlerini de yürüttüm.
 
-## Stajlar
-
 # Projeler
+Çeşitli alçak irtifa ve çok alçak irtifa hava savunma sistemi projeleri
 
 # Eğitimler
-1.Savunma Sanayii Akademi, Tedarik Uzmanı Geliştirme Programı İleri Seviye Eğitimler (Sistem Mühendisliği Eğitimi), Ankara, Kasım 2022,
+
+1.Savunma Sanayii Akademi, Tedarik Uzmanı Geliştirme Programı İleri Seviye Eğitimler (Sistem Mühendisliği Eğitimleri), Ankara, Kasım 2022,
+
 2.TS ISO 31000:2018 Risk Yönetimi Temel Eğitimi, Türk Standartları Enstitüsü, Ankara, Şubat 2022
+
 3.EFQM Değerlendirici-EAT Eğitimi,KalDer Akademi, Ankara Şubat 2021
-4.Havacılık ve Uzay Kalite Yönetim Sistemleri İç Tetkikçi Eğitimi (AS 9100	Rev D:2016/JISQ 9100:2016/KSQ 9100:2018/EN 9100:2018), BSI Eğitim Akademisi, Ankara, Ocak 2021
+
+4.Havacılık ve Uzay Kalite Yönetim Sistemleri İç Tetkikçi Eğitimi (AS 9100 Rev D:2016/JISQ 9100:2016/KSQ 9100:2018/EN 9100:2018), BSI Eğitim Akademisi, Ankara, Ocak 2021
+
 5.ISO/IEC 27001:2013 Bilgi Güvenliği Yönetim Sistemi İç Tetkikçi Eğitimi, BSI Eğitim Akademisi, Ankara, Aralık 2020
+
 6.ISO 9001:2015/ISO 14001:2015/ISO 45001:2018 EYS İç Tetkikçi Eğitimi, BSI Eğitim Akademisi, Ankara, Kasım 2020,
 
 # Yetkinlikler
 
-1.Proje Yönetimi, Sözleşme Yönetimi, Test Planlama, Liderlik, Takım Çalışması, Problem Çözme,
-2.MS Project, MS Office Uygulamaları, R, Quarto, Git,
-3. Yabancı Dil: İngilizce – Profesyonel Çalışma Yetkinliği, Arapça- Başlangıç-Orta Seviye
+1.Proje Yönetimi, Sözleşme Yönetimi, Test Planlama, Test Yönetimi, Risk Yönetimi, Liderlik, Takım Çalışması, Problem Çözme,
+
+2.MS Project, MS Office Uygulamaları,  R, Quarto, Git,
+
+3.Yabancı Dil: İngilizce – Profesyonel Çalışma Yetkinliği, Arapça- Başlangıç-Orta Seviye
 
 # Hobiler
-Kamp yapmak, doğa yürüyüşü, snowboard/kayak, yüzme
+
+Kamp yapmak, doğa yürüyüşü, snowboard/kayak, yüzme, satranç
