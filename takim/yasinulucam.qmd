@@ -6,13 +6,11 @@ title: "Yasin ULUÇAM"
 
 # Eğitim
 
-- Yüksek Lisans, Kalite ve Uygunluk Değerlendirme Mühendisliği, Hacettepe Üniversitesi, Ankara, 2024 - Devam ediyor.
+-   Yüksek Lisans, Kalite ve Uygunluk Değerlendirme Mühendisliği, Hacettepe Üniversitesi, Ankara, 2024 - Devam ediyor.
 
--Lisans, Makine Mühendisliği, Gazi Üniversitesi, Ankara, 2009 - 2013
+-   Lisans, Makine Mühendisliği, Gazi Üniversitesi, Ankara, 2009 - 2013
 
--Lise, Fen Bilimleri, Ümitköy Anadolu Lisesi, Ankara, 2004-2008
-
-
+-   Lise, Fen Bilimleri, Ümitköy Anadolu Lisesi, Ankara, 2004-2008
 
 # İş Deneyimi
 
@@ -27,6 +25,7 @@ Alçak ve çok alçak irtifa nokta hava savunma sistemi projelerinde proje sorum
 Montaj ve son kontrol kalite birimlerinden sorumlu olarak görev yaptım. Ayrıca atışlı/atışsız saha testlerinin planlanması ve icra edilmesi faaliyetlerini de yürüttüm.
 
 # Projeler
+
 Çeşitli alçak irtifa ve çok alçak irtifa hava savunma sistemi projeleri
 
 # Eğitimler
@@ -47,7 +46,7 @@ Montaj ve son kontrol kalite birimlerinden sorumlu olarak görev yaptım. Ayrıc
 
 1.Proje Yönetimi, Sözleşme Yönetimi, Test Planlama, Test Yönetimi, Risk Yönetimi, Liderlik, Takım Çalışması, Problem Çözme,
 
-2.MS Project, MS Office Uygulamaları,  R, Quarto, Git,
+2.MS Project, MS Office Uygulamaları, R, Quarto, Git,
 
 3.Yabancı Dil: İngilizce – Profesyonel Çalışma Yetkinliği, Arapça- Başlangıç-Orta Seviye
 
