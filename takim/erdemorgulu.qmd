@@ -1,0 +1,78 @@
+---
+title: "Erdem ÖRGÜLÜ"
+---
+
+![](images/foto.jpg){fig-align="center" width="197"}
+
+# Eğitim
+
+-   **Lise,** Aydın Adnan Menderes Anadolu Lisesi,
+
+    2009-2013
+
+-   **Lisans,** Uzay Mühendisliği, İstanbul Teknik Üniversitesi,
+
+    2013 - 2018
+
+-   **Yüksek Lisans,** Kalite ve Uygunluk Değerlendirme Mühendisliği, Hacettepe Üniversitesi,
+
+    2024 - devam ediyor.
+
+# İş Deneyimi
+
+## İşler
+
+-   Türk Hava Yolları A.O., Uçuş Emniyet Mühendisi, İstanbul,
+
+    Ekim 2018-Haziran 2021
+
+-   Türk Havacılık ve Uzay Sanayii A.Ş., Emniyet Yönetim Sistem Mühendisi, Ankara,
+
+    Haziran 2021- Devam ediyor
+
+## Stajlar/Yaz İşleri
+
+-   TEI- Tusaş Motor Sanayii A.Ş., Stajyer Mühendis, Temmuz 2018
+
+-   Alp Havacılık., Stajyer Mühendis, Ağustos 2018
+
+-   Atlantique Holiday Club, Fotoğrafçılık (yaz işi), Haziran 2015- Eylül 2015
+
+-   Ege Ports, Welcome Desk Çalışanı (yaz işi), Haziran 2011- Eylül 2012
+
+# Eğitimler
+
+-   AS9100:2016 (Rev.D) Quality Management Systems- Requirements for Aviation Maintenance Organizations Awareness & Internal Auditor Training- Bureau Veritas
+
+-   Airfase B (Flight Analysis & Safety Explorer) Training - Teledyne Controls
+
+-   Teorik PPL, ATP & 320 Tip İntibak Kursu - Türk Hava Yolları Uçuş Eğitim Başkanlığı
+
+# Lisans Bitirme Tezi
+
+-   Kompozit Model Roket Gövdesinin Üretimi, 3 Nokta Eğilme Testi & Analizi
+
+# Yetkinlikler
+
+-   R(başlangıç seviyesi) Quarto, Git,
+
+# Organizasyonlar
+
+-   İTÜ Uçak ve Uzay Mühendisliği Kulübü - YK Üyesi/ Organizasyon Ekip Lideri, 2017
+
+-   Roket Teknolojileri Kulübü - Genel Sekreter/Arge Ekip Lideri (Uluslararası Roket Haftası(IRW) Faydalı Yük Avrupa Birincisi - İskoçya), 2017
+
+-   İTÜ Havacılık Günleri, Organizasyon & Sponsorluk Ekibi, 2015/2016/2017
+
+-   İTÜ Kariyer Zirvesi, Organizasyon & Sponsorluk Ekibi, 2015/2016
+
+-   AIAA Competition- Uzay Görevi Tasarım Projesi, 2018
+
+-   EMEAC - Euroavia Yıllık Olağan Seçim Kongresi - 2015
+
+# Hobiler
+
+-   Kitap okumak(özellikle Fakir Baykurt, George Orwell ve Stafan Zweig),
+-   Kaliteleri filmlerin inceleme videolarını izlemek,
+-   Amatör olarak kürekçilikle ilgilenmek,
+-   Evde tek başıma/kız arkadaşımla müzik eşliğinde yemek yapmak
