@@ -7,7 +7,7 @@ title: "Edin_Džeko"
 # Eğitim
 
 -   Lisans, ................................., .................................... Üniversitesi, Türkiye, 20xx - 20xx.
--   Yüksek Lisans, Endüstri Mühendisliği, Hacettepe Üniversitesi, Türkiye, 20xx - devam ediyor.
+-   Yüksek Lisans, Endüstri Müheasndisliği, Hacettepe Üniversitesi, Türkiye, 20xx - devam ediyor.
 
 # İş Deneyimi
 
