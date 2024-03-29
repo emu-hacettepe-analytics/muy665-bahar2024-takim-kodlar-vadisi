@@ -2,7 +2,7 @@
 title: "Mehmet Murathan YALÇIN"
 ---
 
-![](/assets/images/mmurathanyalcin_photo.png){fig-align="center"}
+![](images/foto2.jpg){fig-align="center" width="197"}
 
 # Eğitim
 
@@ -22,40 +22,122 @@ title: "Mehmet Murathan YALÇIN"
 
 ## İşler
 
-1.  Savunma Sanayii Başkanlığı, Proje Mühendisi, 14.07.2017- Halen
+1.  **Mitaş Endüstri A.Ş. Hammadde Girdi Kalite Kontrol Mühendisi, 2021-2024**
 
-Alçak ve çok alçak irtifa nokta hava savunma sistemi projelerinde proje sorumlusu/üyesi olarak görev yapmaktayım. Sözleşme yönetimi ve proje yönetimi faaliyetlerini yürütmekteyim.
+· Kalite Yönetim Sistemi standartları ve Şirket politikalarına uygun şekilde çalışmaları yönetmek; şirket süreçlerine ve prosedürlerine uygulanmasını sağlamak.
 
-2.  İNNOVA Bilişim Sistemleri A.Ş. , Satış Yöneticisi, 20
+· Projelerde hammadde girdi kalite departmanını ilgilendiren kısımların süreçlere uygun olarak yürütülmesini güvence altına almak.
 
-Montaj ve son kontrol kalite birimlerinden sorumlu olarak görev yaptım. Ayrıca atışlı/atışsız saha testlerinin planlanması ve icra edilmesi faaliyetlerini de yürüttüm.
+· Hammadde girdi sürecine tabii parçaların planlamasını yapmak ve numune işlemeye geçiş sürecini takip etmek.
 
-# Projeler
+· Uygunsuz ürünleri değerlendirmek, ilgili aksiyonları tanımlamak ve sonuçları/iyileştirmeleri/kararları takip etmek, uygulamak.
 
-Çeşitli alçak irtifa ve çok alçak irtifa hava savunma sistemi projeleri
+·Tahribatsız Muayene yöntemlerine hakim olmak.
+
+·Tasarım, imalat ve montaj faaliyetlerinde kalite güvence ve/veya kalite muayene faaliyetlerinde bilgi sahibi olmak.
+
+·İşbirliği yapılan ekiplerin puantaj ve performans takibini gerçekleştirmek, iyileştirme, eğitim ve beceri geliştirmeye destek olmak.
+
+2.  **İNNOVA Bilişim Sistemleri A.Ş. , Satış Yöneticisi, 2020-2021**
+
+· Kalite Yönetim Sistemi standartları ve Şirket politikalarına uygun şekilde çalışmaları yönetmek; şirket süreçlerine ve prosedürlerine uygulanmasını sağlamak.
+
+· Projelerde hammadde girdi kalite departmanını ilgilendiren kısımların süreçlere uygun olarak yürütülmesini güvence altına almak.
+
+· Hammadde girdi sürecine tabii parçaların planlamasını yapmak ve numune işlemeye geçiş sürecini takip etmek.
+
+· Uygunsuz ürünleri değerlendirmek, ilgili aksiyonları tanımlamak ve sonuçları/iyileştirmeleri/kararları takip etmek, uygulamak.
+
+·Tahribatsız Muayene yöntemlerine hakim olmak.
+
+·Tasarım, imalat ve montaj faaliyetlerinde kalite güvence ve/veya kalite muayene faaliyetlerinde bilgi sahibi olmak.
+
+·İşbirliği yapılan ekiplerin puantaj ve performans takibini gerçekleştirmek, iyileştirme, eğitim ve beceri geliştirmeye destek olmak.
+
+# Programlar
+
+· MS Office
+
+· SAP/ERP
+
+· CRM
+
+· Basic Network Knowledge
+
+· HTML
+
+· Wordpress
+
+· CATIA
+
+· Solidworks
+
+· Adobe Photoshop
+
+· Adobe Illustrator
+
+· Adobe Dreamweaver
+
+· Adobe InDesign
+
+· Matlab
+
+· Aurdino
+
+· Autodesk AutoCAD
+
+· Autodesk 3D Max
+
+· Power BI
+
+· SAS
+
+· SAP QM/ QA Modül
 
 # Eğitimler
 
-1.Savunma Sanayii Akademi, Tedarik Uzmanı Geliştirme Programı İleri Seviye Eğitimler (Sistem Mühendisliği Eğitimleri), Ankara, Kasım 2022,
+· ISO 9001-2015 KYS – Entegre Yönetim Sistemi Bilgilendirme Eğitim Katılım Sertifikası- **SGS**
 
-2.TS ISO 31000:2018 Risk Yönetimi Temel Eğitimi, Türk Standartları Enstitüsü, Ankara, Şubat 2022
+· ISO 14001:2015 ÇYS – Entegre Yönetim Sistemi Bilgilendirme Eğitim Katılım Sertifikası – **SGS**
 
-3.EFQM Değerlendirici-EAT Eğitimi,KalDer Akademi, Ankara Şubat 2021
+· ISO 45001:2018 ISGYS – Entegre Yönetim Sistemi Bilgilendirme Eğitim Katılım Sertifikası- **SGS**
 
-4.Havacılık ve Uzay Kalite Yönetim Sistemleri İç Tetkikçi Eğitimi (AS 9100 Rev D:2016/JISQ 9100:2016/KSQ 9100:2018/EN 9100:2018), BSI Eğitim Akademisi, Ankara, Ocak 2021
+·Metrolojik İzlenebilirlik ve Kalibrasyon Sertifikalarının Değerlendirilmesi Eğitimi – **RAN Kalite**
 
-5.ISO/IEC 27001:2013 Bilgi Güvenliği Yönetim Sistemi İç Tetkikçi Eğitimi, BSI Eğitim Akademisi, Ankara, Aralık 2020
+·Cisco Certificated Network Associate CCNAEğitimi- **CLIGURU**
 
-6.ISO 9001:2015/ISO 14001:2015/ISO 45001:2018 EYS İç Tetkikçi Eğitimi, BSI Eğitim Akademisi, Ankara, Kasım 2020,
+·Mobility  Of Youth Workers “ Be The Active One” – **Erasmus +**
+
+· Kurumsal İletişim Eğitimi Katılım Sertifikası – **Digital Vizyon Akademi**
+
+· Girişimcilik Hızlandırma ve İnovasyon Programı Katılım Sertifikası – **Inno Campus**
+
+· Bilgi Teknolojilerine Giriş Eğitimi- **BTK**
+
+· Veri Merkezi Eğitimi- **TUBİTAK BİLGEM YTE**
+
+· CAD/CAM Temelleri Eğitimi- **ODTÜ BİLGEİŞ**
+
+· Web Ve Grafik Tasarımcısı Eğitimi – **Bilge Adam**
+
+· AUTOCAD ile Teknik Çizim Eğitimi- **Bilge Adam**
+
+· 3D Studio Max ile Görselleştirme
+
+·Eğitimi- **Bilge Adam**
+
+·ISO 9001-2008 Kalite Yönetim Sistemi ve İç Tetikçi Eğitimi- **TOBB ETÜ**
+
+·Satış ve Satış Yönetimi Eğitimi- **TOBB ETÜ**
 
 # Yetkinlikler
 
 1.Proje Yönetimi, Sözleşme Yönetimi, Test Planlama, Test Yönetimi, Risk Yönetimi, Liderlik, Takım Çalışması, Problem Çözme,
 
-2.MS Project, MS Office Uygulamaları, R, Quarto, Git,
+2.MS Project, MS Office Uygulamaları, R, Quarto, GitHub
 
-3.Yabancı Dil: İngilizce – Profesyonel Çalışma Yetkinliği, Arapça- Başlangıç-Orta Seviye
+3.Yabancı Dil: İngilizce – Profesyonel Çalışma Yetkinliği, İtalyanca- Başlangıç-Orta Seviye
 
 # Hobiler
 
-Kamp yapmak, doğa yürüyüşü, snowboard/kayak, yüzme, satranç
+Film İzlemek , Yüzmek
