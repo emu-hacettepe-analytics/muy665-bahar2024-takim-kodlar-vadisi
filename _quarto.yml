@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "XX Takımı Analitik Labı"
+  title: "Kodlar Vadisi Takımı Analitik Labı"
   navbar:
     search: true
     left:
