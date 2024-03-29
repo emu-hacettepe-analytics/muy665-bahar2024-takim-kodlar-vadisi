@@ -1,0 +1,39 @@
+---
+title: "Burçin HOLAT"
+---
+
+
+![](/assets/images/vesikalik.jpeg){fig-align="center"}
+
+# Eğitim
+
+-   Lisans, Celal Bayar Üniversitesi,Mühendislik Fakültesi,Metalurji ve Malzeme Mühendisliği, Türkiye, 2012 - 2016.
+-   Yüksek Lisans, Endüstri Mühendisliği, Hacettepe Üniversitesi,Kalite ve Uygunluk Değerlendirma Müh, Türkiye, 2024 - devam ediyor.
+
+# İş Deneyimi
+
+## İşler
+
+1.  Gürgenler A.Ş., Kalite Kontrol Mühendisliği, 1 yıl
+
+2.  Mitaş Cıvata, Laboratuvar Mühendisi, 4,5 yıl
+
+## Stajlar
+
+1.  MKE , pozisyon xx, yıl xxx
+
+2.  Firma bbb, pozisyon yyy, yıl yyy
+
+# Projeler
+
+1.  TÜBİTAK 1001..........................
+
+# Yayınlar
+
+-
+
+# Yetkinlikler
+
+R, Quarto, Git, Python
+
+# Hobiler
