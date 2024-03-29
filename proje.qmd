@@ -5,10 +5,9 @@ number-sections: true
 
 **Proje sayfamıza hoş geldiniz.**
 
-_Projemizle ilgili güncellemelerden haberdar olmak için bu alanı takip edin._
+*Projemizle ilgili güncellemelerden haberdar olmak için bu alanı takip edin.*
 
 (Aşağıdaki başlıklar örnek olarak verilmiştir; lütfen gerektiği şekilde düzenlemekten çekinmeyin.)
-
 
 # Proje Genel Bakış ve Kapsamı
 
