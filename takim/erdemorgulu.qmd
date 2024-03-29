@@ -1,78 +1,80 @@
 ---
-title: "Erdem ÖRGÜLÜ"
+title: "Erdem CRGCLC"
 ---
 
 ![](images/foto.jpg){fig-align="center" width="197"}
 
-# Eğitim
+# EDitim
 
--   **Lise,** Aydın Adnan Menderes Anadolu Lisesi,
+-   **Lise,** AydD1n Adnan Menderes Anadolu Lisesi,
 
     2009-2013
 
--   **Lisans,** Uzay Mühendisliği, İstanbul Teknik Üniversitesi,
+-   **Lisans,** Uzay MC\<hendisliDi, D0stanbul Teknik Cniversitesi,
 
     2013 - 2018
 
--   **Yüksek Lisans,** Kalite ve Uygunluk Değerlendirme Mühendisliği, Hacettepe Üniversitesi,
+-   **YC\<ksek Lisans,** Kalite ve Uygunluk DeDerlendirme MC\<hendisliDi, Hacettepe Cniversitesi,
 
     2024 - devam ediyor.
 
-# İş Deneyimi
+# D0E Deneyimi
 
-## İşler
+## D0Eler
 
--   Türk Hava Yolları A.O., Uçuş Emniyet Mühendisi, İstanbul,
+-   TC\<rk Hava YollarD1 A.O., UC'uE Emniyet MC\<hendisi, D0stanbul,
 
     Ekim 2018-Haziran 2021
 
--   Türk Havacılık ve Uzay Sanayii A.Ş., Emniyet Yönetim Sistem Mühendisi, Ankara,
+-   TC\<rk HavacD1lD1k ve Uzay Sanayii A.E., Emniyet YC6netim Sistem MC\<hendisi, Ankara,
 
     Haziran 2021- Devam ediyor
 
-## Stajlar/Yaz İşleri
+## Stajlar/Yaz D0Eleri
 
--   TEI- Tusaş Motor Sanayii A.Ş., Stajyer Mühendis, Temmuz 2018
+-   TEI- TusaE Motor Sanayii A.E., Stajyer MC\<hendis, Temmuz 2018
 
--   Alp Havacılık., Stajyer Mühendis, Ağustos 2018
+-   Alp HavacD1lD1k., Stajyer MC\<hendis, ADustos 2018
 
--   Atlantique Holiday Club, Fotoğrafçılık (yaz işi), Haziran 2015- Eylül 2015
+-   Atlantique Holiday Club, FotoDrafC'D1lD1k (yaz iEi), Haziran 2015- EylC\<l 2015
 
--   Ege Ports, Welcome Desk Çalışanı (yaz işi), Haziran 2011- Eylül 2012
+-   Ege Ports, Welcome Desk CalD1EanD1 (yaz iEi), Haziran 2011- EylC\<l 2012
 
-# Eğitimler
+# EDitimler
 
 -   AS9100:2016 (Rev.D) Quality Management Systems- Requirements for Aviation Maintenance Organizations Awareness & Internal Auditor Training- Bureau Veritas
 
 -   Airfase B (Flight Analysis & Safety Explorer) Training - Teledyne Controls
 
--   Teorik PPL, ATP & 320 Tip İntibak Kursu - Türk Hava Yolları Uçuş Eğitim Başkanlığı
+-   Teorik PPL, ATP & 320 Tip D0ntibak Kursu - TC\<rk Hava YollarD1 UC'uE EDitim BaEkanlD1DD1
 
 # Lisans Bitirme Tezi
 
--   Kompozit Model Roket Gövdesinin Üretimi, 3 Nokta Eğilme Testi & Analizi
+-   Kompozit Model Roket GC6vdesinin Cretimi, 3 Nokta EDilme Testi & Analizi
 
 # Yetkinlikler
 
--   R(başlangıç seviyesi) Quarto, Git,
+-   R(baElangD1C' seviyesi) Quarto, Git,
 
 # Organizasyonlar
 
--   İTÜ Uçak ve Uzay Mühendisliği Kulübü - YK Üyesi/ Organizasyon Ekip Lideri, 2017
+-   D0TC UC'ak ve Uzay MC\<hendisliDi KulC\<bC\< - YK Cyesi/ Organizasyon Ekip Lideri, 2017
 
--   Roket Teknolojileri Kulübü - Genel Sekreter/Arge Ekip Lideri (Uluslararası Roket Haftası(IRW) Faydalı Yük Avrupa Birincisi - İskoçya), 2017
+-   Roket Teknolojileri KulC\<bC\< - Genel Sekreter/Arge Ekip Lideri (UluslararasD1 Roket HaftasD1(IRW) FaydalD1 YC\<k Avrupa Birincisi - D0skoC'ya), 2017
 
--   İTÜ Havacılık Günleri, Organizasyon & Sponsorluk Ekibi, 2015/2016/2017
+-   D0TC HavacD1lD1k GC\<nleri, Organizasyon & Sponsorluk Ekibi, 2015/2016/2017
 
--   İTÜ Kariyer Zirvesi, Organizasyon & Sponsorluk Ekibi, 2015/2016
+-   D0TC Kariyer Zirvesi, Organizasyon & Sponsorluk Ekibi, 2015/2016
 
--   AIAA Competition- Uzay Görevi Tasarım Projesi, 2018
+-   AIAA Competition- Uzay GC6revi TasarD1m Projesi, 2018
 
--   EMEAC - Euroavia Yıllık Olağan Seçim Kongresi - 2015
+-   EMEAC - Euroavia YD1llD1k OlaDan SeC'im Kongresi - 2015
 
 # Hobiler
 
--   Kitap okumak(özellikle Fakir Baykurt, George Orwell ve Stafan Zweig),
--   Kaliteleri filmlerin inceleme videolarını izlemek,
--   Amatör olarak kürekçilikle ilgilenmek,
--   Evde tek başıma/kız arkadaşımla müzik eşliğinde yemek yapmak
+-   Kitap okumak(C6zellikle Fakir Baykurt, George Orwell ve Stafan Zweig),
+-   Kaliteleri filmlerin inceleme videolarD1nD1 izlemek,
+-   AmatC6r olarak kC\<rekC'ilikle ilgilenmek,
+-   Evde tek baED1ma/kD1z arkadaED1mla mC\<zik eEliDinde yemek yapmak
+
+deneme1
