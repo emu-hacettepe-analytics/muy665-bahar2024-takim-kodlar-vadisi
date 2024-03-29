@@ -1,8 +1,8 @@
 ---
-title: "Dusan Tadic"
+title: "Erdem Örgülü"
 ---
 
-![](/assets/images/vesikalik.jpeg){fig-align="center"}
+![](images/foto.jpg){width="197"}
 
 # Eğitim
 
