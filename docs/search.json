@@ -304,9 +304,9 @@
   {
     "objectID": "portfolyo/calisma2.html",
     "href": "portfolyo/calisma2.html",
-    "title": "Çalışma 2",
+    "title": "Define the custom_summary function",
     "section": "",
-    "text": "(Aşağıdakiler örnek olarak verilmiştir.)\nBu çalışmada 3 görevimiz var. Bu görevler….. Bunlara sırayla aşağıda cevap arıyoruz."
+    "text": "Define the custom_summary function\ncustom_summary &lt;- function(data_vector) { # Calculate average avg &lt;- mean(data_vector) # Calculate median med &lt;- median(data_vector) # Calculate standard deviation std_dev &lt;- sd(data_vector) # Find minimum value min_val &lt;- min(data_vector) # Find maximum value max_val &lt;- max(data_vector)\n# Store the calculated values in an array summary_array &lt;- c(avg, med, std_dev, min_val, max_val)\n# Return the array containing summary statistics return(summary_array) }\n\n\nLoad the mtcars dataset\ndata(mtcars)\n\n\nDisplay the first few rows of the mtcars dataset\nhead(mtcars)\n\n\nCreate an empty list to store summary results for each column\nsummary_results &lt;- list()\n\n\nIterate over each column of the mtcars dataset\nfor (col in colnames(mtcars)) { # Apply custom_summary function to each column summary_results[[col]] &lt;- custom_summary(mtcars[[col]]) }\n\n\nPrint summary results for each column\nfor (i in seq_along(summary_results)) { col_name &lt;- names(summary_results)[i] cat(“Summary statistics for column”, col_name, “:”) print(summary_results[[i]]) cat(“”) } #summary_results &lt;- custom_summary(as.vector(as.matrix(mtcars)))\n\n\n\n\n Back to top"
   },
   {
     "objectID": "portfolyo/calisma1.html",
