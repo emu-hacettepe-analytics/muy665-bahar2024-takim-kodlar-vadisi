@@ -1,5 +1,5 @@
 ---
-title: "Takım: XXX"
+title: "Takım: KODLAR VADİSİ"
 sidebar: false 
 ---
 
@@ -11,23 +11,27 @@ Lütfen faaliyetlerimizi görmek için için bizi takipte kalın.
 
 ## Takım Üyeleri
 
-1.  [Edin_Džeko](/takim/edindzeko.qmd)
+1.  [Yasin Uluçam](/takim/yasinulucam.qmd)
 
-2.  [Dušan Tadić](/takim/dusantadic.qmd)
+2.  [Mehmet_Murathan_Yalçın](/takim/mmurathanyalcin.qmd)
 
-3.  [Frederico Rodrigues de Paula Santos](/takim/fred.qmd)
+3.  [Erdem_ÖRGÜLÜ](/takim/erdemorgulu.qmd)
 
-4.  [Sebastian Szymański](/takim/szymanski.qmd)
+4.  [Burçin HOLAT](/takim/burcinholat.qmd)
+
+5.  [Semanur_DEMİRTAŞ](/takim/semanurdemirtas.qmd)
 
 ## Proje Adı
 
-MUY660-İş Analitiği iyileştirme çalışmaları (örnek)
+MUY665: Lorem Lipsu Dolar Sit Amet
 
 ## Proje Konusu
 
-Örnek: Bu projede MUY660-İş Analitiği ders içeriğinin analitik yaklaşımlarla iyileştirilmesini hedefledik. Bu doğrultuda tüm üniversitelerdeki benzer derslerin verisini toplayarak bir veri seti oluşturduk Analiz için ........ yöntemleri kullanarak, ....... çalışmaları yaptık Sonuç olarak, MUY660-İş Analitiği dersinin dünyadaki tüm derslerden daha iyi olduğunu ve bu dersi aldığımız için çok mutlu olduğumuzu tespit ettik.
+MUY665: Lorem Lipsu Dolar Sit Amet
 
 ## Veri Seti Hakkında Özet Bilgi
+
+MUY665: Lorem Lipsu Dolar Sit Amet
 
 ## Sonuçlar
 
