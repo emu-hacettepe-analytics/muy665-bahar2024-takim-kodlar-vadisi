@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>XX Takımı Analitik Labı - Çalışma 2</title>
+<title>Kodlar Vadisi Takımı Analitik Labı – calisma2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -109,7 +75,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">XX Takımı Analitik Labı</span>
+    <span class="navbar-title">Kodlar Vadisi Takımı Analitik Labı</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -147,7 +113,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../portfolyo/calisma2.html">Çalışma 2</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../portfolyo/calisma2.html">Define the custom_summary function</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -182,7 +148,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolyo/calisma2.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Çalışma 2</span></a>
+ <span class="menu-text">Define the custom_summary function</span></a>
   </div>
 </li>
     </ul>
@@ -191,8 +157,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#a" id="toc-a" class="nav-link active" data-scroll-target="#a">(a)</a></li>
-  <li><a href="#b" id="toc-b" class="nav-link" data-scroll-target="#b">(b)</a></li>
+  <li><a href="#define-the-custom_summary-function" id="toc-define-the-custom_summary-function" class="nav-link active" data-scroll-target="#define-the-custom_summary-function">Define the custom_summary function</a></li>
+  <li><a href="#load-the-mtcars-dataset" id="toc-load-the-mtcars-dataset" class="nav-link" data-scroll-target="#load-the-mtcars-dataset">Load the mtcars dataset</a></li>
+  <li><a href="#display-the-first-few-rows-of-the-mtcars-dataset" id="toc-display-the-first-few-rows-of-the-mtcars-dataset" class="nav-link" data-scroll-target="#display-the-first-few-rows-of-the-mtcars-dataset">Display the first few rows of the mtcars dataset</a></li>
+  <li><a href="#create-an-empty-list-to-store-summary-results-for-each-column" id="toc-create-an-empty-list-to-store-summary-results-for-each-column" class="nav-link" data-scroll-target="#create-an-empty-list-to-store-summary-results-for-each-column">Create an empty list to store summary results for each column</a></li>
+  <li><a href="#iterate-over-each-column-of-the-mtcars-dataset" id="toc-iterate-over-each-column-of-the-mtcars-dataset" class="nav-link" data-scroll-target="#iterate-over-each-column-of-the-mtcars-dataset">Iterate over each column of the mtcars dataset</a></li>
+  <li><a href="#print-summary-results-for-each-column" id="toc-print-summary-results-for-each-column" class="nav-link" data-scroll-target="#print-summary-results-for-each-column">Print summary results for each column</a></li>
   </ul>
 </nav>
 </nav>
@@ -203,37 +173,33 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Çalışma 2</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<p><br>
-(Aşağıdakiler örnek olarak verilmiştir.)</p>
-<p>Bu çalışmada 3 görevimiz var. Bu görevler….. Bunlara sırayla aşağıda cevap arıyoruz.</p>
-<section id="a" class="level2">
-<h2 class="anchored" data-anchor-id="a">(a)</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<section id="define-the-custom_summary-function" class="level1">
+<h1>Define the custom_summary function</h1>
+<p>custom_summary &lt;- function(data_vector) { # Calculate average avg &lt;- mean(data_vector) # Calculate median med &lt;- median(data_vector) # Calculate standard deviation std_dev &lt;- sd(data_vector) # Find minimum value min_val &lt;- min(data_vector) # Find maximum value max_val &lt;- max(data_vector)</p>
+<p># Store the calculated values in an array summary_array &lt;- c(avg, med, std_dev, min_val, max_val)</p>
+<p># Return the array containing summary statistics return(summary_array) }</p>
 </section>
-<section id="b" class="level2">
-<h2 class="anchored" data-anchor-id="b">(b)</h2>
+<section id="load-the-mtcars-dataset" class="level1">
+<h1>Load the mtcars dataset</h1>
+<p>data(mtcars)</p>
+</section>
+<section id="display-the-first-few-rows-of-the-mtcars-dataset" class="level1">
+<h1>Display the first few rows of the mtcars dataset</h1>
+<p>head(mtcars)</p>
+</section>
+<section id="create-an-empty-list-to-store-summary-results-for-each-column" class="level1">
+<h1>Create an empty list to store summary results for each column</h1>
+<p>summary_results &lt;- list()</p>
+</section>
+<section id="iterate-over-each-column-of-the-mtcars-dataset" class="level1">
+<h1>Iterate over each column of the mtcars dataset</h1>
+<p>for (col in colnames(mtcars)) { # Apply custom_summary function to each column summary_results[[col]] &lt;- custom_summary(mtcars[[col]]) }</p>
+</section>
+<section id="print-summary-results-for-each-column" class="level1">
+<h1>Print summary results for each column</h1>
+<p>for (i in seq_along(summary_results)) { col_name &lt;- names(summary_results)[i] cat(“Summary statistics for column”, col_name, “:”) print(summary_results[[i]]) cat(“”) } #summary_results &lt;- custom_summary(as.vector(as.matrix(mtcars)))</p>
 
 
 </section>
