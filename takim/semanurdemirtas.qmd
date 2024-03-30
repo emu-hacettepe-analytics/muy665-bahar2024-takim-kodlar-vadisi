@@ -2,11 +2,7 @@
 title: "Semanur DEMİRTAS"
 ---
 
-<<<<<<< HEAD
-![](images/foto%204.jpeg){fig-align="center" width="197"}
-=======
-![](/assets/images/foto%204.jpeg){fig-align="center"}
->>>>>>> 49b83149e13e1bdfe8301303ad60b364c4f067f5
+![](images/foto 4.jpeg){fig-align="center" width="197"}
 
 # Eğitim
 
