@@ -1,10 +1,10 @@
 ---
-title: "Erdem CRGCLC"
+title: "Erdem ÖRGÜLÜ"
 ---
 
 ![](images/foto.jpg){fig-align="center" width="197"}
 
-# EDitim
+# Eğitim
 
 -   **Lise,** AydD1n Adnan Menderes Anadolu Lisesi,
 
