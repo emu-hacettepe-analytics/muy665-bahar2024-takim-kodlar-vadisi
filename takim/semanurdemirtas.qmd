@@ -2,33 +2,30 @@
 title: "Semanur DEMİRTAS"
 ---
 
-![](/assets/images/vesikalik.jpeg){fig-align="center"}
+![](images/foto%204.jpeg){fig-align="center" width="197"}
 
 # Eğitim
 
--    Yıldırım Beyazıt University, Ankara
-     Faculty of Engineering
-     Department of Metallurgy and Materials Engineering (Bachelor’s Degree)
+-   Yıldırım Beyazıt University, Ankara Faculty of Engineering Department of Metallurgy and Materials Engineering (Bachelor’s Degree)
 
 # İş Deneyimi
 
-- 09.2020 – 04.2022 Aspar Asansör Aksamları Paz.San.Ve Tic.A.Ş. ANKARA
+-   09.2020 – 04.2022 Aspar Asansör Aksamları Paz.San.Ve Tic.A.Ş. ANKARA
 
-- 07.2022 – Continue MİTAŞ Cıvata Sanayi Ticaret A.Ş., ANKARA
+-   07.2022 – Continue MİTAŞ Cıvata Sanayi Ticaret A.Ş., ANKARA
 
 ## Stajlar
 
-- Summer 2017 (1 Month) Ces Advanced Composite A.Ş, Ankara
+-   Summer 2017 (1 Month) Ces Advanced Composite A.Ş, Ankara
 
-- Summer 2016 (1 Month) Mitaş Cıvata A.Ş, Ankara
-
+-   Summer 2016 (1 Month) Mitaş Cıvata A.Ş, Ankara
 
 # Hobiler
 
-- Cinema and theatre
+-   Cinema and theatre
 
-- Reading book
+-   Reading book
 
-- Watching documentaries and series
+-   Watching documentaries and series
 
-- Meeting friends
+-   Meeting friends
