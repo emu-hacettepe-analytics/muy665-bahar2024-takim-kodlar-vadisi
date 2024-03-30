@@ -10,8 +10,8 @@ Takım Üyelerimizin detaylı özgemişlerinin yer aldığı kişisel sayfaları
 
 2.  [Mehmet_Murathan_YALÇIN](/takim/mmuratyalcin.qmd)
 
-3.  [Erdem ÖRGÜLÜ](/takim/erdemorgulu.qmd)
+3.  [Erdem_ÖRGÜLÜ](/takim/erdemorgulu.qmd)
 
-4.  [Frederico Rodrigues de Paula Santos](/takim/fred.qmd)
+4.  [Burçin_HOLAT](/takim/burcinholat.qmd)
 
-5.  [Sebastian Szymański](/takim/szymanski.qmd)
+5.  [Semanur_DEMİRTAŞ](/takim/semanurdemirtas.qmd)
