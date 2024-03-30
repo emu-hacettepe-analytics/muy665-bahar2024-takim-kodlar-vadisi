@@ -1,7 +1,6 @@
 # Load required packages
 install.packages("dslabs")
 library(dslabs)
-#B MADDESİ
 # Define a function named "custom_summary"
 custom_summary <- function(data_vector) {
   # Calculate average
