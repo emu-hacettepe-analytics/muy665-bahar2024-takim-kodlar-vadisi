@@ -1,16 +1,61 @@
 ---
-title: "Çalışma 1"
+title: "Task 1:"
 ---
 
-\
-(Aşağıdakiler örnek olarak verilmiştir.)
+## (a) Summary of Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir
 
-Bu çalışmada 3 görevimiz var. Bu görevler..... Bunlara sırayla aşağıda cevap arıyoruz.
+Mustafa Baydoğan and Erdi Daşdemir discuss various topics related to data science and industrial engineering in their YouTube conversation. They share their backgrounds and experiences in the field, including research in data analysis, machine learning, and optimization. One of their projects involved addressing excess inventory in a company by using data and complex modeling to optimize inventory levels. They also touched upon the importance of forecasting and using optimization models to determine the optimal supply chain solution. Another topic they covered was the preference of certain types of wood, specifically yamul and yaş kereste, in the construction industry due to their unique properties. They emphasized the importance of understanding the underlying causes of these properties to effectively utilize the wood in construction projects. The conversation also included the importance of pre-processing data, particularly in the context of image analysis, and the use of machine learning techniques like decision trees, regression methods, and boosting algorithms in industry. They discussed the importance of understanding the problem at hand and selecting appropriate machine learning techniques to create effective industry solutions. Additionally, they touched upon the importance of making accurate predictions in the market to maintain balance and the use of siralama (sorting) algorithms in online retail. Overall, they emphasized the importance of both traditional and deep learning methods in data science and the significance of understanding the underlying problem and selecting appropriate techniques to create effective industry solutions.
 
-## (a)
+Mustafa Baydoğan and Erdi Daşdemir discuss various topics related to data science and industrial engineering in the YouTube video "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler." In one part of the conversation, they explore methods for minimizing errors in regression analysis and improving optimization methods used in machine learning. They mention the importance of gaining expertise in data science through practical applications, experience, and formal education. In another part of the conversation, they share their experiences in the energy sector and participating in prediction competitions. They emphasize the importance of continuous learning, collaboration, and sharing knowledge on the web. The speakers also discuss the concepts of descriptive, predictive, and prescriptive analytics, expressing their excitement about the potential of prescriptive analytics. Throughout the conversation, they emphasize the importance of starting early, being persistent, and staying up-to-date with the latest research and technologies in their field.
+
+## (b) Explore Statistical Summaries with Special Functions and Loops
 
 ```{r}
-1 + 1
+# Define the custom_summary function
+custom_summary <- function(data_vector) {
+  # Calculate average
+  avg <- mean(data_vector)
+  # Calculate median
+  med <- median(data_vector)
+  # Calculate standard deviation
+  std_dev <- sd(data_vector)
+  # Find minimum value
+  min_val <- min(data_vector)
+  # Find maximum value
+  max_val <- max(data_vector)
+  
+  # Store the calculated values in an array
+  summary_array <- c(avg, med, std_dev, min_val, max_val)
+  
+  # Return the array containing summary statistics
+  return(summary_array)
+}
+
+# Load the mtcars dataset
+data(mtcars)
+
+# Display the first few rows of the mtcars dataset
+head(mtcars)
+
+# Create an empty list to store summary results for each column
+summary_results <- list()
+
+# Iterate over each column of the mtcars dataset
+for (col in colnames(mtcars)) {
+  # Apply custom_summary function to each column
+  summary_results[[col]] <- custom_summary(mtcars[[col]])
+}
+
+# Print summary results for each column
+for (i in seq_along(summary_results)) {
+  col_name <- names(summary_results)[i]
+  cat("Summary statistics for column", col_name, ":\n")
+  print(summary_results[[i]])
+  cat("\n")
+  }
+
+
 ```
 
-## (b)
+## (c)
+
