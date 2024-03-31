@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../portfolyo/calisma2.html">Define the custom_summary function</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../portfolyo/calisma2.html">calisma2.html</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -142,29 +142,18 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolyo/calisma1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Çalışma 1</span></a>
+ <span class="menu-text">Task 1:</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolyo/calisma2.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Define the custom_summary function</span></a>
+ <span class="menu-text">calisma2.html</span></a>
   </div>
 </li>
     </ul>
     </div>
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#define-the-custom_summary-function" id="toc-define-the-custom_summary-function" class="nav-link active" data-scroll-target="#define-the-custom_summary-function">Define the custom_summary function</a></li>
-  <li><a href="#load-the-mtcars-dataset" id="toc-load-the-mtcars-dataset" class="nav-link" data-scroll-target="#load-the-mtcars-dataset">Load the mtcars dataset</a></li>
-  <li><a href="#display-the-first-few-rows-of-the-mtcars-dataset" id="toc-display-the-first-few-rows-of-the-mtcars-dataset" class="nav-link" data-scroll-target="#display-the-first-few-rows-of-the-mtcars-dataset">Display the first few rows of the mtcars dataset</a></li>
-  <li><a href="#create-an-empty-list-to-store-summary-results-for-each-column" id="toc-create-an-empty-list-to-store-summary-results-for-each-column" class="nav-link" data-scroll-target="#create-an-empty-list-to-store-summary-results-for-each-column">Create an empty list to store summary results for each column</a></li>
-  <li><a href="#iterate-over-each-column-of-the-mtcars-dataset" id="toc-iterate-over-each-column-of-the-mtcars-dataset" class="nav-link" data-scroll-target="#iterate-over-each-column-of-the-mtcars-dataset">Iterate over each column of the mtcars dataset</a></li>
-  <li><a href="#print-summary-results-for-each-column" id="toc-print-summary-results-for-each-column" class="nav-link" data-scroll-target="#print-summary-results-for-each-column">Print summary results for each column</a></li>
-  </ul>
-</nav>
+    
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
@@ -175,34 +164,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="define-the-custom_summary-function" class="level1">
-<h1>Define the custom_summary function</h1>
-<p>custom_summary &lt;- function(data_vector) { # Calculate average avg &lt;- mean(data_vector) # Calculate median med &lt;- median(data_vector) # Calculate standard deviation std_dev &lt;- sd(data_vector) # Find minimum value min_val &lt;- min(data_vector) # Find maximum value max_val &lt;- max(data_vector)</p>
-<p># Store the calculated values in an array summary_array &lt;- c(avg, med, std_dev, min_val, max_val)</p>
-<p># Return the array containing summary statistics return(summary_array) }</p>
-</section>
-<section id="load-the-mtcars-dataset" class="level1">
-<h1>Load the mtcars dataset</h1>
-<p>data(mtcars)</p>
-</section>
-<section id="display-the-first-few-rows-of-the-mtcars-dataset" class="level1">
-<h1>Display the first few rows of the mtcars dataset</h1>
-<p>head(mtcars)</p>
-</section>
-<section id="create-an-empty-list-to-store-summary-results-for-each-column" class="level1">
-<h1>Create an empty list to store summary results for each column</h1>
-<p>summary_results &lt;- list()</p>
-</section>
-<section id="iterate-over-each-column-of-the-mtcars-dataset" class="level1">
-<h1>Iterate over each column of the mtcars dataset</h1>
-<p>for (col in colnames(mtcars)) { # Apply custom_summary function to each column summary_results[[col]] &lt;- custom_summary(mtcars[[col]]) }</p>
-</section>
-<section id="print-summary-results-for-each-column" class="level1">
-<h1>Print summary results for each column</h1>
-<p>for (i in seq_along(summary_results)) { col_name &lt;- names(summary_results)[i] cat(“Summary statistics for column”, col_name, “:”) print(summary_results[[i]]) cat(“”) } #summary_results &lt;- custom_summary(as.vector(as.matrix(mtcars)))</p>
 
 
-</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -556,7 +519,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="../portfolyo/calisma1.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Çalışma 1</span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Task 1:</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
