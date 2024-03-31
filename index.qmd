@@ -11,7 +11,7 @@ Lütfen faaliyetlerimizi görmek için için bizi takipte kalın.
 
 ## Takım Üyeleri
 
-1.  [Yasin Uluçam](/takim/yasinulucam.qmd)
+1.  [Yasin_Uluçam](/takim/yasinulucam.qmd)
 
 2.  [Mehmet_Murathan_Yalçın](/takim/mmurathanyalcin.qmd)
 
