@@ -4,6 +4,8 @@ title: "Takım Üyeleri"
 
 Takım Üyelerimizin detaylı özgemişlerinin yer aldığı kişisel sayfalarına gitmek için sol menüyü veya aşağıdaki linkleri kullanabilirsiniz.
 
+![](images/hacettepe_logo.jpg){fig-align="center" width="197"}
+
 # Takım Üyeleri
 
 1.  [Yasin_ULUÇAM](/takim/yasinulucam.qmd)
