@@ -2,13 +2,13 @@
 title: "Çalışma 1:"
 ---
 
-## (a) Summary of Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir
+## (A) Summary of Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir
 
 Mustafa Baydoğan and Erdi Daşdemir discuss various topics related to data science and industrial engineering in their YouTube conversation. They share their backgrounds and experiences in the field, including research in data analysis, machine learning, and optimization. One of their projects involved addressing excess inventory in a company by using data and complex modeling to optimize inventory levels. They also touched upon the importance of forecasting and using optimization models to determine the optimal supply chain solution. Another topic they covered was the preference of certain types of wood, specifically yamul and yaş kereste, in the construction industry due to their unique properties. They emphasized the importance of understanding the underlying causes of these properties to effectively utilize the wood in construction projects. The conversation also included the importance of pre-processing data, particularly in the context of image analysis, and the use of machine learning techniques like decision trees, regression methods, and boosting algorithms in industry. They discussed the importance of understanding the problem at hand and selecting appropriate machine learning techniques to create effective industry solutions. Additionally, they touched upon the importance of making accurate predictions in the market to maintain balance and the use of siralama (sorting) algorithms in online retail. Overall, they emphasized the importance of both traditional and deep learning methods in data science and the significance of understanding the underlying problem and selecting appropriate techniques to create effective industry solutions.
 
 Mustafa Baydoğan and Erdi Daşdemir discuss various topics related to data science and industrial engineering in the YouTube video "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler." In one part of the conversation, they explore methods for minimizing errors in regression analysis and improving optimization methods used in machine learning. They mention the importance of gaining expertise in data science through practical applications, experience, and formal education. In another part of the conversation, they share their experiences in the energy sector and participating in prediction competitions. They emphasize the importance of continuous learning, collaboration, and sharing knowledge on the web. The speakers also discuss the concepts of descriptive, predictive, and prescriptive analytics, expressing their excitement about the potential of prescriptive analytics. Throughout the conversation, they emphasize the importance of starting early, being persistent, and staying up-to-date with the latest research and technologies in their field.
 
-## (b) Explore Statistical Summaries with Special Functions and Loops
+## (B) Explore Statistical Summaries with Special Functions and Loops
 
 ```{r}
 # Define the custom_summary function
@@ -57,7 +57,7 @@ for (i in seq_along(summary_results)) {
 
 ```
 
-## (c) "Processing a Data Set with NA Values Using the DSLabs Package"
+## (C) "Processing a Data Set with NA Values Using the DSLabs Package"
 
 ```{r}
 
@@ -119,3 +119,21 @@ summary_results <- custom_summary(na_example_filled)
 cat("Summary statistics for na_example_filled:\n")
 print(summary_results)
 ```
+
+## (D) Chat GPT Screenshots
+
+![](chatgptimages/Resim1.jpeg){fig-align="center" width="591"}
+
+![](chatgptimages/Resim2.jpeg){fig-align="center" width="788"}
+
+![](chatgptimages/Resim3.jpeg){fig-align="center" width="788"}
+
+![](chatgptimages/Resim4.jpeg){fig-align="center" width="788"}
+
+![](chatgptimages/Resim5.jpeg){fig-align="center" width="788"}
+
+![](chatgptimages/Resim6.jpeg){fig-align="center" width="788"}
+
+![](chatgptimages/Resim7.jpeg){fig-align="center" width="788"}
+
+![](chatgptimages/Resim8.jpeg){fig-align="center" width="788"}
