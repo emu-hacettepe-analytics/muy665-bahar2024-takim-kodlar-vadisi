@@ -1,5 +1,5 @@
 ---
-title: "Task 1:"
+title: "Çalışma 1:"
 ---
 
 ## (a) Summary of Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir
