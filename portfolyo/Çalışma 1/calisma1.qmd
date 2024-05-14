@@ -1,0 +1,139 @@
+---
+title: "Çalışma 1"
+---
+
+## (A) Summary of Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir
+
+Mustafa Baydoğan and Erdi Daşdemir discuss various topics related to data science and industrial engineering in their YouTube conversation. They share their backgrounds and experiences in the field, including research in data analysis, machine learning, and optimization. One of their projects involved addressing excess inventory in a company by using data and complex modeling to optimize inventory levels. They also touched upon the importance of forecasting and using optimization models to determine the optimal supply chain solution. Another topic they covered was the preference of certain types of wood, specifically yamul and yaş kereste, in the construction industry due to their unique properties. They emphasized the importance of understanding the underlying causes of these properties to effectively utilize the wood in construction projects. The conversation also included the importance of pre-processing data, particularly in the context of image analysis, and the use of machine learning techniques like decision trees, regression methods, and boosting algorithms in industry. They discussed the importance of understanding the problem at hand and selecting appropriate machine learning techniques to create effective industry solutions. Additionally, they touched upon the importance of making accurate predictions in the market to maintain balance and the use of siralama (sorting) algorithms in online retail. Overall, they emphasized the importance of both traditional and deep learning methods in data science and the significance of understanding the underlying problem and selecting appropriate techniques to create effective industry solutions.
+
+Mustafa Baydoğan and Erdi Daşdemir discuss various topics related to data science and industrial engineering in the YouTube video "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler." In one part of the conversation, they explore methods for minimizing errors in regression analysis and improving optimization methods used in machine learning. They mention the importance of gaining expertise in data science through practical applications, experience, and formal education. In another part of the conversation, they share their experiences in the energy sector and participating in prediction competitions. They emphasize the importance of continuous learning, collaboration, and sharing knowledge on the web. The speakers also discuss the concepts of descriptive, predictive, and prescriptive analytics, expressing their excitement about the potential of prescriptive analytics. Throughout the conversation, they emphasize the importance of starting early, being persistent, and staying up-to-date with the latest research and technologies in their field.
+
+## (B) Explore Statistical Summaries with Special Functions and Loops
+
+```{r}
+# Define the custom_summary function
+custom_summary <- function(data_vector) {
+  # Calculate average
+  avg <- mean(data_vector)
+  # Calculate median
+  med <- median(data_vector)
+  # Calculate standard deviation
+  std_dev <- sd(data_vector)
+  # Find minimum value
+  min_val <- min(data_vector)
+  # Find maximum value
+  max_val <- max(data_vector)
+  
+  # Store the calculated values in an array
+  summary_array <- c(avg, med, std_dev, min_val, max_val)
+  
+  # Return the array containing summary statistics
+  return(summary_array)
+}
+
+# Load the mtcars dataset
+data(mtcars)
+
+# Display the first few rows of the mtcars dataset
+head(mtcars)
+
+# Create an empty list to store summary results for each column
+summary_results <- list()
+
+# Iterate over each column of the mtcars dataset
+for (col in colnames(mtcars)) {
+  # Apply custom_summary function to each column
+  summary_results[[col]] <- custom_summary(mtcars[[col]])
+}
+
+# Print summary results for each column
+for (i in seq_along(summary_results)) {
+  col_name <- names(summary_results)[i]
+  cat("Summary statistics for column", col_name, ":\n")
+  print(summary_results[[i]])
+  cat("\n")
+  }
+
+
+```
+
+## (C) "Processing a Data Set with NA Values Using the DSLabs Package"
+
+```{r}
+
+# Define a function named "custom_summary2"
+custom_summary2 <- function(data_vector2) {
+  # Calculate average
+  avg <- mean(data_vector2)
+  # Calculate median
+  med <- median(data_vector2)
+  # Calculate standard deviation
+  std_dev <- sd(data_vector2)
+  # Find minimum value
+  min_val <- min(data_vector2)
+  # Find maximum value
+  max_val <- max(data_vector2)
+  
+  # Store the calculated values in an array
+  summary_array2 <- c(avg, med, std_dev, min_val, max_val)
+  
+  # Return the array containing summary statistics
+  return(summary_array2)
+}
+
+# Example usage of the custom_summary function
+
+library(dslabs)
+# Load the na_example dataset
+data(na_example)
+
+# Display the contents of the dataset including NA values
+head(na_example)
+
+# Calculate the total number of NA values in the dataset
+total_na <- sum(is.na(na_example))
+print(paste("Total NA values:", total_na))
+
+# Replace all NA values with course number 665
+na_example_filled <- na_example
+na_example_filled[is.na(na_example_filled)] <- 665
+
+# Display the updated dataset (no NA values)
+head(na_example_filled)
+
+# Calculate the new total number of NA values (should be zero)
+new_total_na <- sum(is.na(na_example_filled))
+print(paste("New total NA values:", new_total_na))
+
+# Count the number of times the number 665 appears in the updated dataset
+count_665 <- sum(na_example_filled == 665)
+print(paste("Number of times 665 appears:", count_665))
+
+# Create an empty list to store summary results for each column
+summary_results <- list()
+
+# Calculate summary statistics for na_example_filled directly
+summary_results <- custom_summary(na_example_filled)
+
+# Print summary results
+cat("Summary statistics for na_example_filled:\n")
+print(summary_results)
+```
+
+## (D) Chat GPT Screenshots
+
+![](chatgptimages/Resim1.jpeg){fig-align="center" width="591"}
+
+![](chatgptimages/Resim2.jpeg){fig-align="center" width="788"}
+
+![](chatgptimages/Resim3.jpeg){fig-align="center" width="788"}
+
+![](chatgptimages/Resim4.jpeg){fig-align="center" width="788"}
+
+![](chatgptimages/Resim5.jpeg){fig-align="center" width="788"}
+
+![](chatgptimages/Resim6.jpeg){fig-align="center" width="788"}
+
+![](chatgptimages/Resim7.jpeg){fig-align="center" width="788"}
+
+![](chatgptimages/Resim8.jpeg){fig-align="center" width="788"}
