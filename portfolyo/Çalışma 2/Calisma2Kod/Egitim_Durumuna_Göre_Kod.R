@@ -1,10 +1,10 @@
 library(readxl)
 
 # Assuming the Excel file is stored locally and columns are as seen in the screenshot
-education_data <- read_excel("C:\\Users\\sdemirtas\\Desktop\\İş analitiği ödev 15.05.2024\\eğitim durumu.xlsx", skip = 9)  # Adjust the path and skip as necessary
+education_data <- read_excel("C:\Users\myalcin\Documents\GitHub\muy665-bahar2024-takim-kodlar-vadisi\portfolyo\??al????ma 2\Calisma2VeriSet\Evlilik_Durumu_VS.xlsx", skip = 9)  # Adjust the path and skip as necessary
 education_data <- education_data[,-2]  # This drops the second column
 # Set column names based on your screenshot
-colnames(education_data) <- c("Date","Okuma-yazma bilmeyen","Okuma yazma bilen fakat bir okul bitirmeyen",	"İlkokul",	"Ortaokul veya dengi meslek okul",	"Genel lise","Lise dengi meslek okul"	,"Yüksekokul veya fakülte",	"Açık öğretim")
+colnames(education_data) <- c("Date","Okuma-yazma bilmeyen","Okuma yazma bilen fakat bir okul bitirmeyen",	"D0lkokul",	"Ortaokul veya dengi meslek okul",	"Genel lise","Lise dengi meslek okul"	,"YC<ksekokul veya fakC<lte",	"AC'D1k C6Dretim")
 
 library(dplyr)
 library(tidyr)
@@ -16,11 +16,11 @@ education_data$Year <- as.integer(sub(" .*", "", education_data$Date))
 # Calculate the yearly averages for each education category
 yearly_education_averages <- education_data %>%
   group_by(Year) %>%
-  summarise(across(`Okuma-yazma bilmeyen`:`Açık öğretim`, mean, na.rm = TRUE))
+  summarise(across(`Okuma-yazma bilmeyen`:`AC'D1k C6Dretim`, mean, na.rm = TRUE))
 
 # Reshape the data for easier plotting
 yearly_education_long <- yearly_education_averages %>%
-  pivot_longer(cols = `Okuma-yazma bilmeyen`:`Açık öğretim`, names_to = "Education_Status", values_to = "Average_Unemployment_Rate")
+  pivot_longer(cols = `Okuma-yazma bilmeyen`:`AC'D1k C6Dretim`, names_to = "Education_Status", values_to = "Average_Unemployment_Rate")
 # Plotting the average unemployment rates by year and education status
 ggplot(yearly_education_long, aes(x = Education_Status, y = Average_Unemployment_Rate, fill = Education_Status)) +
   geom_bar(stat = "identity", position = position_dodge()) +
