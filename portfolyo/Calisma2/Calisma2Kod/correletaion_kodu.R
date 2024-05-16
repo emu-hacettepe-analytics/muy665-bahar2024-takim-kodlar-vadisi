@@ -2,6 +2,7 @@ library(readxl)
 library(dplyr)
 library(tidyr)
 library(ggplot2)
+
 install.packages("corrplot")
 # Load age group data
 age_data <- read_excel("C:\\Users\\sdemirtas\\Desktop\\İş analitiği ödev 15.05.2024\\yas grubu.xlsx", skip = 9)
