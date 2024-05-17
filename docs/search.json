@@ -236,7 +236,10 @@
     "href": "takim.html",
     "title": "Takım Üyeleri",
     "section": "",
-    "text": "Takım Üyelerimizin detaylı özgemişlerinin yer aldığı kişisel sayfalarına gitmek için sol menüyü veya aşağıdaki linkleri kullanabilirsiniz.\n\nTakım Üyeleri\n\nYasin_ULUÇAM\nMehmet_Murathan_YALÇIN\nErdem_ÖRGÜLÜ\nBurçin_HOLAT\nSemanur_DEMİRTAŞ\n\n\n\n\n\n Back to top"
+    "text": "Takım Üyelerimizin detaylı özgemişlerinin yer aldığı kişisel sayfalarına gitmek için sol menüyü veya aşağıdaki linkleri kullanabilirsiniz.\n\nTakım Üyeleri\n\nYasin_ULUÇAM\nMehmet_Murathan_YALÇIN\nErdem_ÖRGÜLÜ\nBurçin_HOLAT\nSemanur_DEMİRTAŞ\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Takım Üyeleri"
+    ]
   },
   {
     "objectID": "proje.html",
@@ -493,7 +496,11 @@
     "href": "takim/yasinulucam.html#işler",
     "title": "Yasin ULUÇAM",
     "section": "İşler",
-    "text": "İşler\n\nSavunma Sanayii Başkanlığı, Proje Mühendisi, 14.07.2017- Halen\n\nAlçak ve çok alçak irtifa nokta hava savunma sistemi projelerinde proje sorumlusu/üyesi olarak görev yapmaktayım. Sözleşme yönetimi ve proje yönetimi faaliyetlerini yürütmekteyim.\n\nMakine ve Kimya Endüstrisi A.Ş, Kalite Güvence Mühendisi, 25.01.2015-12.07.2017,\n\nMontaj ve son kontrol kalite birimlerinden sorumlu olarak görev yaptım. Ayrıca atışlı/atışsız saha testlerinin planlanması ve icra edilmesi faaliyetlerini de yürüttüm."
+    "text": "İşler\n\nSavunma Sanayii Başkanlığı, Proje Mühendisi, 14.07.2017- Halen\n\nAlçak ve çok alçak irtifa nokta hava savunma sistemi projelerinde proje sorumlusu/üyesi olarak görev yapmaktayım. Sözleşme yönetimi ve proje yönetimi faaliyetlerini yürütmekteyim.\n\nMakine ve Kimya Endüstrisi A.Ş, Kalite Güvence Mühendisi, 25.01.2015-12.07.2017,\n\nMontaj ve son kontrol kalite birimlerinden sorumlu olarak görev yaptım. Ayrıca atışlı/atışsız saha testlerinin planlanması ve icra edilmesi faaliyetlerini de yürüttüm.",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Yasin ULUÇAM"
+    ]
   },
   {
     "objectID": "docs/project.html",
@@ -563,28 +570,44 @@
     "href": "takim/mmurathanyalcin.html#işler",
     "title": "Mehmet Murathan YALÇIN",
     "section": "İşler",
-    "text": "İşler\n\nMitaş Endüstri A.Ş. Hammadde Girdi Kalite Kontrol Mühendisi, 2021-2024\n\n· Kalite Yönetim Sistemi standartları ve Şirket politikalarına uygun şekilde çalışmaları yönetmek; şirket süreçlerine ve prosedürlerine uygulanmasını sağlamak.\n· Projelerde hammadde girdi kalite departmanını ilgilendiren kısımların süreçlere uygun olarak yürütülmesini güvence altına almak.\n· Hammadde girdi sürecine tabii parçaların planlamasını yapmak ve numune işlemeye geçiş sürecini takip etmek.\n· Uygunsuz ürünleri değerlendirmek, ilgili aksiyonları tanımlamak ve sonuçları/iyileştirmeleri/kararları takip etmek, uygulamak.\n·Tahribatsız Muayene yöntemlerine hakim olmak.\n·Tasarım, imalat ve montaj faaliyetlerinde kalite güvence ve/veya kalite muayene faaliyetlerinde bilgi sahibi olmak.\n·İşbirliği yapılan ekiplerin puantaj ve performans takibini gerçekleştirmek, iyileştirme, eğitim ve beceri geliştirmeye destek olmak.\n\nİNNOVA Bilişim Sistemleri A.Ş. , Satış Yöneticisi, 2020-2021\n\n· Kalite Yönetim Sistemi standartları ve Şirket politikalarına uygun şekilde çalışmaları yönetmek; şirket süreçlerine ve prosedürlerine uygulanmasını sağlamak.\n· Projelerde hammadde girdi kalite departmanını ilgilendiren kısımların süreçlere uygun olarak yürütülmesini güvence altına almak.\n· Hammadde girdi sürecine tabii parçaların planlamasını yapmak ve numune işlemeye geçiş sürecini takip etmek.\n· Uygunsuz ürünleri değerlendirmek, ilgili aksiyonları tanımlamak ve sonuçları/iyileştirmeleri/kararları takip etmek, uygulamak.\n·Tahribatsız Muayene yöntemlerine hakim olmak.\n·Tasarım, imalat ve montaj faaliyetlerinde kalite güvence ve/veya kalite muayene faaliyetlerinde bilgi sahibi olmak.\n·İşbirliği yapılan ekiplerin puantaj ve performans takibini gerçekleştirmek, iyileştirme, eğitim ve beceri geliştirmeye destek olmak."
+    "text": "İşler\n1 Mitaş Endüstri AŞ Hammadde Girdi Kalite Kontrol Mühendisi, 2021-2024\nKalite Yönetim Sistemi standartları ve Şirket politikalarına uygun şekilde çalışmaları yönetmek; şirket süreçlerine ve prosedürlerine uygulanmasını sağlamak\nProjelerde hammadde girdi kalite departmanını ilgilendiren kısımların süreçlere uygun olarak yürütülmesini güvence altına almak\nHammadde girdi sürecine tabii parçaların planlamasını yapmak ve numune işlemeye geçiş sürecini takip etmek\nUygunsuz ürünleri değerlendirmek, ilgili aksiyonları tanımlamak ve sonuçları/iyileştirmeleri/kararları takip etmek, uygulamak\nTahribatsız Muayene yöntemlerine hakim olmak\nTasarım, imalat ve montaj faaliyetlerinde kalite güvence ve/veya kalite muayene faaliyetlerinde bilgi sahibi olmak\nİşbirliği yapılan ekiplerin puantaj ve performans takibini gerçekleştirmek, iyileştirme, eğitim ve beceri geliştirmeye destek olmak\n2 İNNOVA Bilişim Sistemleri AŞ , Satış Yöneticisi, 2020-2021\nKalite Yönetim Sistemi standartları ve Şirket politikalarına uygun şekilde çalışmaları yönetmek; şirket süreçlerine ve prosedürlerine uygulanmasını sağlamak\nProjelerde hammadde girdi kalite departmanını ilgilendiren kısımların süreçlere uygun olarak yürütülmesini güvence altına almak\nHammadde girdi sürecine tabii parçaların planlamasını yapmak ve numune işlemeye geçiş sürecini takip etmek\nUygunsuz ürünleri değerlendirmek, ilgili aksiyonları tanımlamak ve sonuçları/iyileştirmeleri/kararları takip etmek, uygulamak\nTahribatsız Muayene yöntemlerine hakim olmak\nTasarım, imalat ve montaj faaliyetlerinde kalite güvence ve/veya kalite muayene faaliyetlerinde bilgi sahibi olmak\nİşbirliği yapılan ekiplerin puantaj ve performans takibini gerçekleştirmek, iyileştirme, eğitim ve beceri geliştirmeye destek olmak",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Mehmet Murathan YALÇIN"
+    ]
   },
   {
     "objectID": "takim/erdemorgulu.html#işler",
     "href": "takim/erdemorgulu.html#işler",
     "title": "Erdem ÖRGÜLÜ",
     "section": "İşler",
-    "text": "İşler\n\nTürk Hava Yolları A.O., Uçuş Emniyet Mühendisi, İstanbul,\nEkim 2018 - Haziran 2021\nTürk Havacılık ve Uzay Sanayii A.Ş., Emniyet Yönetim Sistem Mühendisi, Ankara,\nHaziran 2021 - Devam ediyor"
+    "text": "İşler\n\nTürk Hava Yolları A.O., Uçuş Emniyet Mühendisi, İstanbul,\nEkim 2018 - Haziran 2021\nTürk Havacılık ve Uzay Sanayii A.Ş., Emniyet Yönetim Sistem Mühendisi, Ankara,\nHaziran 2021 - Devam ediyor",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Erdem ÖRGÜLÜ"
+    ]
   },
   {
     "objectID": "takim/erdemorgulu.html#stajlaryaz-işleri",
     "href": "takim/erdemorgulu.html#stajlaryaz-işleri",
     "title": "Erdem ÖRGÜLÜ",
     "section": "Stajlar/Yaz İşleri",
-    "text": "Stajlar/Yaz İşleri\n\nTEI- Tusaş Motor Sanayii A.Ş., Stajyer Mühendis, Temmuz 2018\nAlp Havacılık, Stajyer Mühendis, Ağustos 2018\nAtlantique Holiday Club, Fotoğrafçılık (yaz işi), Haziran 2015- Eylül 2015\nEge Ports, Welcome Desk Çalışanı (yaz işi), Haziran 2011- Eylül 2012"
+    "text": "Stajlar/Yaz İşleri\n\nTEI- Tusaş Motor Sanayii A.Ş., Stajyer Mühendis, Temmuz 2018\nAlp Havacılık, Stajyer Mühendis, Ağustos 2018\nAtlantique Holiday Club, Fotoğrafçılık (yaz işi), Haziran 2015- Eylül 2015\nEge Ports, Welcome Desk Çalışanı (yaz işi), Haziran 2011- Eylül 2012",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Erdem ÖRGÜLÜ"
+    ]
   },
   {
     "objectID": "takim/semanurdemirtas.html#stajlar",
     "href": "takim/semanurdemirtas.html#stajlar",
     "title": "Semanur DEMİRTAS",
     "section": "Stajlar",
-    "text": "Stajlar\n\nSummer 2017 (1 Month) Ces Advanced Composite A.Ş, Ankara\nSummer 2016 (1 Month) Mitaş Cıvata A.Ş, Ankara"
+    "text": "Stajlar\n\nSummer 2017 (1 Month) Ces Advanced Composite A.Ş, Ankara\nSummer 2016 (1 Month) Mitaş Cıvata A.Ş, Ankara",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Semanur DEMİRTAS"
+    ]
   },
   {
     "objectID": "takim/semanurdemirtas.html",
@@ -746,5 +769,23 @@
     "title": "Çalışma 1",
     "section": "(D) Chat GPT Screenshots",
     "text": "(D) Chat GPT Screenshots"
+  },
+  {
+    "objectID": "takim/mmurathanyalcin.html",
+    "href": "takim/mmurathanyalcin.html",
+    "title": "Mehmet Murathan YALÇIN",
+    "section": "",
+    "text": "library(dslabs)",
+    "crumbs": [
+      "Takım Üyeleri",
+      "Mehmet Murathan YALÇIN"
+    ]
+  },
+  {
+    "objectID": "portfolyo/Calisma2/calisma2.html",
+    "href": "portfolyo/Calisma2/calisma2.html",
+    "title": "??al????ma 2",
+    "section": "",
+    "text": "Back to top"
   }
 ]

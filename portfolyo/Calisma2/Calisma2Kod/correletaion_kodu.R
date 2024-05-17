@@ -2,9 +2,9 @@ library(readxl)
 library(dplyr)
 library(tidyr)
 library(ggplot2)
-install.packages("corrplot")
+library(corrplot)
 # Load age group data
-age_data <- read_excel("C:\\Users\\myalcin\\Documents\\GitHub\\muy665-bahar2024-takim-kodlar-vadisi\\portfolyo\\Calisma2\\Calisma2VeriSet\\Yas_Grubu_VS.xlsx", skip = 9)
+age_data <- read_excel("C:\\Users\\parad\\Documents\\GitHub\\muy665-bahar2024-takim-kodlar-vadisi\\portfolyo\\Calisma2\\Calisma2VeriSet\\Yas_Grubu_VS.xlsx", skip = 9)
 age_data <- age_data[,-2]
 colnames(age_data) <- c("Date", "15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59", "60-64","65+")
 
@@ -17,7 +17,7 @@ yearly_age_averages <- age_data %>%
 # Clean up workspace
 rm(age_data)
 # Load education status data
-education_data <- read_excel("C:\\Users\\myalcin\\Documents\\GitHub\\muy665-bahar2024-takim-kodlar-vadisi\\portfolyo\\Calisma2\\Calisma2VeriSet\\Egitim_Durum_VS.xlsx", skip = 9)
+education_data <- read_excel("C:\\Users\\parad\\Documents\\GitHub\\muy665-bahar2024-takim-kodlar-vadisi\\portfolyo\\Calisma2\\Calisma2VeriSet\\Egitim_Durum_VS.xlsx", skip = 9)
 education_data <- education_data[,-2]
 colnames(education_data) <- c("Date","Okuma-yazma bilmeyen","Okuma yazma bilen fakat bir okul bitirmeyen",	"Ilkokul",	"Ortaokul veya dengi meslek okul",	"Genel lise","Lise dengi meslek okul"	,"Yuksekokul veya fakulte",	"Acik Ogretim")
 
@@ -30,7 +30,7 @@ yearly_education_averages <- education_data %>%
 # Clean up workspace
 rm(education_data)
 # Load marital status data
-marital_data <- read_excel("C:\\Users\\myalcin\\Documents\\GitHub\\muy665-bahar2024-takim-kodlar-vadisi\\portfolyo\\Calisma2\\Calisma2VeriSet\\Evlilik_Durumu_VS.xlsx", skip = 9)
+marital_data <- read_excel("C:\\Users\\parad\\Documents\\GitHub\\muy665-bahar2024-takim-kodlar-vadisi\\portfolyo\\Calisma2\\Calisma2VeriSet\\Evlilik_Durumu_VS.xlsx", skip = 9)
 marital_data <- marital_data[,-2]
 colnames(marital_data) <- c("Date", "Hic Evlenmedi", "Evlendi", "Bosandi", "Esi Oldu")
 

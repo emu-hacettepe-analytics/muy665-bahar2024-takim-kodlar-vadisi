@@ -1,14 +1,13 @@
 ---
 title: "Mehmet Murathan YALÇIN"
 ---
-
-![](images/foto2.jpg){fig-align="center" width="197"}
+![](images/foto2jpg){fig-align="center" width="197"}
 
 # Eğitim
 
 -   Yüksek Lisans, Kalite ve Uygunluk Değerlendirme Mühendisliği, Hacettepe Üniversitesi
 
-    Ankara, 2024 - Devam ediyor.
+    Ankara, 2024 - Devam ediyor
 
 -   Yüksek Lisans, Yönetim Bilişim Sistemleri Ahmet Yesevi Üniversitesi
 
@@ -22,113 +21,113 @@ title: "Mehmet Murathan YALÇIN"
 
 ## İşler
 
-1.  **Mitaş Endüstri A.Ş. Hammadde Girdi Kalite Kontrol Mühendisi, 2021-2024**
+1  **Mitaş Endüstri AŞ Hammadde Girdi Kalite Kontrol Mühendisi, 2021-2024**
 
-· Kalite Yönetim Sistemi standartları ve Şirket politikalarına uygun şekilde çalışmaları yönetmek; şirket süreçlerine ve prosedürlerine uygulanmasını sağlamak.
+Kalite Yönetim Sistemi standartları ve Şirket politikalarına uygun şekilde çalışmaları yönetmek; şirket süreçlerine ve prosedürlerine uygulanmasını sağlamak
 
-· Projelerde hammadde girdi kalite departmanını ilgilendiren kısımların süreçlere uygun olarak yürütülmesini güvence altına almak.
+Projelerde hammadde girdi kalite departmanını ilgilendiren kısımların süreçlere uygun olarak yürütülmesini güvence altına almak
 
-· Hammadde girdi sürecine tabii parçaların planlamasını yapmak ve numune işlemeye geçiş sürecini takip etmek.
+Hammadde girdi sürecine tabii parçaların planlamasını yapmak ve numune işlemeye geçiş sürecini takip etmek
 
-· Uygunsuz ürünleri değerlendirmek, ilgili aksiyonları tanımlamak ve sonuçları/iyileştirmeleri/kararları takip etmek, uygulamak.
+Uygunsuz ürünleri değerlendirmek, ilgili aksiyonları tanımlamak ve sonuçları/iyileştirmeleri/kararları takip etmek, uygulamak
 
-·Tahribatsız Muayene yöntemlerine hakim olmak.
+Tahribatsız Muayene yöntemlerine hakim olmak
 
-·Tasarım, imalat ve montaj faaliyetlerinde kalite güvence ve/veya kalite muayene faaliyetlerinde bilgi sahibi olmak.
+Tasarım, imalat ve montaj faaliyetlerinde kalite güvence ve/veya kalite muayene faaliyetlerinde bilgi sahibi olmak
 
-·İşbirliği yapılan ekiplerin puantaj ve performans takibini gerçekleştirmek, iyileştirme, eğitim ve beceri geliştirmeye destek olmak.
+İşbirliği yapılan ekiplerin puantaj ve performans takibini gerçekleştirmek, iyileştirme, eğitim ve beceri geliştirmeye destek olmak
 
-2.  **İNNOVA Bilişim Sistemleri A.Ş. , Satış Yöneticisi, 2020-2021**
+2  **İNNOVA Bilişim Sistemleri AŞ , Satış Yöneticisi, 2020-2021**
 
-· Kalite Yönetim Sistemi standartları ve Şirket politikalarına uygun şekilde çalışmaları yönetmek; şirket süreçlerine ve prosedürlerine uygulanmasını sağlamak.
+Kalite Yönetim Sistemi standartları ve Şirket politikalarına uygun şekilde çalışmaları yönetmek; şirket süreçlerine ve prosedürlerine uygulanmasını sağlamak
 
-· Projelerde hammadde girdi kalite departmanını ilgilendiren kısımların süreçlere uygun olarak yürütülmesini güvence altına almak.
+Projelerde hammadde girdi kalite departmanını ilgilendiren kısımların süreçlere uygun olarak yürütülmesini güvence altına almak
 
-· Hammadde girdi sürecine tabii parçaların planlamasını yapmak ve numune işlemeye geçiş sürecini takip etmek.
+Hammadde girdi sürecine tabii parçaların planlamasını yapmak ve numune işlemeye geçiş sürecini takip etmek
 
-· Uygunsuz ürünleri değerlendirmek, ilgili aksiyonları tanımlamak ve sonuçları/iyileştirmeleri/kararları takip etmek, uygulamak.
+Uygunsuz ürünleri değerlendirmek, ilgili aksiyonları tanımlamak ve sonuçları/iyileştirmeleri/kararları takip etmek, uygulamak
 
-·Tahribatsız Muayene yöntemlerine hakim olmak.
+Tahribatsız Muayene yöntemlerine hakim olmak
 
-·Tasarım, imalat ve montaj faaliyetlerinde kalite güvence ve/veya kalite muayene faaliyetlerinde bilgi sahibi olmak.
+Tasarım, imalat ve montaj faaliyetlerinde kalite güvence ve/veya kalite muayene faaliyetlerinde bilgi sahibi olmak
 
-·İşbirliği yapılan ekiplerin puantaj ve performans takibini gerçekleştirmek, iyileştirme, eğitim ve beceri geliştirmeye destek olmak.
+İşbirliği yapılan ekiplerin puantaj ve performans takibini gerçekleştirmek, iyileştirme, eğitim ve beceri geliştirmeye destek olmak
 
 # Programlar
 
-· MS Office
+MS Office
 
-· SAP/ERP
+SAP/ERP
 
-· CRM
+CRM
 
-· Basic Network Knowledge
+Basic Network Knowledge
 
-· HTML
+HTML
 
-· Wordpress
+Wordpress
 
-· CATIA
+CATIA
 
-· Solidworks
+Solidworks
 
-· Adobe Photoshop
+Adobe Photoshop
 
-· Adobe Illustrator
+Adobe Illustrator
 
-· Adobe Dreamweaver
+Adobe Dreamweaver
 
-· Adobe InDesign
+Adobe InDesign
 
-· Matlab
+Matlab
 
-· Aurdino
+Aurdino
 
-· Autodesk AutoCAD
+Autodesk AutoCAD
 
-· Autodesk 3D Max
+Autodesk 3D Max
 
-· Power BI
+Power BI
 
-· SAS
+SAS
 
-· SAP QM/ QA Modül
+SAP QM/ QA Modül
 
 # Eğitimler
 
-· ISO 9001-2015 KYS – Entegre Yönetim Sistemi Bilgilendirme Eğitim Katılım Sertifikası- **SGS**
+ISO 9001-2015 KYS – Entegre Yönetim Sistemi Bilgilendirme Eğitim Katılım Sertifikası- **SGS**
 
-· ISO 14001:2015 ÇYS – Entegre Yönetim Sistemi Bilgilendirme Eğitim Katılım Sertifikası – **SGS**
+ISO 14001:2015 ÇYS – Entegre Yönetim Sistemi Bilgilendirme Eğitim Katılım Sertifikası – **SGS**
 
-· ISO 45001:2018 ISGYS – Entegre Yönetim Sistemi Bilgilendirme Eğitim Katılım Sertifikası- **SGS**
+ISO 45001:2018 ISGYS – Entegre Yönetim Sistemi Bilgilendirme Eğitim Katılım Sertifikası- **SGS**
 
-·Metrolojik İzlenebilirlik ve Kalibrasyon Sertifikalarının Değerlendirilmesi Eğitimi – **RAN Kalite**
+Metrolojik İzlenebilirlik ve Kalibrasyon Sertifikalarının Değerlendirilmesi Eğitimi – **RAN Kalite**
 
-·Cisco Certificated Network Associate CCNAEğitimi- **CLIGURU**
+cisco Certificated Network Associate CCNAEğitimi- **CLIGURU**
 
-·Mobility  Of Youth Workers “ Be The Active One” – **Erasmus +**
+Mobility Of Youth Workers “ Be The Active One” – **Erasmus +**
 
-· Kurumsal İletişim Eğitimi Katılım Sertifikası – **Digital Vizyon Akademi**
+Kurumsal İletişim Eğitimi Katılım Sertifikası – **Digital Vizyon Akademi**
 
-· Girişimcilik Hızlandırma ve İnovasyon Programı Katılım Sertifikası – **Inno Campus**
+Girişimcilik Hızlandırma ve İnovasyon Programı Katılım Sertifikası – **Inno Campus**
 
-· Bilgi Teknolojilerine Giriş Eğitimi- **BTK**
+Bilgi Teknolojilerine Giriş Eğitimi- **BTK**
 
-· Veri Merkezi Eğitimi- **TUBİTAK BİLGEM YTE**
+Veri Merkezi Eğitimi- **TUBİTAK BİLGEM YTE**
 
-· CAD/CAM Temelleri Eğitimi- **ODTÜ BİLGEİŞ**
+CAD/CAM Temelleri Eğitimi- **ODTÜ BİLGEİŞ**
 
-· Web Ve Grafik Tasarımcısı Eğitimi – **Bilge Adam**
+Web Ve Grafik Tasarımcısı Eğitimi – **Bilge Adam**
 
-· AUTOCAD ile Teknik Çizim Eğitimi- **Bilge Adam**
+AUTOCAD ile Teknik Çizim Eğitimi- **Bilge Adam**
 
-· 3D Studio Max ile Görselleştirme
+3D Studio Max ile Görselleştirme
 
-·Eğitimi- **Bilge Adam**
+Eğitimi- **Bilge Adam**
 
-·ISO 9001-2008 Kalite Yönetim Sistemi ve İç Tetikçi Eğitimi- **TOBB ETÜ**
+ISO 9001-2008 Kalite Yönetim Sistemi ve İç Tetikçi Eğitimi- **TOBB ETÜ**
 
-·Satış ve Satış Yönetimi Eğitimi- **TOBB ETÜ**
+Satış ve Satış Yönetimi Eğitimi- **TOBB ETÜ**
 
 # Yetkinlikler
 
