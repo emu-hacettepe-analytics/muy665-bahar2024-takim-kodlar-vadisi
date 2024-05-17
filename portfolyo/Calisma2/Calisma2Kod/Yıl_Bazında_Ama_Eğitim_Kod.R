@@ -1,34 +1,34 @@
 library(readxl)
 
-# Assuming the Excel file is stored locally and columns are as seen in the screenshot
-education_data <- read_excel("C:\\Users\\sdemirtas\\Desktop\\İş analitiği ödev 15.05.2024\\eğitim durumu.xlsx", skip = 9)  # Adjust the path and skip as necessary
-education_data <- education_data[,-2]  # This drops the second column
-# Set column names based on your screenshot
-colnames(education_data) <- c("Date", "Illiterate", "Literate_no_school", "Incomplete_primary", "Primary", 
-                              "Middle_school", "High_school_general", "High_school_vocational", "Undergraduate_or_higher", "Unknown")
+# Excel dosyasının yerel olarak depolandığını ve sütun isimlerinin ekran görüntüsünde görüldüğü gibi olduğunu varsayalım
+education_data <- read_excel("C:\\Users\\parad\\Documents\\GitHub\\muy665-bahar2024-takim-kodlar-vadisi\\portfolyo\\Calisma2\\Calisma2VeriSet\\Egitim_Durum_VS.xlsx", skip = 9)  # Yolu ve gerektiğinde atlama sayısını ayarlayın
+education_data <- education_data[,-2]  # Bu, ikinci sütunu düşürür
+# Sütun isimlerini ekran görüntüsüne göre ayarlayın
+colnames(education_data) <- c("Tarih", "Okur_yazar_degil", "Okuryazar_okul_degil", "İlkögretim_mezunu_olmayan", "İlkögretim", 
+                              "Ortaokul", "Lise_genel", "Meslek_lisesi", "Lisansustu_ya_da_daha_üstü", "Bilinmeyen")
 library(dplyr)
 
-# Extract the year from the Date
-education_data$Year <- as.integer(sub(" .*", "", education_data$Date))
+# Tarihten yılı çıkarın
+education_data$Yıl <- as.integer(sub(" .*", "", education_data$Tarih))
 
-# Calculate the yearly averages for each education category
-yearly_education_averages <- education_data %>%
-  group_by(Year) %>%
-  summarise(across(Illiterate:`Unknown`, mean, na.rm = TRUE))
+# Her eğitim kategorisi için yıllık ortalamaları hesaplayın
+yıllık_education_ortalama <- education_data %>%
+  group_by(Yıl) %>%
+  summarise(across(Okur_yazar_degil:`Bilinmeyen`, mean, na.rm = TRUE))
 
-# Calculate the overall yearly average across all education categories
-yearly_averages_overall <- education_data %>%
-  group_by(Year) %>%
-  summarise(Overall_Average = mean(c_across(Illiterate:`Unknown`), na.rm = TRUE))
+# Tüm eğitim kategorilerindeki genel yıllık ortalama hesaplayın
+genel_yıllık_ortalama <- education_data %>%
+  group_by(Yıl) %>%
+  summarise(Genel_Ortalama = mean(c_across(Okur_yazar_degil:`Bilinmeyen`), na.rm = TRUE))
 library(tidyr)
 
-# Reshape the data for plotting individual education category averages
-yearly_education_long <- yearly_education_averages %>%
-  pivot_longer(cols = Illiterate:`Unknown`, names_to = "Education_Status", values_to = "Average_Unemployment_Rate")
+# Grafik için verileri yeniden şekillendirin
+yıllık_education_uzun <- yıllık_education_ortalama %>%
+  pivot_longer(cols = Okur_yazar_degil:`Bilinmeyen`, names_to = "Eğitim_Durumu", values_to = "Ortalama_Işsizlik_Oranı")
 library(ggplot2)
 
-ggplot(yearly_education_long, aes(x = as.factor(Year), y = Average_Unemployment_Rate, fill = Education_Status)) +
+ggplot(yıllık_education_uzun, aes(x = as.factor(Yıl), y = Ortalama_Işsizlik_Oranı, fill = Eğitim_Durumu)) +
   geom_bar(stat = "identity", position = position_dodge()) +
-  labs(title = "Yearly Average Unemployment Rates by Education Category", x = "Year", y = "Average Unemployment Rate (%)") +
+  labs(title = "Eğitim Kategorisine Göre Yıllık Ortalama İşsizlik Oranları", x = "Yıl", y = "Ortalama İşsizlik Oranı (%)") +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))

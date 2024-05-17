@@ -1,7 +1,8 @@
 ---
 title: "Mehmet Murathan YALÇIN"
 ---
-![](images/foto2jpg){fig-align="center" width="197"}
+
+![](imagfoto2.JPGjpg){fig-align="center" width="197"}
 
 # Eğitim
 
@@ -21,7 +22,7 @@ title: "Mehmet Murathan YALÇIN"
 
 ## İşler
 
-1  **Mitaş Endüstri AŞ Hammadde Girdi Kalite Kontrol Mühendisi, 2021-2024**
+1 **Mitaş Endüstri AŞ Hammadde Girdi Kalite Kontrol Mühendisi, 2021-2024**
 
 Kalite Yönetim Sistemi standartları ve Şirket politikalarına uygun şekilde çalışmaları yönetmek; şirket süreçlerine ve prosedürlerine uygulanmasını sağlamak
 
@@ -37,7 +38,7 @@ Tasarım, imalat ve montaj faaliyetlerinde kalite güvence ve/veya kalite muayen
 
 İşbirliği yapılan ekiplerin puantaj ve performans takibini gerçekleştirmek, iyileştirme, eğitim ve beceri geliştirmeye destek olmak
 
-2  **İNNOVA Bilişim Sistemleri AŞ , Satış Yöneticisi, 2020-2021**
+2 **İNNOVA Bilişim Sistemleri AŞ , Satış Yöneticisi, 2020-2021**
 
 Kalite Yönetim Sistemi standartları ve Şirket politikalarına uygun şekilde çalışmaları yönetmek; şirket süreçlerine ve prosedürlerine uygulanmasını sağlamak
 

@@ -1,31 +1,34 @@
+# Gerekli kütüphaneleri yükleme
 library(readxl)
-
-# Import data from the Excel file
-marriage_data <- read_excel("C:\\Users\\sdemirtas\\Desktop\\İş analitiği ödev 15.05.2024\\evlilik durumuna göre.xlsx", skip = 9)  # Adjust the path and skip as necessary
-marriage_data <- marriage_data[,-2]  # This drops the second column
-# Set the column names based on the screenshot
-colnames(marriage_data) <- c("Date", "Hiç Evlenmedi", "Evlendi", "Boşandı", "Eşi Öldü")
-
 library(dplyr)
 library(tidyr)
 library(ggplot2)
 
-# Extract the year from the Date assuming it's in a format like "2014 Ocak"
+# Excel dosyasından veri alma
+marriage_data <- read_excel("C:/Users/parad/Documents/GitHub/muy665-bahar2024-takim-kodlar-vadisi/portfolyo/Calisma2/Calisma2VeriSet/Evlilik_Durumu_VS.xlsx", skip = 9)
+
+# İkinci sütunu çıkarma
+marriage_data <- marriage_data[,-2]
+
+# Sütun adlarını belirleme
+colnames(marriage_data) <- c("Date", "Hic_Evlenmedi", "Evlendi", "Bosandi", "Esi_Oldu")
+
+# Tarih sütunundan yılı çıkarma
 marriage_data$Year <- as.integer(sub(" .*", "", marriage_data$Date))
 
-# Calculate the yearly averages for each marital status
+# Her evlilik durumu için yıllık ortalamaları hesaplama
 yearly_marriage_averages <- marriage_data %>%
   group_by(Year) %>%
-  summarise(across(`Hiç Evlenmedi`:`Eşi Öldü`, mean, na.rm = TRUE))
+  summarise(across(Hic_Evlenmedi:Esi_Oldu, mean, na.rm = TRUE))
 
-# Reshape the data for plotting individual marital status averages
+# Verileri grafik için uzun formata dönüştürme
 yearly_marriage_long <- yearly_marriage_averages %>%
-  pivot_longer(cols = `Hiç Evlenmedi`:`Eşi Öldü`, names_to = "Marital_Status", values_to = "Average_Unemployment_Rate")
-# Plotting the average unemployment rates by year and marital status
-ggplot(yearly_marriage_long, aes(x = as.factor(Year), y = Average_Unemployment_Rate, fill = Marital_Status)) +
+  pivot_longer(cols = Hic_Evlenmedi:Esi_Oldu, names_to = "Marital_Status", values_to = "Average_Rate")
+
+# Yıllık ortalama oranları yıl ve evlilik durumu bazında görselleştirme
+ggplot(yearly_marriage_long, aes(x = as.factor(Year), y = Average_Rate, fill = Marital_Status)) +
   geom_bar(stat = "identity", position = position_dodge()) +
-  geom_text(aes(label = sprintf("%.1f", Average_Unemployment_Rate)), position = position_dodge(width = 0.9), vjust = -0.3, size = 3) +
-  labs(title = "Yearly Average Unemployment Rates by Marital Status", x = "Year", y = "Average Unemployment Rate (%)") +
+  geom_text(aes(label = sprintf("%.1f", Average_Rate)), position = position_dodge(width = 0.9), vjust = -0.3, size = 3) +
+  labs(title = "Evlilik Durumuna Göre Yıllık Ortalama Oranlar", x = "Yıl", y = "Ortalama Oran (%)") +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "bottom")
-

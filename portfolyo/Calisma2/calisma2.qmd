@@ -1,3 +1,291 @@
 ---
-title: "??al????ma 2"
+title: "Çalışma 2"
 ---
+
+## Correletaion Kod Tasarımı
+
+Bu kod, yaş grubu, eğitim durumu ve evlilik durumu verilerini okur, yıllık ortalamaları hesaplar ve bu veri kümeleri arasındaki korelasyonları görselleştirir. İşte kodun detaylı açıklaması:
+
+Kütüphanelerin Yüklenmesi:
+
+readxl, dplyr, tidyr, ggplot2, ve corrplot kütüphaneleri yüklenir. Yaş Grubu Verisinin Yüklenmesi:
+
+Yas_Grubu_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılır ve Year sütunu eklenir. Yaş grubu verileri yıllık ortalamalar olarak özetlenir ve temizlenir. Eğitim Durumu Verisinin Yüklenmesi:
+
+Egitim_Durum_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılır ve Year sütunu eklenir. Eğitim durumu verileri yıllık ortalamalar olarak özetlenir ve temizlenir. Evlilik Durumu Verisinin Yüklenmesi:
+
+Evlilik_Durumu_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılır ve Year sütunu eklenir. Evlilik durumu verileri yıllık ortalamalar olarak özetlenir ve temizlenir. Veri Kümelerinin Birleştirilmesi:
+
+Üç veri kümesi Year sütunu üzerinden birleştirilir. Korelasyon Hesaplama ve Görselleştirme:
+
+Yaş grubu ile evlilik durumu arasındaki korelasyon hesaplanır ve görselleştirilir. Yaş grubu ile eğitim durumu arasındaki korelasyon hesaplanır ve görselleştirilir. Evlilik durumu ile eğitim durumu arasındaki korelasyon hesaplanır ve görselleştirilir. Kodun tamamını çalıştırarak, yaş, eğitim ve evlilik durumu arasındaki ilişkileri görselleştirebilirsiniz. Bu görselleştirmeler, veri analizi sürecinde önemli içgörüler sağlar.
+
+```{r}
+library(readxl)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(corrplot)
+
+# Yaş grubu verisini yükleme
+age_data <- read_excel("C:\\Users\\parad\\Documents\\GitHub\\muy665-bahar2024-takim-kodlar-vadisi\\portfolyo\\Calisma2\\Calisma2VeriSet\\Yas_Grubu_VS.xlsx", skip = 9)
+age_data <- age_data[,-2]  # İkinci sütunu kaldır
+colnames(age_data) <- c("Date", "15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59", "60-64","65+")
+
+# Yılı çıkar ve yıllık ortalamaları hesapla
+age_data$Year <- as.integer(sub(" .*", "", age_data$Date))
+yearly_age_averages <- age_data %>%
+  group_by(Year) %>%
+  summarise(across(`15-19`:`65+`, mean, na.rm = TRUE))
+
+# Çalışma alanını temizle
+rm(age_data)
+
+# Eğitim durumu verisini yükleme
+education_data <- read_excel("C:\\Users\\parad\\Documents\\GitHub\\muy665-bahar2024-takim-kodlar-vadisi\\portfolyo\\Calisma2\\Calisma2VeriSet\\Egitim_Durum_VS.xlsx", skip = 9)
+education_data <- education_data[,-2]  # İkinci sütunu kaldır
+colnames(education_data) <- c("Date","Okuma-yazma bilmeyen","Okuma yazma bilen fakat bir okul bitirmeyen",	"Ilkokul",	"Ortaokul veya dengi meslek okul",	"Genel lise","Lise dengi meslek okul"	,"Yuksekokul veya fakulte",	"Acik Ogretim")
+
+# Yılı çıkar ve yıllık ortalamaları hesapla
+education_data$Year <- as.integer(sub(" .*", "", education_data$Date))
+yearly_education_averages <- education_data %>%
+  group_by(Year) %>%
+  summarise(across(`Okuma-yazma bilmeyen`:`Acik Ogretim`, mean, na.rm = TRUE))
+
+# Çalışma alanını temizle
+rm(education_data)
+
+# Evlilik durumu verisini yükleme
+marital_data <- read_excel("C:\\Users\\parad\\Documents\\GitHub\\muy665-bahar2024-takim-kodlar-vadisi\\portfolyo\\Calisma2\\Calisma2VeriSet\\Evlilik_Durumu_VS.xlsx", skip = 9)
+marital_data <- marital_data[,-2]  # İkinci sütunu kaldır
+colnames(marital_data) <- c("Date", "Hic Evlenmedi", "Evlendi", "Bosandi", "Esi Oldu")
+
+# Yılı çıkar ve yıllık ortalamaları hesapla
+marital_data$Year <- as.integer(sub(" .*", "", marital_data$Date))
+yearly_marriage_averages <- marital_data %>%
+  group_by(Year) %>%
+  summarise(across(`Hic Evlenmedi`:`Esi Oldu`, mean, na.rm = TRUE))
+
+# Çalışma alanını temizle
+rm(marital_data)
+
+# Veri kümelerini 'Year' sütununda birleştir
+combined_data <- full_join(yearly_age_averages, yearly_education_averages, by = "Year") %>%
+  full_join(yearly_marriage_averages, by = "Year")
+
+# Yaş ve evlilik durumu sütunlarını seç ve korelasyon hesapla
+age_marital_correlation <- cor(combined_data[grepl("15-19|20-24|Evlendi|Bosandi|Esi Oldu", names(combined_data))], use = "complete.obs")
+
+# Yaş ve eğitim durumu sütunlarını seç ve korelasyon hesapla
+age_education_correlation <- cor(combined_data[grepl("15-19|20-24|Yuksekokul veya fakulte|Acik Ogretim", names(combined_data))], use = "complete.obs")
+
+# Evlilik ve eğitim durumu sütunlarını seç ve korelasyon hesapla
+marital_education_correlation <- cor(combined_data[grepl("Evlendi|Bosandi|Yuksekokul veya fakulte|Acik Ogretim", names(combined_data))], use = "complete.obs")
+
+# Korelasyonları görselleştirme
+library(corrplot)
+
+# Yaş ve evlilik durumu korelasyonlarını görselleştirme
+corrplot(age_marital_correlation, method = "circle")
+
+# Yaş ve eğitim durumu korelasyonlarını görselleştirme
+corrplot(age_education_correlation, method = "circle")
+
+# Evlilik ve eğitim durumu korelasyonlarını görselleştirme
+corrplot(marital_education_correlation, method = "circle")
+
+```
+
+## Egitim Durumuna Göre
+
+Bu kod, eğitim durumuna göre yıllık ortalama işsizlik oranlarını analiz etmek ve görselleştirmek için etkili bir yol sağlar.
+
+Kütüphanelerin Yüklenmesi:
+
+readxl, dplyr, tidyr, ggplot2 kütüphaneleri yüklenir. Veri Okuma ve Düzenleme:
+
+read_excel fonksiyonu kullanılarak Egitim_Durum_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılarak Year sütunu eklenir. Yıllık Ortalamaların Hesaplanması:
+
+Her eğitim kategorisi için yıllık ortalamalar hesaplanır. Verilerin Uzun Formatta Düzenlenmesi:
+
+pivot_longer fonksiyonu kullanılarak veriler yeniden şekillendirilir. Bu adım, eğitim durumuna göre ortalama işsizlik oranlarını daha kolay görselleştirebilmek için gereklidir. Görselleştirme:
+
+ggplot2 kullanılarak yıllık ortalama işsizlik oranları, eğitim durumu ve yıl bazında görselleştirilir. Bar grafikler kullanılarak farklı eğitim durumları arasındaki işsizlik oranları karşılaştırılır. Grafikler estetik ve okunabilir olması için çeşitli temalar ve ayarlar eklenir.
+
+```{r}
+library(readxl)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+# Dosya yolunu düzenleyerek okuma işlemi
+education_data <- read_excel("C:/Users/parad/Documents/GitHub/muy665-bahar2024-takim-kodlar-vadisi/portfolyo/Calisma2/Calisma2VeriSet/Egitim_Durum_VS.xlsx", skip = 9)
+
+# İkinci sütunu atlayarak verileri düzenleme
+education_data <- education_data[,-2]
+
+# Sütun adlarını belirleme
+colnames(education_data) <- c("Date", "Okuma_yazma_bilmeyen", "Okuma_yazma_bilen_fakat_bir_okul_bitirmeyen", "Ilkokul", "Ortaokul_veya_dengi_meslek_okul", "Genel_lise", "Lise_dengi_meslek_okul", "Yuksekokul_veya_fakulte", "Acik_Ogretim")
+
+# Yıl bilgisini Tarih sütunundan çıkarma
+education_data$Year <- as.integer(sub(" .*", "", education_data$Date))
+
+# Her eğitim kategorisi için yıllık ortalamaları hesaplama
+yearly_education_averages <- education_data %>%
+  group_by(Year) %>%
+  summarise(across(`Okuma_yazma_bilmeyen`:`Acik_Ogretim`, mean, na.rm = TRUE))
+
+# Verileri yeniden şekillendirme
+yearly_education_long <- yearly_education_averages %>%
+  pivot_longer(cols = `Okuma_yazma_bilmeyen`:`Acik_Ogretim`, names_to = "Education_Status", values_to = "Average_Unemployment_Rate")
+
+# Yıllık ortalama işsizlik oranlarını eğitim durumu ve yıl bazında görselleştirme
+ggplot(yearly_education_long, aes(x = Education_Status, y = Average_Unemployment_Rate, fill = Education_Status)) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  labs(title = "Yıllık Ortalama İşsizlik Oranları ve Eğitim Durumu", x = "Eğitim Durumu", y = "Ortalama İşsizlik Oranı (%)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "bottom")
+```
+
+## Evlilik Durumuna Göre
+
+Excel dosyasından evlilik durumlarına ilişkin verileri okuyarak yıllık ortalama oranları hesaplar ve ardından bu oranları bir bar grafiğinde görselleştirir.
+
+Gerekli kütüphaneleri yükleme: İlk olarak, R'de kullanacağınız bazı kütüphaneleri yüklüyorsunuz. Bu kütüphaneler veri işleme ve görselleştirme için kullanılır.
+
+Excel dosyasından veri alma: Belirtilen Excel dosyasından verileri okuyorsunuz. Bu veriler, evlilik durumlarına ilişkin olabilir.
+
+Veri setini düzenleme: Okunan veri setini düzenliyorsunuz. Örneğin, gereksiz sütunları çıkarıyorsunuz ve sütunlara anlamlı isimler veriyorsunuz.
+
+Verileri analiz için hazırlama: Analiz yapmak için verileri hazırlıyorsunuz. Örneğin, tarih verisinden yıl bilgisini çıkararak analiz için kullanıma uygun hale getiriyorsunuz.
+
+Ortalama hesaplama: Her yıl için evlilik durumu oranlarının ortalamasını hesaplıyorsunuz. Bu, yıllık evlilik trendlerini görmek için önemlidir.
+
+Veriyi uzun formata dönüştürme: Veriyi görselleştirmek için uzun formata dönüştürüyorsunuz. Bu, veriyi daha iyi bir şekilde görselleştirmenize olanak tanır.
+
+Veriyi görselleştirme: Son olarak, yıllık evlilik durumu oranlarını görselleştiriyorsunuz. Bu genellikle bar grafikleri kullanılarak yapılır ve trendleri daha açık bir şekilde gösterir.
+
+```{r}
+# Gerekli kütüphaneleri yükleme
+library(readxl)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+# Excel dosyasından veri alma
+marriage_data <- read_excel("C:/Users/parad/Documents/GitHub/muy665-bahar2024-takim-kodlar-vadisi/portfolyo/Calisma2/Calisma2VeriSet/Evlilik_Durumu_VS.xlsx", skip = 9)
+
+# İkinci sütunu çıkarma
+marriage_data <- marriage_data[,-2]
+
+# Sütun adlarını belirleme
+colnames(marriage_data) <- c("Date", "Hic_Evlenmedi", "Evlendi", "Bosandi", "Esi_Oldu")
+
+# Tarih sütunundan yılı çıkarma
+marriage_data$Year <- as.integer(sub(" .*", "", marriage_data$Date))
+
+# Her evlilik durumu için yıllık ortalamaları hesaplama
+yearly_marriage_averages <- marriage_data %>%
+  group_by(Year) %>%
+  summarise(across(Hic_Evlenmedi:Esi_Oldu, mean, na.rm = TRUE))
+
+# Verileri grafik için uzun formata dönüştürme
+yearly_marriage_long <- yearly_marriage_averages %>%
+  pivot_longer(cols = Hic_Evlenmedi:Esi_Oldu, names_to = "Marital_Status", values_to = "Average_Rate")
+
+# Yıllık ortalama oranları yıl ve evlilik durumu bazında görselleştirme
+ggplot(yearly_marriage_long, aes(x = as.factor(Year), y = Average_Rate, fill = Marital_Status)) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  geom_text(aes(label = sprintf("%.1f", Average_Rate)), position = position_dodge(width = 0.9), vjust = -0.3, size = 3) +
+  labs(title = "Evlilik Durumuna Göre Yıllık Ortalama Oranlar", x = "Yıl", y = "Ortalama Oran (%)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "bottom")
+
+
+```
+
+## Yaş Grubuna Göre
+
+Excel dosyasından işsizlik verilerini okur, her yaş grubu için ortalama işsizlik oranını hesaplar ve ggplot2 kullanarak her yaş grubu için ortalama işsizlik oranlarını çizer.
+
+```{r}
+
+library(readxl)
+# Load the data, assuming the file path is correct and the sheet is named appropriately
+# Ensure to replace with the actual path and type it directly here
+unemployment_data <- read_excel("C:\\Users\\parad\\Documents\\GitHub\\muy665-bahar2024-takim-kodlar-vadisi\\portfolyo\\Calisma2\\Calisma2VeriSet\\Yas_Grubu_VS.xlsx", skip = 9)
+unemployment_data <- unemployment_data[,-2]  # This drops the second column
+# Adjust path and skip rows as necessary
+# Set column names, assuming they represent age groups directly
+colnames(unemployment_data) <- c("Date", "15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59", "60-64", "65+")
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+# Calculating the average unemployment rate for each age group
+age_group_averages <- unemployment_data %>%
+  select(-Date) %>%  # Exclude the Date for calculation
+  summarise(across(everything(), mean, na.rm = TRUE)) %>%  # Calculate mean, ignoring NA values
+  pivot_longer(
+    cols = everything(),
+    names_to = "Age_Group",
+    values_to = "Average_Unemployment_Rate"
+  )
+
+# Plotting the average unemployment rates for each age group
+ggplot(age_group_averages, aes(x = Age_Group, y = Average_Unemployment_Rate, fill = Age_Group)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Yaş gruplarına göre Ortalama İşsizlik Oranı", x = "Yaş Grubu", y = "Ortalama İşsizlik Oranı") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+
+```
+
+## Yıl Bazında Ama Eğitim_Kod
+
+```{r}
+```
+
+## Yıl Bazında_Kod
+
+Excel dosyasından işsizlik verilerini okuyup yıllara göre yaş gruplarının ortalama işsizlik oranlarını hesaplar ve bu verileri çubuk grafikle görselleştirir.
+
+İlk olarak, dplyr ve ggplot2 kütüphaneleri yüklenir. Ardından, belirtilen Excel dosyasından veriler okunur ve gereksiz ikinci sütun düşürülür. Sütun isimleri, yaş gruplarını doğrudan temsil ettiği varsayılarak ayarlanır. Tarih bilgisinden yıl bilgisi çıkarılır ve yeni bir "Year" (Yıl) sütunu oluşturulur. Her yıl için tüm yaş gruplarının ortalama işsizlik oranı hesaplanır. Son olarak, yıllara göre ortalama işsizlik oranları, çubuk grafik kullanılarak görselleştirilir. Görsel, her yılın ortalama işsizlik oranını gösterir ve çubukların renkleri yılları temsil eder. Bu şekilde, yıllara göre işsizlik oranlarının değişimini kolayca görebilirsiniz.
+
+```{r}
+library(dplyr)
+library(ggplot2)
+unemployment_data <- read_excel("C:\\Users\\parad\\Documents\\GitHub\\muy665-bahar2024-takim-kodlar-vadisi\\portfolyo\\Calisma2\\Calisma2VeriSet\\Yas_Grubu_VS.xlsx", skip = 9)
+unemployment_data <- unemployment_data[,-2]  # This drops the second column
+# Adjust path and skip rows as necessary
+# Set column names, assuming they represent age groups directly
+colnames(unemployment_data) <- c("Date", "15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59", "60-64", "65+")
+# Extract the year as an integer
+unemployment_data$Year <- as.integer(sub(" .*", "", unemployment_data$Date))
+
+# Calculate the average unemployment rate for all age groups combined for each year
+annual_averages <- unemployment_data %>%
+  group_by(Year) %>%
+  summarise(Average_Unemployment_Rate = mean(c_across(`15-19`:`65+`), na.rm = TRUE))
+
+# Plotting the average unemployment rates by year using a bar graph
+ggplot(annual_averages, aes(x = as.factor(Year), y = Average_Unemployment_Rate, fill = as.factor(Year))) +
+  geom_bar(stat = "identity", width = 0.7) +  # Using bars to represent the average rates
+  scale_fill_brewer(palette = "Paired") +  # Optional: adds color using a color palette
+  labs(title = "Bütün Yaş gruplarının yıl bazında İşsizlik Oranı", 
+       x = "Yıl", 
+       y = "Ortalama İşsizlik Oranı (%)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+                              
+
+```
+
+
+
+<div class="tenor-gif-embed" data-postid="18303713" data-share-method="host" data-aspect-ratio="1.30081" data-width="100%"><a href="https://tenor.com/view/spongebob-analytics-rainbows-stats-gif-18303713">Spongebob Analytics GIF</a>from <a href="https://tenor.com/search/spongebob-gifs">Spongebob GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+
+------------------------------------------------------------------------

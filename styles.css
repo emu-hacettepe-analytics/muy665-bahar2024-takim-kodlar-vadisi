@@ -1,1 +1,55 @@
 /* css styles */
+body {
+    background-color: #5e5e5c;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #b5b514; /* Link rengi */
+}
+
+a:hover {
+    color: #ffff05; /* Linkin üzerine gelindiğindeki rengi */
+}
+
+.navbar {
+    background-color: #333333;
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+.navbar a:hover {
+    color: #cccccc;
+}
+
+.sidebar {
+    background-color: #212121;
+    color: #1a1a19;
+}
+
+.sidebar a {
+    color: #1a1a19;
+}
+
+.sidebar a:hover {
+    color: #cccccc;
+}
+
+.page-footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    border-top: 2px solid #4caf50;
+}
+
+.page-footer a {
+    color: #ffffff;
+}
+
+.page-footer a:hover {
+    color: #8bc34a;
+
+}

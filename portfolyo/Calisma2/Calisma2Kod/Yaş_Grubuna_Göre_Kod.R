@@ -2,7 +2,7 @@
 library(readxl)
 # Load the data, assuming the file path is correct and the sheet is named appropriately
 # Ensure to replace with the actual path and type it directly here
-unemployment_data <- read_excel("C:\\Users\\sdemirtas\\Desktop\\İş analitiği ödev 15.05.2024\\yas grubu.xlsx", skip = 9)
+unemployment_data <- read_excel("C:\\Users\\parad\\Documents\\GitHub\\muy665-bahar2024-takim-kodlar-vadisi\\portfolyo\\Calisma2\\Calisma2VeriSet\\Yas_Grubu_VS.xlsx", skip = 9)
 unemployment_data <- unemployment_data[,-2]  # This drops the second column
 # Adjust path and skip rows as necessary
 # Set column names, assuming they represent age groups directly

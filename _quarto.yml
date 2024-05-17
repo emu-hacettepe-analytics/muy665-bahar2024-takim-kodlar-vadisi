@@ -3,15 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "Kodlar Vadisi Takımı Analitik Labı"
+  title: "Kodlar Vadisi"
   navbar:
     search: true
     left:
       - text: Ana Sayfa
         href: index.qmd
-      - text: Takım Üyeleri
+      - text: Takım
         href: takim.qmd
-      - text: Porfolyo
+      - text: Ödevler
         href: portfolyo.qmd
       - text: Proje
         href: proje.qmd
@@ -23,13 +23,13 @@ website:
         href: https://github.com
 
   sidebar:
-    - title: "Çalışmalar"
+    - title: "Ödevler"
       style: "docked"
       search: true
       contents:
         - portfolyo.qmd
-        - portfolyo/calisma1.qmd
-        - portfolyo/calisma2.qmd  
+        - portfolyo/Calisma1/calisma1.qmd
+        - portfolyo/Calisma2/calisma2.qmd  
         
     - title: "Takım"
       style: "docked"
@@ -46,7 +46,7 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   page-footer:
-    center: "EMU Hacettepe MUY665 - 2023-2024 Bahar" 
+    center: "ATİKERİN KATKILARIYLA"
     border: true
 format:
   html:

@@ -21,18 +21,12 @@ Lütfen faaliyetlerimizi görmek için için bizi takipte kalın.
 
 5.  [Semanur_DEMİRTAŞ](/takim/semanurdemirtas.qmd)
 
-## Proje Adı
+## Ödevler
 
-MUY665: Lorem Lipsu Dolar Sit Amet
+Portfolyo Sayfasını inceleyiniz.
 
-## Proje Konusu
+Çalışma 1
 
-MUY665: Lorem Lipsu Dolar Sit Amet
+Çalışma 2
 
-## Veri Seti Hakkında Özet Bilgi
-
-MUY665: Lorem Lipsu Dolar Sit Amet
-
-## Sonuçlar
-
-Lorem Lipsu Dolar Sit Amet
+## 

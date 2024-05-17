@@ -1,5 +1,15 @@
 ---
-title: "Portfolyo"
+title: "Ödevler"
 ---
 
-Bu sayfada, MUY665 İş Analitiği dersi 2023-2024 bahar dönemi boyunca yaptığımız analitik çalışmalarını sunmaktayız. Çalışmalarımıza sol menüden ulaşabilirsiniz.
+Bu sayfada, MUY665 İş Analitiği dersi 2023-2024 bahar dönemi boyunca yaptığımız analitik çalışmalarını sunmaktayız.
+
+Çalışmalarımıza sol ⬅ menüden ulaşabilirsiniz.
+
+::: {.tenor-gif-embed data-postid="22307170" data-share-method="host" data-aspect-ratio="1" data-width="100%"}
+`<a href="https://tenor.com/view/left-gif-22307170"`{=html}Left GIF</a>from `<a href="https://tenor.com/search/left-gifs"`{=html}Left GIFs</a>
+:::
+
+```{=html}
+<script type="text/javascript" async src="https://tenor.com/embed.js"</script>
+```
