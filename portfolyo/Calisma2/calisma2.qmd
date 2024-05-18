@@ -1,24 +1,81 @@
 ---
-title: "Çalışma 2"
+title: "Proje "
+number-sections: true
 ---
 
-## Correletaion Kod Tasarımı
+# **Genel Bakış ve Kapsamı**
+
+-   Proje, yaş grupları, eğitim durumu ve evlilik durumu verilerini içermektedir.
+
+-   Kapsamı, verilerin yıllık ortalamalarının hesaplanması, veri keşfi, trend analizi ve model uygulama süreçlerini içerir.
+
+# **Veri**
+
+-   Proje kapsamında kullanılan veriler yaş grupları, eğitim durumu ve evlilik durumuyla ilgilidir.
+
+- Türkiye İstatistik Kurumu İşgücü İstatistikleri Veri Tabanı'ndan alınan veri setleri kullanılmıştır.
+
+-   Veriler, yıllık ortalamalar şeklinde sunulmuştur.
+
+-   "Yas_Grubu_VS.xlsx", "Egitim_Durum_VS.xlsx", "Evlilik_Durumu_VS.xlsx" dosyaları kullanılmıştır.
+
+# **Veri Hakkında Genel Bilgiler**
+
+-   Veriler, belirli zaman aralıklarında yaş grupları, eğitim durumu ve evlilik durumu üzerindeki istatistiksel bilgileri içerir.
+
+-   Örnek olarak, yaş grupları verileri 15-19 yaş aralığından 65+ yaş aralığına kadar olan yıllık ortalama verileri içerir.
+
+# **Tercih Sebebi**
+
+-   Proje için bu verilerin seçilme sebebi, belirli demografik gruplar üzerindeki değişimleri ve ilişkileri anlamak amacıyla seçilmiştir.
+
+-   Yaş grupları, eğitim durumu ve evlilik durumu verilerinin bir arada analiz edilmesi, geniş kapsamlı bir bakış açısı sağlar.
+
+# **Ön İşleme**
+
+-   Verilerin ön işleme adımları, gereksiz sütunların çıkarılması, sütun adlarının güncellenmesi ve yıllık ortalamaların hesaplanması gibi adımları içerir.
+
+# **Analiz**
+
+-   Analiz aşamasında, verilerin birleştirilmesi, korelasyon analizi, trend analizi ve görselleştirme işlemleri gerçekleştirilir.
+
+# **Model Uygulama**
+
+-   Model uydurma aşamasında, veriler üzerinde istatistiksel veya makine öğrenimi modelleri kullanılarak analizler ve tahminler gerçekleştirilir.
+
+## Korelasyon Kod Tasarımı
 
 Bu kod, yaş grubu, eğitim durumu ve evlilik durumu verilerini okur, yıllık ortalamaları hesaplar ve bu veri kümeleri arasındaki korelasyonları görselleştirir. İşte kodun detaylı açıklaması:
 
 Kütüphanelerin Yüklenmesi:
 
-readxl, dplyr, tidyr, ggplot2, ve corrplot kütüphaneleri yüklenir. Yaş Grubu Verisinin Yüklenmesi:
+readxl, dplyr, tidyr, ggplot2, ve corrplot kütüphaneleri yüklenir.
 
-Yas_Grubu_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılır ve Year sütunu eklenir. Yaş grubu verileri yıllık ortalamalar olarak özetlenir ve temizlenir. Eğitim Durumu Verisinin Yüklenmesi:
+Yaş Grubu Verisinin Yüklenmesi:
 
-Egitim_Durum_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılır ve Year sütunu eklenir. Eğitim durumu verileri yıllık ortalamalar olarak özetlenir ve temizlenir. Evlilik Durumu Verisinin Yüklenmesi:
+Yas_Grubu_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılır ve Year sütunu eklenir. Yaş grubu verileri yıllık ortalamalar olarak özetlenir ve temizlenir.
 
-Evlilik_Durumu_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılır ve Year sütunu eklenir. Evlilik durumu verileri yıllık ortalamalar olarak özetlenir ve temizlenir. Veri Kümelerinin Birleştirilmesi:
+Eğitim Durumu Verisinin Yüklenmesi:
 
-Üç veri kümesi Year sütunu üzerinden birleştirilir. Korelasyon Hesaplama ve Görselleştirme:
+Egitim_Durum_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılır ve Year sütunu eklenir. Eğitim durumu verileri yıllık ortalamalar olarak özetlenir ve temizlenir.
 
-Yaş grubu ile evlilik durumu arasındaki korelasyon hesaplanır ve görselleştirilir. Yaş grubu ile eğitim durumu arasındaki korelasyon hesaplanır ve görselleştirilir. Evlilik durumu ile eğitim durumu arasındaki korelasyon hesaplanır ve görselleştirilir. Kodun tamamını çalıştırarak, yaş, eğitim ve evlilik durumu arasındaki ilişkileri görselleştirebilirsiniz. Bu görselleştirmeler, veri analizi sürecinde önemli içgörüler sağlar.
+Evlilik Durumu Verisinin Yüklenmesi:
+
+Evlilik_Durumu_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılır ve Year sütunu eklenir. Evlilik durumu verileri yıllık ortalamalar olarak özetlenir ve temizlenir.
+
+Veri Kümelerinin Birleştirilmesi:
+
+Üç veri kümesi Year sütunu üzerinden birleştirilir.
+
+Korelasyon Hesaplama ve Görselleştirme:
+
+Yaş grubu ile evlilik durumu arasındaki korelasyon hesaplanır ve görselleştirilir.
+
+Yaş grubu ile eğitim durumu arasındaki korelasyon hesaplanır ve görselleştirilir.
+
+Evlilik durumu ile eğitim durumu arasındaki korelasyon hesaplanır ve görselleştirilir.
+
+Kodun tamamını çalıştırarak, yaş, eğitim ve evlilik durumu arasındaki ilişkileri görselleştirebilirsiniz. Bu görselleştirmeler, veri analizi sürecinde önemli içgörüler sağlar.
 
 ```{r}
 library(readxl)
@@ -96,7 +153,7 @@ corrplot(marital_education_correlation, method = "circle")
 
 ```
 
-## Egitim Durumuna Göre
+## Eğitim Durumuna Göre Analiz
 
 Bu kod, eğitim durumuna göre yıllık ortalama işsizlik oranlarını analiz etmek ve görselleştirmek için etkili bir yol sağlar.
 
@@ -147,7 +204,7 @@ ggplot(yearly_education_long, aes(x = Education_Status, y = Average_Unemployment
   theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "bottom")
 ```
 
-## Evlilik Durumuna Göre
+## Evlilik Durumuna Göre Analiz
 
 Excel dosyasından evlilik durumlarına ilişkin verileri okuyarak yıllık ortalama oranları hesaplar ve ardından bu oranları bir bar grafiğinde görselleştirir.
 
@@ -204,7 +261,7 @@ ggplot(yearly_marriage_long, aes(x = as.factor(Year), y = Average_Rate, fill = M
 
 ```
 
-## Yaş Grubuna Göre
+## Yaş Grubuna Göre Analiz 
 
 Excel dosyasından işsizlik verilerini okur, her yaş grubu için ortalama işsizlik oranını hesaplar ve ggplot2 kullanarak her yaş grubu için ortalama işsizlik oranlarını çizer.
 
@@ -243,12 +300,7 @@ ggplot(age_group_averages, aes(x = Age_Group, y = Average_Unemployment_Rate, fil
 
 ```
 
-## Yıl Bazında Ama Eğitim_Kod
-
-```{r}
-```
-
-## Yıl Bazında_Kod
+## Yıl Bazında Analiz
 
 Excel dosyasından işsizlik verilerini okuyup yıllara göre yaş gruplarının ortalama işsizlik oranlarını hesaplar ve bu verileri çubuk grafikle görselleştirir.
 
@@ -283,9 +335,25 @@ ggplot(annual_averages, aes(x = as.factor(Year), y = Average_Unemployment_Rate, 
 
 ```
 
+::: {.tenor-gif-embed data-postid="18303713" data-share-method="host" data-aspect-ratio="1.30081" data-width="100%"}
+<a href="https://tenor.com/view/spongebob-analytics-rainbows-stats-gif-18303713">Spongebob Analytics GIF</a>from <a href="https://tenor.com/search/spongebob-gifs">Spongebob GIFs</a>
+:::
 
-
-<div class="tenor-gif-embed" data-postid="18303713" data-share-method="host" data-aspect-ratio="1.30081" data-width="100%"><a href="https://tenor.com/view/spongebob-analytics-rainbows-stats-gif-18303713">Spongebob Analytics GIF</a>from <a href="https://tenor.com/search/spongebob-gifs">Spongebob GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-
+```{=html}
+<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+```
 
 ------------------------------------------------------------------------
+
+
+# **Sonuçlar**
+
+-   Projenin sonuçları, analizlerin ve model uydurmanın sonuçlarına dayanır.
+
+-   Sonuçlar, veri setindeki ilişkileri, trendleri ve çıkarımları içerir.
+
+# **Sonuçlar ve Ana Çıkarımlar**
+
+-   Sonuçlar ve ana çıkarımlar, proje sürecinde elde edilen önemli bulguları ve veri setindeki ana eğilimleri özetler.
+
+-   Bu çıkarımlar, yaş grupları, eğitim durumu ve evlilik durumu üzerindeki etkileşimleri ve ilişkileri anlamak için önemlidir.

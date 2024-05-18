@@ -1,58 +1,66 @@
 ---
-title: "Proje X (proje adını yazınız)"
+title: "Proje Ödevi"
 number-sections: true
 ---
 
-**Proje sayfamıza hoş geldiniz.**
+# **Proje Genel Bakış ve Kapsamı**
 
-*Projemizle ilgili güncellemelerden haberdar olmak için bu alanı takip edin.*
+-   Proje, yaş grupları, eğitim durumu ve evlilik durumu verilerini içermektedir.
 
-(Aşağıdaki başlıklar örnek olarak verilmiştir; lütfen gerektiği şekilde düzenlemekten çekinmeyin.)
+-   Kapsamı, verilerin yıllık ortalamalarının hesaplanması, veri keşfi, trend analizi ve model uydurma süreçlerini içerir.
 
-# Proje Genel Bakış ve Kapsamı
+### **Veri**
 
-xxxxxx
+-   Proje kapsamında kullanılan veriler yaş grupları, eğitim durumu ve evlilik durumuyla ilgilidir.
 
-# Veri
+-   Veriler, yıllık ortalamalar şeklinde sunulmuştur.
 
-xxxxxx
+### **Veri Kaynağı**
 
-## Veri Kaynağı
+-   Veriler Excel dosyalarından alınmıştır.
 
-xxxxxx
+-   "Yas_Grubu_VS.xlsx", "Egitim_Durum_VS.xlsx", "Evlilik_Durumu_VS.xlsx" dosyaları kullanılmıştır.
 
-## Veri Hakkında Genel Bilgiler
+### **Veri Hakkında Genel Bilgiler**
 
-xxxxxx
+-   Veriler, belirli zaman aralıklarında yaş grupları, eğitim durumu ve evlilik durumu üzerindeki istatistiksel bilgileri içerir.
 
-## Tercih Sebebi
+-   Örnek olarak, yaş grupları verileri 15-19 yaş aralığından 65+ yaş aralığına kadar olan yıllık ortalama verileri içerir.
 
-xxxxxx
+### **Tercih Sebebi**
 
-## Ön İşleme
+-   Proje için bu verilerin seçilme sebebi, belirli demografik gruplar üzerindeki değişimleri ve ilişkileri anlamak amacıyla seçilmiştir.
 
-xxxxxx
+-   Yaş grupları, eğitim durumu ve evlilik durumu verilerinin bir arada analiz edilmesi, geniş kapsamlı bir bakış açısı sağlar.
 
-# Analiz
+### **Ön İşleme**
 
-xxxxxx
+-   Verilerin ön işleme adımları, gereksiz sütunların çıkarılması, sütun adlarının güncellenmesi ve yıllık ortalamaların hesaplanması gibi adımları içerir.
 
-## Keşifsel Veri Analizi
+### **Analiz**
 
-xxxxxx
+-   Analiz aşamasında, verilerin birleştirilmesi, korelasyon analizi, trend analizi ve görselleştirme işlemleri gerçekleştirilir.
 
-## Trend Analizi
+### **Keşifsel Veri Analizi**
 
-xxxxxx
+-   Veri keşfi adımları, verilerin genel yapısının anlaşılması ve veri setindeki önemli özelliklerin belirlenmesini içerir.
 
-## Model Uydurma
+### **Trend Analizi**
 
-xxxxxx
+-   Trend analizi, belirli bir zaman aralığındaki verilerin eğilimlerini ve değişimlerini inceleyerek gelecekteki olası trendleri tahmin etmeyi amaçlar.
 
-## Sonuçlar
+### **Model Uydurma**
 
-xxxxxx
+-   Model uydurma aşamasında, veriler üzerinde istatistiksel veya makine öğrenimi modelleri kullanılarak analizler ve tahminler gerçekleştirilir.
 
-# Sonuçlar ve Ana Çıkarımlar
+### **Sonuçlar**
 
-xxxxxx
+-   Projenin sonuçları, analizlerin ve model uydurmanın sonuçlarına dayanır.
+
+-   Sonuçlar, veri setindeki ilişkileri, trendleri ve çıkarımları içerir.
+
+### **Sonuçlar ve Ana Çıkarımlar**
+
+-   Sonuçlar ve ana çıkarımlar, proje sürecinde elde edilen önemli bulguları ve veri setindeki ana eğilimleri özetler.
+
+-   Bu çıkarımlar, yaş grupları, eğitim durumu ve evlilik durumu üzerindeki etkileşimleri ve ilişkileri anlamak için önemlidir.

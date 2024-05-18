@@ -51,13 +51,13 @@ combined_data <- full_join(yearly_age_averages, yearly_education_averages, by = 
   full_join(yearly_marriage_averages, by = "Year")
 
 # Yaş ve evlilik durumu sütunlarını seç ve korelasyon hesapla
-age_marital_correlation <- cor(combined_data[grepl("15-19|20-24|Evlendi|Bosandi|Esi Oldu", names(combined_data))], use = "complete.obs")
+age_marital_correlation <- cor(combined_data[grepl("15-19|20-24|25-29|30-34|35-39|40-44|45-49|50-54|55-59|60-64|65+|Hic Evlenmedi|Evlendi|Bosandi|Esi Oldu", names(combined_data))], use = "complete.obs")
 
 # Yaş ve eğitim durumu sütunlarını seç ve korelasyon hesapla
-age_education_correlation <- cor(combined_data[grepl("15-19|20-24|Yuksekokul veya fakulte|Acik Ogretim", names(combined_data))], use = "complete.obs")
+age_education_correlation <- cor(combined_data[grepl("15-19|20-24|25-29|30-34|35-39|40-44|45-49|50-54|55-59|60-64|65+|Yuksekokul veya fakulte|Acik Ogretim", names(combined_data))], use = "complete.obs")
 
 # Evlilik ve eğitim durumu sütunlarını seç ve korelasyon hesapla
-marital_education_correlation <- cor(combined_data[grepl("Evlendi|Bosandi|Yuksekokul veya fakulte|Acik Ogretim", names(combined_data))], use = "complete.obs")
+marital_education_correlation <- cor(combined_data[grepl("Hic Evlenmedi|Evlendi|Bosandi|Esi Oldu", names(combined_data))], use = "complete.obs")
 
 # Korelasyonları görselleştirme
 library(corrplot)
