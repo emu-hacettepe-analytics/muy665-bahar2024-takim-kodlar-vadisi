@@ -2,6 +2,7 @@ library(readxl)
 library(dplyr)
 library(tidyr)
 library(ggplot2)
+library(forcats)
 
 # Dosya yolunu düzenleyerek okuma işlemi
 education_data <- read_excel("C:/Users/parad/Documents/GitHub/muy665-bahar2024-takim-kodlar-vadisi/portfolyo/Calisma2/Calisma2VeriSet/Egitim_Durum_VS.xlsx", skip = 9)
@@ -24,9 +25,14 @@ yearly_education_averages <- education_data %>%
 yearly_education_long <- yearly_education_averages %>%
   pivot_longer(cols = `Okuma_yazma_bilmeyen`:`Acik_Ogretim`, names_to = "Education_Status", values_to = "Average_Unemployment_Rate")
 
+# Eğitim durumu kategorilerini azalan sıraya göre yeniden sıralama
+yearly_education_long <- yearly_education_long %>%
+  mutate(Education_Status = fct_reorder(Education_Status, -Average_Unemployment_Rate, .fun = mean))
+
 # Yıllık ortalama işsizlik oranlarını eğitim durumu ve yıl bazında görselleştirme
 ggplot(yearly_education_long, aes(x = Education_Status, y = Average_Unemployment_Rate, fill = Education_Status)) +
   geom_bar(stat = "identity", position = position_dodge()) +
   labs(title = "Yıllık Ortalama İşsizlik Oranları ve Eğitim Durumu", x = "Eğitim Durumu", y = "Ortalama İşsizlik Oranı (%)") +
   theme_minimal() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "bottom")
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "bottom") +
+  guides(fill = guide_legend(reverse = TRUE))

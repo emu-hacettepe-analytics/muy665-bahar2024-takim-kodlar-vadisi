@@ -11,7 +11,7 @@ website:
         href: index.qmd
       - text: Takım
         href: takim.qmd
-      - text: Ödevler
+      - text: Portfolyo
         href: portfolyo.qmd
       - text: Proje
         href: proje.qmd
@@ -23,7 +23,7 @@ website:
         href: https://github.com
 
   sidebar:
-    - title: "Ödevler"
+    - title: "Portfolyo"
       style: "docked"
       search: true
       contents:
