@@ -2,7 +2,7 @@
 title: "Mehmet Murathan YALÇIN"
 ---
 
-![](imagfoto2.JPGjpg){fig-align="center" width="197"}
+![](images/foto2.JPG){fig-align="center" width="197"}
 
 # Eğitim
 
@@ -62,34 +62,6 @@ SAP/ERP
 
 CRM
 
-Basic Network Knowledge
-
-HTML
-
-Wordpress
-
-CATIA
-
-Solidworks
-
-Adobe Photoshop
-
-Adobe Illustrator
-
-Adobe Dreamweaver
-
-Adobe InDesign
-
-Matlab
-
-Aurdino
-
-Autodesk AutoCAD
-
-Autodesk 3D Max
-
-Power BI
-
 SAS
 
 SAP QM/ QA Modül
@@ -108,36 +80,10 @@ cisco Certificated Network Associate CCNAEğitimi- **CLIGURU**
 
 Mobility Of Youth Workers “ Be The Active One” – **Erasmus +**
 
-Kurumsal İletişim Eğitimi Katılım Sertifikası – **Digital Vizyon Akademi**
-
-Girişimcilik Hızlandırma ve İnovasyon Programı Katılım Sertifikası – **Inno Campus**
-
-Bilgi Teknolojilerine Giriş Eğitimi- **BTK**
-
-Veri Merkezi Eğitimi- **TUBİTAK BİLGEM YTE**
-
-CAD/CAM Temelleri Eğitimi- **ODTÜ BİLGEİŞ**
-
-Web Ve Grafik Tasarımcısı Eğitimi – **Bilge Adam**
-
-AUTOCAD ile Teknik Çizim Eğitimi- **Bilge Adam**
-
-3D Studio Max ile Görselleştirme
-
-Eğitimi- **Bilge Adam**
-
-ISO 9001-2008 Kalite Yönetim Sistemi ve İç Tetikçi Eğitimi- **TOBB ETÜ**
-
-Satış ve Satış Yönetimi Eğitimi- **TOBB ETÜ**
 
 # Yetkinlikler
 
-1.Proje Yönetimi, Sözleşme Yönetimi, Test Planlama, Test Yönetimi, Risk Yönetimi, Liderlik, Takım Çalışması, Problem Çözme,
+1.MS Project, MS Office Uygulamaları, R, Quarto, GitHub
 
-2.MS Project, MS Office Uygulamaları, R, Quarto, GitHub
+2.Yabancı Dil: İngilizce – Profesyonel Çalışma Yetkinliği, İtalyanca- Başlangıç-Orta Seviye
 
-3.Yabancı Dil: İngilizce – Profesyonel Çalışma Yetkinliği, İtalyanca- Başlangıç-Orta Seviye
-
-# Hobiler
-
-Film İzlemek , Yüzmek

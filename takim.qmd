@@ -4,8 +4,13 @@ title: "Takım Üyeleri"
 
 Takım Üyelerimizin detaylı özgemişlerinin yer aldığı kişisel sayfalarına gitmek için sol menüyü veya aşağıdaki linkleri kullanabilirsiniz.
 
-<div class="tenor-gif-embed" data-postid="22960138" data-share-method="host" data-aspect-ratio="1.33891" data-width="100%"><a href="https://tenor.com/view/palapalapala-kungujesus-kurtlarvadisi-seyfoday%C4%B1cenaze-gif-22960138">Palapalapala Kungujesus GIF</a>from <a href="https://tenor.com/search/palapalapala-gifs">Palapalapala GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+::: {.tenor-gif-embed data-postid="22960138" data-share-method="host" data-aspect-ratio="1.33891" data-width="100%"}
+<a href="https://tenor.com/view/palapalapala-kungujesus-kurtlarvadisi-seyfoday%C4%B1cenaze-gif-22960138">Palapalapala Kungujesus GIF</a>from <a href="https://tenor.com/search/palapalapala-gifs">Palapalapala GIFs</a>
+:::
 
+```{=html}
+<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+```
 # Takım Üyeleri
 
 1.  [Yasin_ULUÇAM](/takim/yasinulucam.qmd)

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Kodlar Vadisi - Proje Ödevi</title>
+<title>Kodlar Vadisi - Proje</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -123,20 +157,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#proje-genel-bakış-ve-kapsamı" id="toc-proje-genel-bakış-ve-kapsamı" class="nav-link active" data-scroll-target="#proje-genel-bakış-ve-kapsamı"><span class="header-section-number">1</span> <strong>Proje Genel Bakış ve Kapsamı</strong></a>
+  <li><a href="#genel-bakış-ve-kapsamı" id="toc-genel-bakış-ve-kapsamı" class="nav-link active" data-scroll-target="#genel-bakış-ve-kapsamı"><span class="header-section-number">1</span> <strong>Genel Bakış ve Kapsamı</strong></a></li>
+  <li><a href="#veri" id="toc-veri" class="nav-link" data-scroll-target="#veri"><span class="header-section-number">2</span> <strong>Veri</strong></a></li>
+  <li><a href="#veri-hakkında-genel-bilgiler" id="toc-veri-hakkında-genel-bilgiler" class="nav-link" data-scroll-target="#veri-hakkında-genel-bilgiler"><span class="header-section-number">3</span> <strong>Veri Hakkında Genel Bilgiler</strong></a></li>
+  <li><a href="#tercih-sebebi" id="toc-tercih-sebebi" class="nav-link" data-scroll-target="#tercih-sebebi"><span class="header-section-number">4</span> <strong>Tercih Sebebi</strong></a></li>
+  <li><a href="#ön-işleme" id="toc-ön-işleme" class="nav-link" data-scroll-target="#ön-işleme"><span class="header-section-number">5</span> <strong>Ön İşleme</strong></a></li>
+  <li><a href="#analiz" id="toc-analiz" class="nav-link" data-scroll-target="#analiz"><span class="header-section-number">6</span> <strong>Analiz</strong></a></li>
+  <li><a href="#model-uygulama" id="toc-model-uygulama" class="nav-link" data-scroll-target="#model-uygulama"><span class="header-section-number">7</span> <strong>Model Uygulama</strong></a>
   <ul class="collapse">
-  <li><a href="#veri" id="toc-veri" class="nav-link" data-scroll-target="#veri"><span class="header-section-number">1.0.1</span> <strong>Veri</strong></a></li>
-  <li><a href="#veri-kaynağı" id="toc-veri-kaynağı" class="nav-link" data-scroll-target="#veri-kaynağı"><span class="header-section-number">1.0.2</span> <strong>Veri Kaynağı</strong></a></li>
-  <li><a href="#veri-hakkında-genel-bilgiler" id="toc-veri-hakkında-genel-bilgiler" class="nav-link" data-scroll-target="#veri-hakkında-genel-bilgiler"><span class="header-section-number">1.0.3</span> <strong>Veri Hakkında Genel Bilgiler</strong></a></li>
-  <li><a href="#tercih-sebebi" id="toc-tercih-sebebi" class="nav-link" data-scroll-target="#tercih-sebebi"><span class="header-section-number">1.0.4</span> <strong>Tercih Sebebi</strong></a></li>
-  <li><a href="#ön-işleme" id="toc-ön-işleme" class="nav-link" data-scroll-target="#ön-işleme"><span class="header-section-number">1.0.5</span> <strong>Ön İşleme</strong></a></li>
-  <li><a href="#analiz" id="toc-analiz" class="nav-link" data-scroll-target="#analiz"><span class="header-section-number">1.0.6</span> <strong>Analiz</strong></a></li>
-  <li><a href="#keşifsel-veri-analizi" id="toc-keşifsel-veri-analizi" class="nav-link" data-scroll-target="#keşifsel-veri-analizi"><span class="header-section-number">1.0.7</span> <strong>Keşifsel Veri Analizi</strong></a></li>
-  <li><a href="#trend-analizi" id="toc-trend-analizi" class="nav-link" data-scroll-target="#trend-analizi"><span class="header-section-number">1.0.8</span> <strong>Trend Analizi</strong></a></li>
-  <li><a href="#model-uydurma" id="toc-model-uydurma" class="nav-link" data-scroll-target="#model-uydurma"><span class="header-section-number">1.0.9</span> <strong>Model Uydurma</strong></a></li>
-  <li><a href="#sonuçlar" id="toc-sonuçlar" class="nav-link" data-scroll-target="#sonuçlar"><span class="header-section-number">1.0.10</span> <strong>Sonuçlar</strong></a></li>
-  <li><a href="#sonuçlar-ve-ana-çıkarımlar" id="toc-sonuçlar-ve-ana-çıkarımlar" class="nav-link" data-scroll-target="#sonuçlar-ve-ana-çıkarımlar"><span class="header-section-number">1.0.11</span> <strong>Sonuçlar ve Ana Çıkarımlar</strong></a></li>
+  <li><a href="#eğitim-durumuna-göre-analiz" id="toc-eğitim-durumuna-göre-analiz" class="nav-link" data-scroll-target="#eğitim-durumuna-göre-analiz"><span class="header-section-number">7.1</span> Eğitim Durumuna Göre Analiz</a></li>
+  <li><a href="#evlilik-durumuna-göre-analiz" id="toc-evlilik-durumuna-göre-analiz" class="nav-link" data-scroll-target="#evlilik-durumuna-göre-analiz"><span class="header-section-number">7.2</span> Evlilik Durumuna Göre Analiz</a></li>
+  <li><a href="#yaş-grubuna-göre-analiz" id="toc-yaş-grubuna-göre-analiz" class="nav-link" data-scroll-target="#yaş-grubuna-göre-analiz"><span class="header-section-number">7.3</span> Yaş Grubuna Göre Analiz</a></li>
+  <li><a href="#yıl-bazında-analiz" id="toc-yıl-bazında-analiz" class="nav-link" data-scroll-target="#yıl-bazında-analiz"><span class="header-section-number">7.4</span> Yıl Bazında Analiz</a></li>
   </ul></li>
+  <li><a href="#sonuçlar" id="toc-sonuçlar" class="nav-link" data-scroll-target="#sonuçlar"><span class="header-section-number">8</span> <strong>Sonuçlar</strong></a></li>
+  <li><a href="#korelasyon-kod-tasarımı" id="toc-korelasyon-kod-tasarımı" class="nav-link" data-scroll-target="#korelasyon-kod-tasarımı"><span class="header-section-number">9</span> Korelasyon Kod Tasarımı</a></li>
   </ul>
 </nav>
 </nav>
@@ -149,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Proje Ödevi</h1>
+<h1 class="title">Proje</h1>
 </div>
 
 
@@ -166,86 +201,500 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="proje-genel-bakış-ve-kapsamı" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> <strong>Proje Genel Bakış ve Kapsamı</strong></h1>
+<section id="genel-bakış-ve-kapsamı" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> <strong>Genel Bakış ve Kapsamı</strong></h1>
 <ul>
 <li><p>Proje, yaş grupları, eğitim durumu ve evlilik durumu verilerini içermektedir.</p></li>
-<li><p>Kapsamı, verilerin yıllık ortalamalarının hesaplanması, veri keşfi, trend analizi ve model uydurma süreçlerini içerir.</p></li>
-</ul>
-<section id="veri" class="level3" data-number="1.0.1">
-<h3 data-number="1.0.1" class="anchored" data-anchor-id="veri"><span class="header-section-number">1.0.1</span> <strong>Veri</strong></h3>
-<ul>
-<li><p>Proje kapsamında kullanılan veriler yaş grupları, eğitim durumu ve evlilik durumuyla ilgilidir.</p></li>
-<li><p>Veriler, yıllık ortalamalar şeklinde sunulmuştur.</p></li>
+<li><p>Kapsamı, verilerin yıllık ortalamalarının hesaplanması, veri keşfi, trend analizi ve model uygulama süreçlerini içerir.</p></li>
 </ul>
 </section>
-<section id="veri-kaynağı" class="level3" data-number="1.0.2">
-<h3 data-number="1.0.2" class="anchored" data-anchor-id="veri-kaynağı"><span class="header-section-number">1.0.2</span> <strong>Veri Kaynağı</strong></h3>
+<section id="veri" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> <strong>Veri</strong></h1>
 <ul>
-<li><p>Veriler Excel dosyalarından alınmıştır.</p></li>
+<li><p>Proje kapsamında kullanılan veriler yaş grupları, eğitim durumu ve evlilik durumuyla ilgilidir.</p></li>
+<li><p>Türkiye İstatistik Kurumu İşgücü İstatistikleri Veri Tabanı’ndan alınan veri setleri kullanılmıştır.</p></li>
+<li><p>Veriler, yıllık ortalamalar şeklinde sunulmuştur.</p></li>
 <li><p>“Yas_Grubu_VS.xlsx”, “Egitim_Durum_VS.xlsx”, “Evlilik_Durumu_VS.xlsx” dosyaları kullanılmıştır.</p></li>
 </ul>
 </section>
-<section id="veri-hakkında-genel-bilgiler" class="level3" data-number="1.0.3">
-<h3 data-number="1.0.3" class="anchored" data-anchor-id="veri-hakkında-genel-bilgiler"><span class="header-section-number">1.0.3</span> <strong>Veri Hakkında Genel Bilgiler</strong></h3>
+<section id="veri-hakkında-genel-bilgiler" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> <strong>Veri Hakkında Genel Bilgiler</strong></h1>
 <ul>
 <li><p>Veriler, belirli zaman aralıklarında yaş grupları, eğitim durumu ve evlilik durumu üzerindeki istatistiksel bilgileri içerir.</p></li>
 <li><p>Örnek olarak, yaş grupları verileri 15-19 yaş aralığından 65+ yaş aralığına kadar olan yıllık ortalama verileri içerir.</p></li>
 </ul>
 </section>
-<section id="tercih-sebebi" class="level3" data-number="1.0.4">
-<h3 data-number="1.0.4" class="anchored" data-anchor-id="tercih-sebebi"><span class="header-section-number">1.0.4</span> <strong>Tercih Sebebi</strong></h3>
+<section id="tercih-sebebi" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> <strong>Tercih Sebebi</strong></h1>
 <ul>
 <li><p>Proje için bu verilerin seçilme sebebi, belirli demografik gruplar üzerindeki değişimleri ve ilişkileri anlamak amacıyla seçilmiştir.</p></li>
 <li><p>Yaş grupları, eğitim durumu ve evlilik durumu verilerinin bir arada analiz edilmesi, geniş kapsamlı bir bakış açısı sağlar.</p></li>
 </ul>
 </section>
-<section id="ön-işleme" class="level3" data-number="1.0.5">
-<h3 data-number="1.0.5" class="anchored" data-anchor-id="ön-işleme"><span class="header-section-number">1.0.5</span> <strong>Ön İşleme</strong></h3>
+<section id="ön-işleme" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> <strong>Ön İşleme</strong></h1>
 <ul>
 <li>Verilerin ön işleme adımları, gereksiz sütunların çıkarılması, sütun adlarının güncellenmesi ve yıllık ortalamaların hesaplanması gibi adımları içerir.</li>
 </ul>
 </section>
-<section id="analiz" class="level3" data-number="1.0.6">
-<h3 data-number="1.0.6" class="anchored" data-anchor-id="analiz"><span class="header-section-number">1.0.6</span> <strong>Analiz</strong></h3>
+<section id="analiz" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> <strong>Analiz</strong></h1>
 <ul>
 <li>Analiz aşamasında, verilerin birleştirilmesi, korelasyon analizi, trend analizi ve görselleştirme işlemleri gerçekleştirilir.</li>
 </ul>
 </section>
-<section id="keşifsel-veri-analizi" class="level3" data-number="1.0.7">
-<h3 data-number="1.0.7" class="anchored" data-anchor-id="keşifsel-veri-analizi"><span class="header-section-number">1.0.7</span> <strong>Keşifsel Veri Analizi</strong></h3>
+<section id="model-uygulama" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> <strong>Model Uygulama</strong></h1>
 <ul>
-<li>Veri keşfi adımları, verilerin genel yapısının anlaşılması ve veri setindeki önemli özelliklerin belirlenmesini içerir.</li>
+<li>Model uygulama aşamasında, veriler üzerinde istatistiksel veya makine öğrenimi modelleri kullanılarak analizler ve tahminler gerçekleştirilir.</li>
+</ul>
+<section id="eğitim-durumuna-göre-analiz" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="eğitim-durumuna-göre-analiz"><span class="header-section-number">7.1</span> Eğitim Durumuna Göre Analiz</h2>
+<p>Bu kod, eğitim durumuna göre yıllık ortalama işsizlik oranlarını analiz etmek ve görselleştirmek için etkili bir yol sağlar.</p>
+<p>Kütüphanelerin Yüklenmesi:</p>
+<p>readxl, dplyr, tidyr, ggplot2 kütüphaneleri yüklenir. Veri Okuma ve Düzenleme:</p>
+<p>read_excel fonksiyonu kullanılarak Egitim_Durum_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılarak Year sütunu eklenir. Yıllık Ortalamaların Hesaplanması:</p>
+<p>Her eğitim kategorisi için yıllık ortalamalar hesaplanır. Verilerin Uzun Formatta Düzenlenmesi:</p>
+<p>pivot_longer fonksiyonu kullanılarak veriler yeniden şekillendirilir. Bu adım, eğitim durumuna göre ortalama işsizlik oranlarını daha kolay görselleştirebilmek için gereklidir.</p>
+<p>Görselleştirme:</p>
+<p>ggplot2 kullanılarak yıllık ortalama işsizlik oranları, eğitim durumu ve yıl bazında görselleştirilir. Bar grafikler kullanılarak farklı eğitim durumları arasındaki işsizlik oranları karşılaştırılır. Grafikler estetik ve okunabilir olması için çeşitli temalar ve ayarlar eklenir.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(forcats)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Dosya yolunu düzenleyerek okuma işlemi</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>education_data <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"C:/Users/parad/Documents/GitHub/muy665-bahar2024-takim-kodlar-vadisi/portfolyo/Calisma2/Calisma2VeriSet/Egitim_Durum_VS.xlsx"</span>, <span class="at">skip =</span> <span class="dv">9</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>New names:
+• `` -&gt; `...1`
+• `` -&gt; `...2`</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># İkinci sütunu atlayarak verileri düzenleme</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>education_data <span class="ot">&lt;-</span> education_data[,<span class="sc">-</span><span class="dv">2</span>]</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Sütun adlarını belirleme</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(education_data) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Date"</span>, <span class="st">"Okuma_yazma_bilmeyen"</span>, <span class="st">"Okuma_yazma_bilen_fakat_bir_okul_bitirmeyen"</span>, <span class="st">"Ilkokul"</span>, <span class="st">"Ortaokul_veya_dengi_meslek_okul"</span>, <span class="st">"Genel_lise"</span>, <span class="st">"Lise_dengi_meslek_okul"</span>, <span class="st">"Yuksekokul_veya_fakulte"</span>, <span class="st">"Acik_Ogretim"</span>)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Yıl bilgisini Tarih sütunundan çıkarma</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>education_data<span class="sc">$</span>Year <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(<span class="fu">sub</span>(<span class="st">" .*"</span>, <span class="st">""</span>, education_data<span class="sc">$</span>Date))</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Her eğitim kategorisi için yıllık ortalamaları hesaplama</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>yearly_education_averages <span class="ot">&lt;-</span> education_data <span class="sc">%&gt;%</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Year) <span class="sc">%&gt;%</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="st">`</span><span class="at">Okuma_yazma_bilmeyen</span><span class="st">`</span><span class="sc">:</span><span class="st">`</span><span class="at">Acik_Ogretim</span><span class="st">`</span>, mean, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There was 1 warning in `summarise()`.
+ℹ In argument: `across(Okuma_yazma_bilmeyen:Acik_Ogretim, mean, na.rm = TRUE)`.
+ℹ In group 1: `Year = 2005`.
+Caused by warning:
+! The `...` argument of `across()` is deprecated as of dplyr 1.1.0.
+Supply arguments directly to `.fns` through an anonymous function instead.
+
+  # Previously
+  across(a:b, mean, na.rm = TRUE)
+
+  # Now
+  across(a:b, \(x) mean(x, na.rm = TRUE))</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Verileri yeniden şekillendirme</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>yearly_education_long <span class="ot">&lt;-</span> yearly_education_averages <span class="sc">%&gt;%</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="at">cols =</span> <span class="st">`</span><span class="at">Okuma_yazma_bilmeyen</span><span class="st">`</span><span class="sc">:</span><span class="st">`</span><span class="at">Acik_Ogretim</span><span class="st">`</span>, <span class="at">names_to =</span> <span class="st">"Education_Status"</span>, <span class="at">values_to =</span> <span class="st">"Average_Unemployment_Rate"</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Eğitim durumu kategorilerini azalan sıraya göre yeniden sıralama</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>yearly_education_long <span class="ot">&lt;-</span> yearly_education_long <span class="sc">%&gt;%</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Education_Status =</span> <span class="fu">fct_reorder</span>(Education_Status, <span class="sc">-</span>Average_Unemployment_Rate, <span class="at">.fun =</span> mean))</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Yıllık ortalama işsizlik oranlarını eğitim durumu ve yıl bazında görselleştirme</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(yearly_education_long, <span class="fu">aes</span>(<span class="at">x =</span> Education_Status, <span class="at">y =</span> Average_Unemployment_Rate, <span class="at">fill =</span> Education_Status)) <span class="sc">+</span></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">position =</span> <span class="fu">position_dodge</span>()) <span class="sc">+</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Yıllık Ortalama İşsizlik Oranları ve Eğitim Durumu"</span>, <span class="at">x =</span> <span class="st">"Eğitim Durumu"</span>, <span class="at">y =</span> <span class="st">"Ortalama İşsizlik Oranı (%)"</span>) <span class="sc">+</span></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>), <span class="at">legend.position =</span> <span class="st">"bottom"</span>) <span class="sc">+</span></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">guides</span>(<span class="at">fill =</span> <span class="fu">guide_legend</span>(<span class="at">reverse =</span> <span class="cn">TRUE</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="proje_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Grafikte, eğitim durumu ile yıllık ortalama işsizlik oranları arasındaki ilişki gösterilmektedir.</p>
+<ul>
+<li>En yüksek işsizlik oranı, “Açık Öğretim” mezunlarında görülmektedir ve bu oran %20’nin üzerindedir.</li>
+<li>Genel lise ve lise dengi meslek okulu mezunları yaklaşık %15 civarında işsizlik oranına sahiptir.</li>
+<li>Okuma yazma bilen fakat bir okul bitirmeyen, ilkokul ve okuma yazma bilmeyenler ise %10’un altında işsizlik oranına sahiptir.</li>
+<li>En düşük işsizlik oranı, “Okuma yazma bilmeyen” kategorisinde görülmektedir.</li>
+<li>Bu veriler, eğitim düzeyinin işsizlik oranı üzerinde etkisi olduğunu ve açık öğretim mezunlarının diğer gruplara göre daha yüksek işsizlik oranına sahip olduğunu göstermektedir.</li>
 </ul>
 </section>
-<section id="trend-analizi" class="level3" data-number="1.0.8">
-<h3 data-number="1.0.8" class="anchored" data-anchor-id="trend-analizi"><span class="header-section-number">1.0.8</span> <strong>Trend Analizi</strong></h3>
+<section id="evlilik-durumuna-göre-analiz" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="evlilik-durumuna-göre-analiz"><span class="header-section-number">7.2</span> Evlilik Durumuna Göre Analiz</h2>
+<p>Excel dosyasından evlilik durumlarına ilişkin verileri okuyarak yıllık ortalama oranları hesaplar ve ardından bu oranları bir bar grafiğinde görselleştirir.</p>
+<p>Gerekli kütüphaneleri yükleme: İlk olarak, R’de kullanacağınız bazı kütüphaneleri yüklüyorsunuz. Bu kütüphaneler veri işleme ve görselleştirme için kullanılır.</p>
+<p>Excel dosyasından veri alma: Belirtilen Excel dosyasından verileri okuyorsunuz. Bu veriler, evlilik durumlarına ilişkin olabilir.</p>
+<p>Veri setini düzenleme: Okunan veri setini düzenliyorsunuz. Örneğin, gereksiz sütunları çıkarıyorsunuz ve sütunlara anlamlı isimler veriyorsunuz.</p>
+<p>Verileri analiz için hazırlama: Analiz yapmak için verileri hazırlıyorsunuz. Örneğin, tarih verisinden yıl bilgisini çıkararak analiz için kullanıma uygun hale getiriyorsunuz.</p>
+<p>Ortalama hesaplama: Her yıl için evlilik durumu oranlarının ortalamasını hesaplıyorsunuz. Bu, yıllık evlilik trendlerini görmek için önemlidir.</p>
+<p>Veriyi uzun formata dönüştürme: Veriyi görselleştirmek için uzun formata dönüştürüyorsunuz. Bu, veriyi daha iyi bir şekilde görselleştirmenize olanak tanır.</p>
+<p>Veriyi görselleştirme: Son olarak, yıllık evlilik durumu oranlarını görselleştiriyorsunuz. Bu genellikle bar grafikleri kullanılarak yapılır ve trendleri daha açık bir şekilde gösterir.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Gerekli kütüphaneleri yükleme</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Excel dosyasından veri alma</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>marriage_data <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"C:/Users/parad/Documents/GitHub/muy665-bahar2024-takim-kodlar-vadisi/portfolyo/Calisma2/Calisma2VeriSet/Evlilik_Durumu_VS.xlsx"</span>, <span class="at">skip =</span> <span class="dv">9</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>New names:
+• `` -&gt; `...1`
+• `` -&gt; `...2`</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># İkinci sütunu çıkarma</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>marriage_data <span class="ot">&lt;-</span> marriage_data[,<span class="sc">-</span><span class="dv">2</span>]</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Sütun adlarını belirleme</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(marriage_data) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Date"</span>, <span class="st">"Hic_Evlenmedi"</span>, <span class="st">"Evlendi"</span>, <span class="st">"Bosandi"</span>, <span class="st">"Esi_Oldu"</span>)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Tarih sütunundan yılı çıkarma</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>marriage_data<span class="sc">$</span>Year <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(<span class="fu">sub</span>(<span class="st">" .*"</span>, <span class="st">""</span>, marriage_data<span class="sc">$</span>Date))</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Her evlilik durumu için yıllık ortalamaları hesaplama</span></span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>yearly_marriage_averages <span class="ot">&lt;-</span> marriage_data <span class="sc">%&gt;%</span></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Year) <span class="sc">%&gt;%</span></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(Hic_Evlenmedi<span class="sc">:</span>Esi_Oldu, mean, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Verileri grafik için uzun formata dönüştürme</span></span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>yearly_marriage_long <span class="ot">&lt;-</span> yearly_marriage_averages <span class="sc">%&gt;%</span></span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="at">cols =</span> Hic_Evlenmedi<span class="sc">:</span>Esi_Oldu, <span class="at">names_to =</span> <span class="st">"Marital_Status"</span>, <span class="at">values_to =</span> <span class="st">"Average_Rate"</span>)</span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Yıllık ortalama oranları yıl ve evlilik durumu bazında görselleştirme</span></span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(yearly_marriage_long, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">as.factor</span>(Year), <span class="at">y =</span> Average_Rate, <span class="at">fill =</span> Marital_Status)) <span class="sc">+</span></span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">position =</span> <span class="fu">position_dodge</span>()) <span class="sc">+</span></span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">sprintf</span>(<span class="st">"%.1f"</span>, Average_Rate)), <span class="at">position =</span> <span class="fu">position_dodge</span>(<span class="at">width =</span> <span class="fl">0.9</span>), <span class="at">vjust =</span> <span class="sc">-</span><span class="fl">0.3</span>, <span class="at">size =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Evlilik Durumuna Göre Yıllık Ortalama Oranlar"</span>, <span class="at">x =</span> <span class="st">"Yıl"</span>, <span class="at">y =</span> <span class="st">"Ortalama Oran (%)"</span>) <span class="sc">+</span></span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>), <span class="at">legend.position =</span> <span class="st">"bottom"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="proje_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Bu grafikte yıllara göre evlilik durumuna göre işsizlik oranları gösterilmektedir. Grafikte dört farklı medeni durum kategorisi vardır: Boşandı, Eşi Öldü, Evli, Hiç Evlenmedi.</p>
 <ul>
-<li>Trend analizi, belirli bir zaman aralığındaki verilerin eğilimlerini ve değişimlerini inceleyerek gelecekteki olası trendleri tahmin etmeyi amaçlar.</li>
+<li>Boşandı kategorisinde işsizlik oranları genel olarak diğer kategorilere kıyasla en yüksek seviyede ve sürekli olarak %20 civarındadır. 2009 yılında %25.1 ile en yüksek seviyeye ulaşmıştır.</li>
+<li>Eşi Öldü kategorisinde işsizlik oranları en düşük seviyededir ve genellikle %5-8 arasında değişmektedir. Bu kategori yıllar içinde küçük dalgalanmalar göstermektedir.</li>
+<li>Evli kategorisinde işsizlik oranları genellikle %5-7 arasında seyretmekte ve diğer kategorilere göre daha az dalgalanma göstermektedir.</li>
+<li>Hiç Evlenmedi kategorisinde işsizlik oranları oldukça yüksektir ve %18-24 arasında değişmektedir. Bu oran 2009 yılında %24.4 ile en yüksek seviyesine ulaşmıştır.</li>
 </ul>
+<p>Bu veriler, boşanmış kişilerin diğer medeni durumlardaki kişilere göre daha yüksek işsizlik oranlarına sahip olduğunu ve evlilerin işsizlik oranlarının genellikle daha düşük olduğunu göstermektedir. Hiç evlenmemiş kişilerin işsizlik oranları ise genel olarak yüksek seyretmektedir.</p>
 </section>
-<section id="model-uydurma" class="level3" data-number="1.0.9">
-<h3 data-number="1.0.9" class="anchored" data-anchor-id="model-uydurma"><span class="header-section-number">1.0.9</span> <strong>Model Uydurma</strong></h3>
+<section id="yaş-grubuna-göre-analiz" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="yaş-grubuna-göre-analiz"><span class="header-section-number">7.3</span> Yaş Grubuna Göre Analiz</h2>
+<p>TÜİK’in kullandığı uluslararası standarda göre istihdam edilmeyen, son üç ayda iş aramış olan ve 15 gün içinde bir işte istihdam edilebilecek durumda olan kişiler işsiz olarak sınıflandırılıyor ve oran bu sayıya göre hesaplanıyor. Özetle 15 yaşından büyük olup da son üç ay içinde iş arayan ve 15 gün içinde işbaşı yapmaya hazır olduğunu bildirenlerin toplam işgücüne bölünmesiyle işsizlik oranı hesaplanıyor.</p>
+<p>Excel dosyasından işsizlik verilerini okur, her yaş grubu için ortalama işsizlik oranını hesaplar ve ggplot2 kullanarak her yaş grubu için ortalama işsizlik oranlarını çizer.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the data, assuming the file path is correct and the sheet is named appropriately</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Ensure to replace with the actual path and type it directly here</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>unemployment_data <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"C:</span><span class="sc">\\</span><span class="st">Users</span><span class="sc">\\</span><span class="st">parad</span><span class="sc">\\</span><span class="st">Documents</span><span class="sc">\\</span><span class="st">GitHub</span><span class="sc">\\</span><span class="st">muy665-bahar2024-takim-kodlar-vadisi</span><span class="sc">\\</span><span class="st">portfolyo</span><span class="sc">\\</span><span class="st">Calisma2</span><span class="sc">\\</span><span class="st">Calisma2VeriSet</span><span class="sc">\\</span><span class="st">Yas_Grubu_VS.xlsx"</span>, <span class="at">skip =</span> <span class="dv">9</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>New names:
+• `` -&gt; `...1`
+• `` -&gt; `...2`</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>unemployment_data <span class="ot">&lt;-</span> unemployment_data[,<span class="sc">-</span><span class="dv">2</span>]  <span class="co"># This drops the second column</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Adjust path and skip rows as necessary</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Set column names, assuming they represent age groups directly</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(unemployment_data) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Date"</span>, <span class="st">"15-19"</span>, <span class="st">"20-24"</span>, <span class="st">"25-29"</span>, <span class="st">"30-34"</span>, <span class="st">"35-39"</span>, <span class="st">"40-44"</span>, <span class="st">"45-49"</span>, <span class="st">"50-54"</span>, <span class="st">"55-59"</span>, <span class="st">"60-64"</span>, <span class="st">"65+"</span>)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculating the average unemployment rate for each age group</span></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>age_group_averages <span class="ot">&lt;-</span> unemployment_data <span class="sc">%&gt;%</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>Date) <span class="sc">%&gt;%</span>  <span class="co"># Exclude the Date for calculation</span></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="fu">everything</span>(), mean, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)) <span class="sc">%&gt;%</span>  <span class="co"># Calculate mean, ignoring NA values</span></span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(</span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="fu">everything</span>(),</span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">"Age_Group"</span>,</span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">"Average_Unemployment_Rate"</span></span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the average unemployment rates for each age group</span></span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(age_group_averages, <span class="fu">aes</span>(<span class="at">x =</span> Age_Group, <span class="at">y =</span> Average_Unemployment_Rate, <span class="at">fill =</span> Age_Group)) <span class="sc">+</span></span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>) <span class="sc">+</span></span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Yaş gruplarına göre Ortalama İşsizlik Oranı"</span>, <span class="at">x =</span> <span class="st">"Yaş Grubu"</span>, <span class="at">y =</span> <span class="st">"Ortalama İşsizlik Oranı"</span>) <span class="sc">+</span></span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="proje_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Bu grafikte yaş gruplarına göre ortalama işsizlik oranları gösterilmektedir.</p>
 <ul>
-<li>Model uydurma aşamasında, veriler üzerinde istatistiksel veya makine öğrenimi modelleri kullanılarak analizler ve tahminler gerçekleştirilir.</li>
+<li>En yüksek işsizlik oranı, %20’nin biraz üzerinde olan 20-24 yaş grubundadır.</li>
+<li>İkinci en yüksek işsizlik oranı, %15’in biraz üzerinde olan 15-19 yaş grubundadır.</li>
+<li>25-29 yaş grubu ise %15 civarında bir işsizlik oranına sahiptir.</li>
+<li>30-34, 35-39, 40-44, 45-49 yaş gruplarında işsizlik oranları yaklaşık %10 civarındadır.</li>
+<li>50-54 yaş grubunda işsizlik oranı biraz daha düşük, %7-8 civarındadır.</li>
+<li>55-59 yaş grubu %5-6 civarında bir işsizlik oranına sahiptir.</li>
+<li>60-64 yaş grubu ise %5 civarında bir işsizlik oranına sahiptir.</li>
+<li>En düşük işsizlik oranı, %5’in altında olan 65+ yaş grubundadır.</li>
 </ul>
+<p>Bu veriler, genç yaş gruplarının (özellikle 15-24 yaş aralığı) işsizlik oranlarının diğer yaş gruplarına göre daha yüksek olduğunu ve yaş ilerledikçe işsizlik oranlarının genellikle azaldığını göstermektedir.</p>
 </section>
-<section id="sonuçlar" class="level3" data-number="1.0.10">
-<h3 data-number="1.0.10" class="anchored" data-anchor-id="sonuçlar"><span class="header-section-number">1.0.10</span> <strong>Sonuçlar</strong></h3>
+<section id="yıl-bazında-analiz" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="yıl-bazında-analiz"><span class="header-section-number">7.4</span> Yıl Bazında Analiz</h2>
+<p>Excel dosyasından işsizlik verilerini okuyup yıllara göre yaş gruplarının ortalama işsizlik oranlarını hesaplar ve bu verileri çubuk grafikle görselleştirir.</p>
+<p>İlk olarak, dplyr ve ggplot2 kütüphaneleri yüklenir. Ardından, belirtilen Excel dosyasından veriler okunur ve gereksiz ikinci sütun düşürülür. Sütun isimleri, yaş gruplarını doğrudan temsil ettiği varsayılarak ayarlanır. Tarih bilgisinden yıl bilgisi çıkarılır ve yeni bir “Year” (Yıl) sütunu oluşturulur. Her yıl için tüm yaş gruplarının ortalama işsizlik oranı hesaplanır. Son olarak, yıllara göre ortalama işsizlik oranları, çubuk grafik kullanılarak görselleştirilir. Görsel, her yılın ortalama işsizlik oranını gösterir ve çubukların renkleri yılları temsil eder. Bu şekilde, yıllara göre işsizlik oranlarının değişimini kolayca görebilirsiniz.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>unemployment_data <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"C:</span><span class="sc">\\</span><span class="st">Users</span><span class="sc">\\</span><span class="st">parad</span><span class="sc">\\</span><span class="st">Documents</span><span class="sc">\\</span><span class="st">GitHub</span><span class="sc">\\</span><span class="st">muy665-bahar2024-takim-kodlar-vadisi</span><span class="sc">\\</span><span class="st">portfolyo</span><span class="sc">\\</span><span class="st">Calisma2</span><span class="sc">\\</span><span class="st">Calisma2VeriSet</span><span class="sc">\\</span><span class="st">Yas_Grubu_VS.xlsx"</span>, <span class="at">skip =</span> <span class="dv">9</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>New names:
+• `` -&gt; `...1`
+• `` -&gt; `...2`</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>unemployment_data <span class="ot">&lt;-</span> unemployment_data[,<span class="sc">-</span><span class="dv">2</span>]  <span class="co"># This drops the second column</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Adjust path and skip rows as necessary</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Set column names, assuming they represent age groups directly</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(unemployment_data) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Date"</span>, <span class="st">"15-19"</span>, <span class="st">"20-24"</span>, <span class="st">"25-29"</span>, <span class="st">"30-34"</span>, <span class="st">"35-39"</span>, <span class="st">"40-44"</span>, <span class="st">"45-49"</span>, <span class="st">"50-54"</span>, <span class="st">"55-59"</span>, <span class="st">"60-64"</span>, <span class="st">"65+"</span>)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract the year as an integer</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>unemployment_data<span class="sc">$</span>Year <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(<span class="fu">sub</span>(<span class="st">" .*"</span>, <span class="st">""</span>, unemployment_data<span class="sc">$</span>Date))</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the average unemployment rate for all age groups combined for each year</span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>annual_averages <span class="ot">&lt;-</span> unemployment_data <span class="sc">%&gt;%</span></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Year) <span class="sc">%&gt;%</span></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">Average_Unemployment_Rate =</span> <span class="fu">mean</span>(<span class="fu">c_across</span>(<span class="st">`</span><span class="at">15-19</span><span class="st">`</span><span class="sc">:</span><span class="st">`</span><span class="at">65+</span><span class="st">`</span>), <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the average unemployment rates by year using a bar graph</span></span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(annual_averages, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">as.factor</span>(Year), <span class="at">y =</span> Average_Unemployment_Rate, <span class="at">fill =</span> <span class="fu">as.factor</span>(Year))) <span class="sc">+</span></span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">width =</span> <span class="fl">0.7</span>) <span class="sc">+</span>  <span class="co"># Using bars to represent the average rates</span></span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_brewer</span>(<span class="at">palette =</span> <span class="st">"Paired"</span>) <span class="sc">+</span>  <span class="co"># Optional: adds color using a color palette</span></span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Bütün Yaş gruplarının yıl bazında İşsizlik Oranı"</span>, </span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Yıl"</span>, </span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Ortalama İşsizlik Oranı (%)"</span>) <span class="sc">+</span></span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="proje_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Bu grafikte, yıllara göre tüm yaş gruplarının ortalama işsizlik oranları gösterilmektedir.</p>
 <ul>
-<li><p>Projenin sonuçları, analizlerin ve model uydurmanın sonuçlarına dayanır.</p></li>
-<li><p>Sonuçlar, veri setindeki ilişkileri, trendleri ve çıkarımları içerir.</p></li>
+<li>2009 yılı en yüksek işsizlik oranına sahiptir ve yaklaşık %12 civarındadır.</li>
+<li>2005, 2006, 2007 ve 2008 yıllarında işsizlik oranları %10 civarında olup, 2008’den 2009’a doğru belirgin bir artış görülmektedir.</li>
+<li>2010 ve 2011 yıllarında işsizlik oranları düşmeye başlar ve %10’un biraz altına geriler.</li>
+<li>2012 ve 2013 yıllarında işsizlik oranları daha da düşerek yaklaşık %8 civarında seyreder.</li>
+<li>2014 yılında işsizlik oranı tekrar artarak %10’a yaklaşır.</li>
 </ul>
+<p>Bu veriler, 2009 yılında işsizlik oranlarının en yüksek seviyede olduğunu ve ardından kademeli olarak düştüğünü, ancak 2014 yılında yeniden bir artış yaşandığını göstermektedir. 2009’daki yüksek işsizlik oranı, muhtemelen küresel ekonomik krizden kaynaklanmaktadır.</p>
+<hr>
 </section>
-<section id="sonuçlar-ve-ana-çıkarımlar" class="level3" data-number="1.0.11">
-<h3 data-number="1.0.11" class="anchored" data-anchor-id="sonuçlar-ve-ana-çıkarımlar"><span class="header-section-number">1.0.11</span> <strong>Sonuçlar ve Ana Çıkarımlar</strong></h3>
+</section>
+<section id="sonuçlar" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> <strong>Sonuçlar</strong></h1>
+<p>Dört grafik birlikte incelendiğinde, Türkiye’de 2005-2014 yılları arasında işsizlik oranlarının eğitim durumu, medeni durum ve yaş gruplarına göre dağılımı hakkında bazı önemli sonuçlar elde edilebilir.</p>
+<p>1.Eğitim Durumu ve İşsizlik Oranı:</p>
+<p>Açık Öğretim mezunları en yüksek işsizlik oranına sahiptir (%20’nin üzerinde). Genel lise ve lise dengi meslek okulu mezunları %15 civarında işsizlik oranına sahiptir. Okuma yazma bilmeyenlerin işsizlik oranı en düşük seviyededir (%10’un altında).</p>
+<p>2.Medeni Durum ve İşsizlik Oranı:</p>
+<p>Boşanmış bireyler, diğer medeni durumlara göre en yüksek işsizlik oranına sahiptir (yaklaşık %20). Evli bireylerin işsizlik oranı genellikle %5-7 arasında seyretmektedir. Hiç evlenmemiş bireylerin işsizlik oranı yüksek (%18-24 arasında). Eşi ölmüş bireylerin işsizlik oranı en düşüktür (%5-8 arasında).</p>
+<p>3.Yaş Grupları ve İşsizlik Oranı:</p>
+<p>20-24 yaş grubunda işsizlik oranı en yüksek seviyededir (%20’nin biraz üzerinde). 15-19 yaş grubunda işsizlik oranı da yüksektir (%15’in üzerinde). Yaş ilerledikçe işsizlik oranları genel olarak azalmaktadır, 65+ yaş grubunda en düşük seviyededir (%5’in altında).</p>
+<p>4.Yıllara Göre Genel İşsizlik Oranı:</p>
+<p>2009 yılında işsizlik oranı en yüksek seviyededir (yaklaşık %12), muhtemelen küresel ekonomik kriz etkisiyle. 2009’dan sonra işsizlik oranları düşmeye başlar ve 2012-2013 yıllarında en düşük seviyelerine iner (%8 civarında). 2014 yılında işsizlik oranı tekrar artarak %10’a yaklaşır.</p>
+<p>Bu bulgular, işsizlik oranlarının eğitim, medeni durum ve yaş gruplarına göre değişiklik gösterdiğini ve ekonomik dalgalanmalardan etkilendiğini göstermektedir. Özellikle genç yaş grupları ve boşanmış bireyler yüksek işsizlik oranlarına sahipken, yaşlı bireyler ve evliler daha düşük işsizlik oranlarına sahiptir. Eğitim durumu da önemli bir faktördür; düşük eğitim seviyesine sahip bireylerin işsizlik oranları genellikle daha yüksektir.</p>
+</section>
+<section id="korelasyon-kod-tasarımı" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Korelasyon Kod Tasarımı</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load necessary libraries</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(reshape2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'reshape2'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:tidyr':
+
+    smiths</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load age group data</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>age_data <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"C:</span><span class="sc">\\</span><span class="st">Users</span><span class="sc">\\</span><span class="st">parad</span><span class="sc">\\</span><span class="st">Documents</span><span class="sc">\\</span><span class="st">GitHub</span><span class="sc">\\</span><span class="st">muy665-bahar2024-takim-kodlar-vadisi</span><span class="sc">\\</span><span class="st">portfolyo</span><span class="sc">\\</span><span class="st">Calisma2</span><span class="sc">\\</span><span class="st">Calisma2VeriSet</span><span class="sc">\\</span><span class="st">Yas_Grubu_VS.xlsx"</span>, <span class="at">skip =</span> <span class="dv">9</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>New names:
+• `` -&gt; `...1`
+• `` -&gt; `...2`</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>age_data <span class="ot">&lt;-</span> age_data[,<span class="sc">-</span><span class="dv">2</span>]  <span class="co"># Remove the second column</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(age_data) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Date"</span>, <span class="st">"15-19"</span>, <span class="st">"20-24"</span>, <span class="st">"25-29"</span>, <span class="st">"30-34"</span>, <span class="st">"35-39"</span>, <span class="st">"40-44"</span>, <span class="st">"45-49"</span>, <span class="st">"50-54"</span>, <span class="st">"55-59"</span>, <span class="st">"60-64"</span>, <span class="st">"65+"</span>)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract the year and calculate yearly averages</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>age_data<span class="sc">$</span>Year <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(<span class="fu">sub</span>(<span class="st">" .*"</span>, <span class="st">""</span>, age_data<span class="sc">$</span>Date))</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>yearly_age_averages <span class="ot">&lt;-</span> age_data <span class="sc">%&gt;%</span></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Year) <span class="sc">%&gt;%</span></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="st">`</span><span class="at">15-19</span><span class="st">`</span><span class="sc">:</span><span class="st">`</span><span class="at">65+</span><span class="st">`</span>, mean, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean up the workspace</span></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(age_data)</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Load education status data</span></span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a>education_data <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"C:</span><span class="sc">\\</span><span class="st">Users</span><span class="sc">\\</span><span class="st">parad</span><span class="sc">\\</span><span class="st">Documents</span><span class="sc">\\</span><span class="st">GitHub</span><span class="sc">\\</span><span class="st">muy665-bahar2024-takim-kodlar-vadisi</span><span class="sc">\\</span><span class="st">portfolyo</span><span class="sc">\\</span><span class="st">Calisma2</span><span class="sc">\\</span><span class="st">Calisma2VeriSet</span><span class="sc">\\</span><span class="st">Egitim_Durum_VS.xlsx"</span>, <span class="at">skip =</span> <span class="dv">9</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>New names:
+• `` -&gt; `...1`
+• `` -&gt; `...2`</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>education_data <span class="ot">&lt;-</span> education_data[,<span class="sc">-</span><span class="dv">2</span>]  <span class="co"># Remove the second column</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(education_data) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Date"</span>, <span class="st">"Okuma-yazma bilmeyen"</span>, <span class="st">"Okuma yazma bilen fakat bir okul bitirmeyen"</span>, <span class="st">"Ilkokul"</span>, <span class="st">"Ortaokul veya dengi meslek okul"</span>, <span class="st">"Genel lise"</span>, <span class="st">"Lise dengi meslek okul"</span>, <span class="st">"Yuksekokul veya fakulte"</span>, <span class="st">"Acik Ogretim"</span>)</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract the year and calculate yearly averages</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>education_data<span class="sc">$</span>Year <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(<span class="fu">sub</span>(<span class="st">" .*"</span>, <span class="st">""</span>, education_data<span class="sc">$</span>Date))</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>yearly_education_averages <span class="ot">&lt;-</span> education_data <span class="sc">%&gt;%</span></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Year) <span class="sc">%&gt;%</span></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="st">`</span><span class="at">Okuma-yazma bilmeyen</span><span class="st">`</span><span class="sc">:</span><span class="st">`</span><span class="at">Acik Ogretim</span><span class="st">`</span>, mean, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean up the workspace</span></span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(education_data)</span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Load marital status data</span></span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>marital_data <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"C:</span><span class="sc">\\</span><span class="st">Users</span><span class="sc">\\</span><span class="st">parad</span><span class="sc">\\</span><span class="st">Documents</span><span class="sc">\\</span><span class="st">GitHub</span><span class="sc">\\</span><span class="st">muy665-bahar2024-takim-kodlar-vadisi</span><span class="sc">\\</span><span class="st">portfolyo</span><span class="sc">\\</span><span class="st">Calisma2</span><span class="sc">\\</span><span class="st">Calisma2VeriSet</span><span class="sc">\\</span><span class="st">Evlilik_Durumu_VS.xlsx"</span>, <span class="at">skip =</span> <span class="dv">9</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>New names:
+• `` -&gt; `...1`
+• `` -&gt; `...2`</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>marital_data <span class="ot">&lt;-</span> marital_data[,<span class="sc">-</span><span class="dv">2</span>]  <span class="co"># Remove the second column</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(marital_data) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Date"</span>, <span class="st">"Hic Evlenmedi"</span>, <span class="st">"Evlendi"</span>, <span class="st">"Bosandi"</span>, <span class="st">"Esi Oldu"</span>)</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract the year and calculate yearly averages</span></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>marital_data<span class="sc">$</span>Year <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(<span class="fu">sub</span>(<span class="st">" .*"</span>, <span class="st">""</span>, marital_data<span class="sc">$</span>Date))</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>yearly_marriage_averages <span class="ot">&lt;-</span> marital_data <span class="sc">%&gt;%</span></span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Year) <span class="sc">%&gt;%</span></span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="st">`</span><span class="at">Hic Evlenmedi</span><span class="st">`</span><span class="sc">:</span><span class="st">`</span><span class="at">Esi Oldu</span><span class="st">`</span>, mean, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean up the workspace</span></span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(marital_data)</span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine the data sets by 'Year'</span></span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a>combined_data <span class="ot">&lt;-</span> <span class="fu">full_join</span>(yearly_age_averages, yearly_education_averages, <span class="at">by =</span> <span class="st">"Year"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">full_join</span>(yearly_marriage_averages, <span class="at">by =</span> <span class="st">"Year"</span>)</span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Select age and marital status columns and calculate correlations</span></span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a>age_marital_correlation <span class="ot">&lt;-</span> <span class="fu">cor</span>(combined_data[<span class="fu">grepl</span>(<span class="st">"15-19|20-24|25-29|30-34|35-39|40-44|45-49|50-54|55-59|60-64|65+|Hic Evlenmedi|Evlendi|Bosandi|Esi Oldu"</span>, <span class="fu">names</span>(combined_data))], <span class="at">use =</span> <span class="st">"complete.obs"</span>)</span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-20"><a href="#cb28-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Select age and education status columns and calculate correlations</span></span>
+<span id="cb28-21"><a href="#cb28-21" aria-hidden="true" tabindex="-1"></a>age_education_correlation <span class="ot">&lt;-</span> <span class="fu">cor</span>(combined_data[<span class="fu">grepl</span>(<span class="st">"15-19|20-24|25-29|30-34|35-39|40-44|45-49|50-54|55-59|60-64|65+|Okuma-yazma bilmeyen|Okuma yazma bilen fakat bir okul bitirmeyen|Ilkokul|Ortaokul veya dengi meslek okul|Genel lise|Lise dengi meslek okul|Yuksekokul veya fakulte|Acik Ogretim"</span>, <span class="fu">names</span>(combined_data))], <span class="at">use =</span> <span class="st">"complete.obs"</span>)</span>
+<span id="cb28-22"><a href="#cb28-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-23"><a href="#cb28-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Select marital and education status columns and calculate correlations</span></span>
+<span id="cb28-24"><a href="#cb28-24" aria-hidden="true" tabindex="-1"></a>marital_education_correlation <span class="ot">&lt;-</span> <span class="fu">cor</span>(combined_data[<span class="fu">grepl</span>(<span class="st">"Hic Evlenmedi|Evlendi|Bosandi|Esi Oldu|Okuma-yazma bilmeyen|Okuma yazma bilen fakat bir okul bitirmeyen|Ilkokul|Ortaokul veya dengi meslek okul|Genel lise|Lise dengi meslek okul|Yuksekokul veya fakulte|Acik Ogretim"</span>, <span class="fu">names</span>(combined_data))], <span class="at">use =</span> <span class="st">"complete.obs"</span>)</span>
+<span id="cb28-25"><a href="#cb28-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-26"><a href="#cb28-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Function to plot correlation heatmaps</span></span>
+<span id="cb28-27"><a href="#cb28-27" aria-hidden="true" tabindex="-1"></a>plot_correlation_heatmap <span class="ot">&lt;-</span> <span class="cf">function</span>(correlation_matrix, title) {</span>
+<span id="cb28-28"><a href="#cb28-28" aria-hidden="true" tabindex="-1"></a>  corr_melt <span class="ot">&lt;-</span> <span class="fu">melt</span>(correlation_matrix)</span>
+<span id="cb28-29"><a href="#cb28-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(corr_melt, <span class="fu">aes</span>(Var1, Var2, <span class="at">fill =</span> value)) <span class="sc">+</span></span>
+<span id="cb28-30"><a href="#cb28-30" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_tile</span>(<span class="at">color =</span> <span class="st">"white"</span>) <span class="sc">+</span> <span class="co"># Add a border to tiles</span></span>
+<span id="cb28-31"><a href="#cb28-31" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_fill_gradient2</span>(<span class="at">low =</span> <span class="st">"red"</span>, <span class="at">high =</span> <span class="st">"blue"</span>, <span class="at">mid =</span> <span class="st">"white"</span>,</span>
+<span id="cb28-32"><a href="#cb28-32" aria-hidden="true" tabindex="-1"></a>                         <span class="at">midpoint =</span> <span class="dv">0</span>, <span class="at">limit =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">1</span>, <span class="dv">1</span>), <span class="at">space =</span> <span class="st">"Lab"</span>,</span>
+<span id="cb28-33"><a href="#cb28-33" aria-hidden="true" tabindex="-1"></a>                         <span class="at">name =</span> <span class="st">"Correlation"</span>) <span class="sc">+</span></span>
+<span id="cb28-34"><a href="#cb28-34" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb28-35"><a href="#cb28-35" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">vjust =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="dv">10</span>, <span class="at">hjust =</span> <span class="dv">1</span>),</span>
+<span id="cb28-36"><a href="#cb28-36" aria-hidden="true" tabindex="-1"></a>          <span class="at">axis.text.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>), <span class="co"># Increase y-axis text size</span></span>
+<span id="cb28-37"><a href="#cb28-37" aria-hidden="true" tabindex="-1"></a>          <span class="at">axis.title.x =</span> <span class="fu">element_blank</span>(), <span class="at">axis.title.y =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb28-38"><a href="#cb28-38" aria-hidden="true" tabindex="-1"></a>          <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">size =</span> <span class="dv">16</span>)) <span class="sc">+</span> <span class="co"># Increase title size</span></span>
+<span id="cb28-39"><a href="#cb28-39" aria-hidden="true" tabindex="-1"></a>    <span class="fu">coord_fixed</span>() <span class="sc">+</span></span>
+<span id="cb28-40"><a href="#cb28-40" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ggtitle</span>(title)</span>
+<span id="cb28-41"><a href="#cb28-41" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb28-42"><a href="#cb28-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-43"><a href="#cb28-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize age and marital status correlations</span></span>
+<span id="cb28-44"><a href="#cb28-44" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_correlation_heatmap</span>(age_marital_correlation, <span class="st">"Age and Marital Status Correlation"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="proje_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize age and education status correlations</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_correlation_heatmap</span>(age_education_correlation, <span class="st">"Age and Education Status Correlation"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="proje_files/figure-html/unnamed-chunk-5-2.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize marital and education status correlations</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_correlation_heatmap</span>(marital_education_correlation, <span class="st">"Marital and Education Status Correlation"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="proje_files/figure-html/unnamed-chunk-5-3.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>1.Yaş ve Evlilik Durumu Korelasyonu:</p>
 <ul>
-<li><p>Sonuçlar ve ana çıkarımlar, proje sürecinde elde edilen önemli bulguları ve veri setindeki ana eğilimleri özetler.</p></li>
-<li><p>Bu çıkarımlar, yaş grupları, eğitim durumu ve evlilik durumu üzerindeki etkileşimleri ve ilişkileri anlamak için önemlidir.</p></li>
+<li>Genç yaş grupları (15-24) genellikle evlenmemiştir.</li>
+<li>İleri yaş grupları (55+) evli olma eğilimindedir.</li>
+<li>Orta yaş gruplarında (40-49) boşanma oranı nispeten yüksektir.</li>
 </ul>
+<p>2.Yaş ve Eğitim Durumu Korelasyonu:</p>
+<ul>
+<li>Genç yaş grupları (15-24) daha düşük eğitim seviyelerine sahiptir.</li>
+<li>İleri yaş grupları (55+) daha düşük eğitim seviyelerine sahiptir.</li>
+<li>Orta yaş grupları (30-39) yüksek eğitim seviyelerine sahiptir.</li>
+</ul>
+<p>3.Evlilik ve Eğitim Durumu Korelasyonu:</p>
+<ul>
+<li>Düşük eğitim seviyesine sahip kişiler evlenmemiş olma eğilimindedir.</li>
+<li>Yüksek eğitim seviyesine sahip kişiler evli olma eğilimindedir.</li>
+<li>Orta eğitim seviyesine sahip kişilerde boşanma oranı hafifçe yüksektir.</li>
+</ul>
+<p>Bu grafikler, yaş, evlilik durumu ve eğitim seviyesi arasındaki ilişkileri anlamamıza yardımcı olur. Yaş ilerledikçe eğitim seviyesinin ve evlilik durumunun nasıl değiştiği, eğitim seviyesi arttıkça evlilik durumunun nasıl etkilendiği gibi konulara dair genel bir fikir verir.</p>
+<div class="tenor-gif-embed" data-postid="18303713" data-share-method="host" data-aspect-ratio="1.30081" data-width="100%">
+<p><a href="https://tenor.com/view/spongebob-analytics-rainbows-stats-gif-18303713">Spongebob Analytics GIF</a>from <a href="https://tenor.com/search/spongebob-gifs">Spongebob GIFs</a></p>
+</div>
+<script type="text/javascript" async="" src="https://tenor.com/embed.js"></script>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

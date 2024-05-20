@@ -1,5 +1,5 @@
 ---
-title: "Ödevler"
+title: "Portfolyo"
 ---
 
 Bu sayfada, MUY665 İş Analitiği dersi 2023-2024 bahar dönemi boyunca yaptığımız analitik çalışmalarını sunmaktayız.
