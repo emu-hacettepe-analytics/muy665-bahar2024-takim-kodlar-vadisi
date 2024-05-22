@@ -51,9 +51,13 @@ Kütüphanelerin Yüklenmesi:
 
 readxl, dplyr, tidyr, ggplot2 kütüphaneleri yüklenir. Veri Okuma ve Düzenleme:
 
-read_excel fonksiyonu kullanılarak Egitim_Durum_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılarak Year sütunu eklenir. Yıllık Ortalamaların Hesaplanması:
+read_excel fonksiyonu kullanılarak Egitim_Durum_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılarak Year sütunu eklenir.
 
-Her eğitim kategorisi için yıllık ortalamalar hesaplanır. Verilerin Uzun Formatta Düzenlenmesi:
+Yıllık Ortalamaların Hesaplanması:
+
+Her eğitim kategorisi için yıllık ortalamalar hesaplanır.
+
+Verilerin Uzun Formatta Düzenlenmesi:
 
 pivot_longer fonksiyonu kullanılarak veriler yeniden şekillendirilir. Bu adım, eğitim durumuna göre ortalama işsizlik oranlarını daha kolay görselleştirebilmek için gereklidir.
 
