@@ -117,21 +117,19 @@ Grafikte, eğitim durumu ile yıllık ortalama işsizlik oranları arasındaki i
 
 ## Evlilik Durumuna Göre Analiz
 
-Excel dosyasından evlilik durumlarına ilişkin verileri okuyarak yıllık ortalama oranları hesaplar ve ardından bu oranları bir bar grafiğinde görselleştirir.
+Excel dosyasından evlilik durumlarına ilişkin verileri okunarak yıllık ortalama oranları hesaplanır ve ardından bu oranları bir bar grafiğinde görselleştirlir.
 
-Gerekli kütüphaneleri yükleme: İlk olarak, R'de kullanacağınız bazı kütüphaneleri yüklüyorsunuz. Bu kütüphaneler veri işleme ve görselleştirme için kullanılır.
+Gerekli kütüphaneleri yükleme: R'de kullanacağımız bazı kütüphaneleri yüklenir. Bu kütüphaneler veri işleme ve görselleştirme için kullanılır.
 
-Excel dosyasından veri alma: Belirtilen Excel dosyasından verileri okuyorsunuz. Bu veriler, evlilik durumlarına ilişkin olabilir.
+Veri setini düzenleme: Eklene veri setinde gerekli ise düzeltmeler yapılır. Örneğin, gereksiz sütunları çıkarılır ve sütunlara anlamlı isimler verilir.
 
-Veri setini düzenleme: Okunan veri setini düzenliyorsunuz. Örneğin, gereksiz sütunları çıkarıyorsunuz ve sütunlara anlamlı isimler veriyorsunuz.
+Verileri analiz için hazırlama: Analiz yapmak için veriler hazırlanır. Örneğin, tarih verisinden yıl bilgisini çıkararak analiz için kullanıma uygun hale getirilir.
 
-Verileri analiz için hazırlama: Analiz yapmak için verileri hazırlıyorsunuz. Örneğin, tarih verisinden yıl bilgisini çıkararak analiz için kullanıma uygun hale getiriyorsunuz.
+Ortalama hesaplama: Her yıl için evlilik durumu oranlarının ortalamasını hesaplanır. Bu, yıllık evlilik trendlerini görmek için önemlidir.
 
-Ortalama hesaplama: Her yıl için evlilik durumu oranlarının ortalamasını hesaplıyorsunuz. Bu, yıllık evlilik trendlerini görmek için önemlidir.
+Veriyi uzun formata dönüştürme: Veriyi görselleştirmek için uzun formata dönüştürülür. Bu, veriyi daha iyi bir şekilde görselleştirmenize olanak tanır.
 
-Veriyi uzun formata dönüştürme: Veriyi görselleştirmek için uzun formata dönüştürüyorsunuz. Bu, veriyi daha iyi bir şekilde görselleştirmenize olanak tanır.
-
-Veriyi görselleştirme: Son olarak, yıllık evlilik durumu oranlarını görselleştiriyorsunuz. Bu genellikle bar grafikleri kullanılarak yapılır ve trendleri daha açık bir şekilde gösterir.
+Veriyi görselleştirme: Son olarak, yıllık evlilik durumu oranlarını görselleştirilir. Bu genellikle bar grafikleri kullanılarak yapılır ve trendleri daha açık bir şekilde gösterir.
 
 ```{r}
 # Gerekli kütüphaneleri yükleme
@@ -184,7 +182,7 @@ Bu veriler, boşanmış kişilerin diğer medeni durumlardaki kişilere göre da
 
 TÜİK’in kullandığı uluslararası standarda göre istihdam edilmeyen, son üç ayda iş aramış olan ve 15 gün içinde bir işte istihdam edilebilecek durumda olan kişiler işsiz olarak sınıflandırılıyor ve oran bu sayıya göre hesaplanıyor. Özetle 15 yaşından büyük olup da son üç ay içinde iş arayan ve 15 gün içinde işbaşı yapmaya hazır olduğunu bildirenlerin toplam işgücüne bölünmesiyle işsizlik oranı hesaplanıyor.
 
-Excel dosyasından işsizlik verilerini okur, her yaş grubu için ortalama işsizlik oranını hesaplar ve ggplot2 kullanarak her yaş grubu için ortalama işsizlik oranlarını çizer.
+Excel dosyasından işsizlik veriler okunur, her yaş grubu için ortalama işsizlik oranını hesaplanır ve ggplot2 kullanarak her yaş grubu için ortalama işsizlik oranları çizilir.
 
 ```{r}
 
@@ -236,7 +234,7 @@ Bu veriler, genç yaş gruplarının (özellikle 15-24 yaş aralığı) işsizli
 
 Excel dosyasından işsizlik verilerini okuyup yıllara göre yaş gruplarının ortalama işsizlik oranlarını hesaplar ve bu verileri çubuk grafikle görselleştirir.
 
-İlk olarak, dplyr ve ggplot2 kütüphaneleri yüklenir. Ardından, belirtilen Excel dosyasından veriler okunur ve gereksiz ikinci sütun düşürülür. Sütun isimleri, yaş gruplarını doğrudan temsil ettiği varsayılarak ayarlanır. Tarih bilgisinden yıl bilgisi çıkarılır ve yeni bir "Year" (Yıl) sütunu oluşturulur. Her yıl için tüm yaş gruplarının ortalama işsizlik oranı hesaplanır. Son olarak, yıllara göre ortalama işsizlik oranları, çubuk grafik kullanılarak görselleştirilir. Görsel, her yılın ortalama işsizlik oranını gösterir ve çubukların renkleri yılları temsil eder. Bu şekilde, yıllara göre işsizlik oranlarının değişimini kolayca görebilirsiniz.
+İlk olarak, dplyr ve ggplot2 kütüphaneleri yüklenir. Ardından, belirtilen Excel dosyasından veriler okunur ve gereksiz ikinci sütun düşürülür. Sütun isimleri, yaş gruplarını doğrudan temsil ettiği varsayılarak ayarlanır. Tarih bilgisinden yıl bilgisi çıkarılır ve yeni bir "Year" (Yıl) sütunu oluşturulur. Her yıl için tüm yaş gruplarının ortalama işsizlik oranı hesaplanır. Son olarak, yıllara göre ortalama işsizlik oranları, çubuk grafik kullanılarak görselleştirilir. Görsel, her yılın ortalama işsizlik oranını gösterir ve çubukların renkleri yılları temsil eder. Bu şekilde, yıllara göre işsizlik oranlarının değişimi gözlemlenir.
 
 ```{r}
 library(dplyr)
