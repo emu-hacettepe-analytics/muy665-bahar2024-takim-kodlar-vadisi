@@ -397,9 +397,3 @@ plot_correlation_heatmap(marital_education_correlation, "Marital and Education S
 ```
 
 ------------------------------------------------------------------------
-
-<a href="https://tenor.com/view/spongebob-analytics-rainbows-stats-gif-18303713">Spongebob Analytics GIF</a>from <a href="https://tenor.com/search/spongebob-gifs">Spongebob GIFs</a>
-
-```{=html}
-<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-```
