@@ -392,25 +392,7 @@ plot_correlation_heatmap(marital_education_correlation, "Marital and Education S
 
 ```
 
-1.Yaş ve Evlilik Durumu Korelasyonu:
-
--   Genç yaş grupları (15-24) genellikle evlenmemiştir.
--   İleri yaş grupları (55+) evli olma eğilimindedir.
--   Orta yaş gruplarında (40-49) boşanma oranı nispeten yüksektir.
-
-2.Yaş ve Eğitim Durumu Korelasyonu:
-
--   Genç yaş grupları (15-24) daha düşük eğitim seviyelerine sahiptir.
--   İleri yaş grupları (55+) daha düşük eğitim seviyelerine sahiptir.
--   Orta yaş grupları (30-39) yüksek eğitim seviyelerine sahiptir.
-
-3.Evlilik ve Eğitim Durumu Korelasyonu:
-
--   Düşük eğitim seviyesine sahip kişiler evlenmemiş olma eğilimindedir.
--   Yüksek eğitim seviyesine sahip kişiler evli olma eğilimindedir.
--   Orta eğitim seviyesine sahip kişilerde boşanma oranı hafifçe yüksektir.
-
-Bu grafikler, yaş, evlilik durumu ve eğitim seviyesi arasındaki ilişkileri anlamamıza yardımcı olur. Yaş ilerledikçe eğitim seviyesinin ve evlilik durumunun nasıl değiştiği, eğitim seviyesi arttıkça evlilik durumunun nasıl etkilendiği gibi konulara dair genel bir fikir verir.
+------------------------------------------------------------------------
 
 ::: {.tenor-gif-embed data-postid="18303713" data-share-method="host" data-aspect-ratio="1.30081" data-width="100%"}
 <a href="https://tenor.com/view/spongebob-analytics-rainbows-stats-gif-18303713">Spongebob Analytics GIF</a>from <a href="https://tenor.com/search/spongebob-gifs">Spongebob GIFs</a>

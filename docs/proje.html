@@ -253,8 +253,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Bu kod, eğitim durumuna göre yıllık ortalama işsizlik oranlarını analiz etmek ve görselleştirmek için etkili bir yol sağlar.</p>
 <p>Kütüphanelerin Yüklenmesi:</p>
 <p>readxl, dplyr, tidyr, ggplot2 kütüphaneleri yüklenir. Veri Okuma ve Düzenleme:</p>
-<p>read_excel fonksiyonu kullanılarak Egitim_Durum_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılarak Year sütunu eklenir. Yıllık Ortalamaların Hesaplanması:</p>
-<p>Her eğitim kategorisi için yıllık ortalamalar hesaplanır. Verilerin Uzun Formatta Düzenlenmesi:</p>
+<p>read_excel fonksiyonu kullanılarak Egitim_Durum_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılarak Year sütunu eklenir.</p>
+<p>Yıllık Ortalamaların Hesaplanması:</p>
+<p>Her eğitim kategorisi için yıllık ortalamalar hesaplanır.</p>
+<p>Verilerin Uzun Formatta Düzenlenmesi:</p>
 <p>pivot_longer fonksiyonu kullanılarak veriler yeniden şekillendirilir. Bu adım, eğitim durumuna göre ortalama işsizlik oranlarını daha kolay görselleştirebilmek için gereklidir.</p>
 <p>Görselleştirme:</p>
 <p>ggplot2 kullanılarak yıllık ortalama işsizlik oranları, eğitim durumu ve yıl bazında görselleştirilir. Bar grafikler kullanılarak farklı eğitim durumları arasındaki işsizlik oranları karşılaştırılır. Grafikler estetik ve okunabilir olması için çeşitli temalar ve ayarlar eklenir.</p>
@@ -347,14 +349,13 @@ Supply arguments directly to `.fns` through an anonymous function instead.
 </section>
 <section id="evlilik-durumuna-göre-analiz" class="level2" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="evlilik-durumuna-göre-analiz"><span class="header-section-number">7.2</span> Evlilik Durumuna Göre Analiz</h2>
-<p>Excel dosyasından evlilik durumlarına ilişkin verileri okuyarak yıllık ortalama oranları hesaplar ve ardından bu oranları bir bar grafiğinde görselleştirir.</p>
-<p>Gerekli kütüphaneleri yükleme: İlk olarak, R’de kullanacağınız bazı kütüphaneleri yüklüyorsunuz. Bu kütüphaneler veri işleme ve görselleştirme için kullanılır.</p>
-<p>Excel dosyasından veri alma: Belirtilen Excel dosyasından verileri okuyorsunuz. Bu veriler, evlilik durumlarına ilişkin olabilir.</p>
-<p>Veri setini düzenleme: Okunan veri setini düzenliyorsunuz. Örneğin, gereksiz sütunları çıkarıyorsunuz ve sütunlara anlamlı isimler veriyorsunuz.</p>
-<p>Verileri analiz için hazırlama: Analiz yapmak için verileri hazırlıyorsunuz. Örneğin, tarih verisinden yıl bilgisini çıkararak analiz için kullanıma uygun hale getiriyorsunuz.</p>
-<p>Ortalama hesaplama: Her yıl için evlilik durumu oranlarının ortalamasını hesaplıyorsunuz. Bu, yıllık evlilik trendlerini görmek için önemlidir.</p>
-<p>Veriyi uzun formata dönüştürme: Veriyi görselleştirmek için uzun formata dönüştürüyorsunuz. Bu, veriyi daha iyi bir şekilde görselleştirmenize olanak tanır.</p>
-<p>Veriyi görselleştirme: Son olarak, yıllık evlilik durumu oranlarını görselleştiriyorsunuz. Bu genellikle bar grafikleri kullanılarak yapılır ve trendleri daha açık bir şekilde gösterir.</p>
+<p>Excel dosyasından evlilik durumlarına ilişkin verileri okunarak yıllık ortalama oranları hesaplanır ve ardından bu oranları bir bar grafiğinde görselleştirlir.</p>
+<p>Gerekli kütüphaneleri yükleme: R’de kullanacağımız bazı kütüphaneleri yüklenir. Bu kütüphaneler veri işleme ve görselleştirme için kullanılır.</p>
+<p>Veri setini düzenleme: Eklene veri setinde gerekli ise düzeltmeler yapılır. Örneğin, gereksiz sütunları çıkarılır ve sütunlara anlamlı isimler verilir.</p>
+<p>Verileri analiz için hazırlama: Analiz yapmak için veriler hazırlanır. Örneğin, tarih verisinden yıl bilgisini çıkararak analiz için kullanıma uygun hale getirilir.</p>
+<p>Ortalama hesaplama: Her yıl için evlilik durumu oranlarının ortalamasını hesaplanır. Bu, yıllık evlilik trendlerini görmek için önemlidir.</p>
+<p>Veriyi uzun formata dönüştürme: Veriyi görselleştirmek için uzun formata dönüştürülür. Bu, veriyi daha iyi bir şekilde görselleştirmenize olanak tanır.</p>
+<p>Veriyi görselleştirme: Son olarak, yıllık evlilik durumu oranlarını görselleştirilir. Bu genellikle bar grafikleri kullanılarak yapılır ve trendleri daha açık bir şekilde gösterir.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Gerekli kütüphaneleri yükleme</span></span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
@@ -414,7 +415,7 @@ Supply arguments directly to `.fns` through an anonymous function instead.
 <section id="yaş-grubuna-göre-analiz" class="level2" data-number="7.3">
 <h2 data-number="7.3" class="anchored" data-anchor-id="yaş-grubuna-göre-analiz"><span class="header-section-number">7.3</span> Yaş Grubuna Göre Analiz</h2>
 <p>TÜİK’in kullandığı uluslararası standarda göre istihdam edilmeyen, son üç ayda iş aramış olan ve 15 gün içinde bir işte istihdam edilebilecek durumda olan kişiler işsiz olarak sınıflandırılıyor ve oran bu sayıya göre hesaplanıyor. Özetle 15 yaşından büyük olup da son üç ay içinde iş arayan ve 15 gün içinde işbaşı yapmaya hazır olduğunu bildirenlerin toplam işgücüne bölünmesiyle işsizlik oranı hesaplanıyor.</p>
-<p>Excel dosyasından işsizlik verilerini okur, her yaş grubu için ortalama işsizlik oranını hesaplar ve ggplot2 kullanarak her yaş grubu için ortalama işsizlik oranlarını çizer.</p>
+<p>Excel dosyasından işsizlik veriler okunur, her yaş grubu için ortalama işsizlik oranını hesaplanır ve ggplot2 kullanarak her yaş grubu için ortalama işsizlik oranları çizilir.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the data, assuming the file path is correct and the sheet is named appropriately</span></span>
@@ -473,7 +474,7 @@ Supply arguments directly to `.fns` through an anonymous function instead.
 <section id="yıl-bazında-analiz" class="level2" data-number="7.4">
 <h2 data-number="7.4" class="anchored" data-anchor-id="yıl-bazında-analiz"><span class="header-section-number">7.4</span> Yıl Bazında Analiz</h2>
 <p>Excel dosyasından işsizlik verilerini okuyup yıllara göre yaş gruplarının ortalama işsizlik oranlarını hesaplar ve bu verileri çubuk grafikle görselleştirir.</p>
-<p>İlk olarak, dplyr ve ggplot2 kütüphaneleri yüklenir. Ardından, belirtilen Excel dosyasından veriler okunur ve gereksiz ikinci sütun düşürülür. Sütun isimleri, yaş gruplarını doğrudan temsil ettiği varsayılarak ayarlanır. Tarih bilgisinden yıl bilgisi çıkarılır ve yeni bir “Year” (Yıl) sütunu oluşturulur. Her yıl için tüm yaş gruplarının ortalama işsizlik oranı hesaplanır. Son olarak, yıllara göre ortalama işsizlik oranları, çubuk grafik kullanılarak görselleştirilir. Görsel, her yılın ortalama işsizlik oranını gösterir ve çubukların renkleri yılları temsil eder. Bu şekilde, yıllara göre işsizlik oranlarının değişimini kolayca görebilirsiniz.</p>
+<p>İlk olarak, dplyr ve ggplot2 kütüphaneleri yüklenir. Ardından, belirtilen Excel dosyasından veriler okunur ve gereksiz ikinci sütun düşürülür. Sütun isimleri, yaş gruplarını doğrudan temsil ettiği varsayılarak ayarlanır. Tarih bilgisinden yıl bilgisi çıkarılır ve yeni bir “Year” (Yıl) sütunu oluşturulur. Her yıl için tüm yaş gruplarının ortalama işsizlik oranı hesaplanır. Son olarak, yıllara göre ortalama işsizlik oranları, çubuk grafik kullanılarak görselleştirilir. Görsel, her yılın ortalama işsizlik oranını gösterir ve çubukların renkleri yılları temsil eder. Bu şekilde, yıllara göre işsizlik oranlarının değişimi gözlemlenir.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
@@ -670,25 +671,7 @@ Attaching package: 'reshape2'</code></pre>
 </div>
 </div>
 </div>
-<p>1.Yaş ve Evlilik Durumu Korelasyonu:</p>
-<ul>
-<li>Genç yaş grupları (15-24) genellikle evlenmemiştir.</li>
-<li>İleri yaş grupları (55+) evli olma eğilimindedir.</li>
-<li>Orta yaş gruplarında (40-49) boşanma oranı nispeten yüksektir.</li>
-</ul>
-<p>2.Yaş ve Eğitim Durumu Korelasyonu:</p>
-<ul>
-<li>Genç yaş grupları (15-24) daha düşük eğitim seviyelerine sahiptir.</li>
-<li>İleri yaş grupları (55+) daha düşük eğitim seviyelerine sahiptir.</li>
-<li>Orta yaş grupları (30-39) yüksek eğitim seviyelerine sahiptir.</li>
-</ul>
-<p>3.Evlilik ve Eğitim Durumu Korelasyonu:</p>
-<ul>
-<li>Düşük eğitim seviyesine sahip kişiler evlenmemiş olma eğilimindedir.</li>
-<li>Yüksek eğitim seviyesine sahip kişiler evli olma eğilimindedir.</li>
-<li>Orta eğitim seviyesine sahip kişilerde boşanma oranı hafifçe yüksektir.</li>
-</ul>
-<p>Bu grafikler, yaş, evlilik durumu ve eğitim seviyesi arasındaki ilişkileri anlamamıza yardımcı olur. Yaş ilerledikçe eğitim seviyesinin ve evlilik durumunun nasıl değiştiği, eğitim seviyesi arttıkça evlilik durumunun nasıl etkilendiği gibi konulara dair genel bir fikir verir.</p>
+<hr>
 <div class="tenor-gif-embed" data-postid="18303713" data-share-method="host" data-aspect-ratio="1.30081" data-width="100%">
 <p><a href="https://tenor.com/view/spongebob-analytics-rainbows-stats-gif-18303713">Spongebob Analytics GIF</a>from <a href="https://tenor.com/search/spongebob-gifs">Spongebob GIFs</a></p>
 </div>
