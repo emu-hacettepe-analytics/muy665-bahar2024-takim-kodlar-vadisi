@@ -49,7 +49,9 @@ Bu kod, eğitim durumuna göre yıllık ortalama işsizlik oranlarını analiz e
 
 Kütüphanelerin Yüklenmesi:
 
-readxl, dplyr, tidyr, ggplot2 kütüphaneleri yüklenir. Veri Okuma ve Düzenleme:
+readxl, dplyr, tidyr, ggplot2 kütüphaneleri yüklenir.
+
+Veri Okuma ve Düzenleme:
 
 read_excel fonksiyonu kullanılarak Egitim_Durum_VS.xlsx dosyasındaki veri okunur. İkinci sütun kaldırılır ve sütun adları güncellenir. Date sütunundan yıl bilgisi çıkarılarak Year sütunu eklenir.
 
